@@ -1,13 +1,10 @@
 {
-  "homepage": "https://github.com/MatthewGLuis/aat",
   "name": "website-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },

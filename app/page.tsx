@@ -6,27 +6,28 @@ import { Textarea } from "src/components/ui/textarea";
 
 
 export default function AATBusinessSolutions() {
+
   return (
     <div className="font-sans text-gray-800">
       {/* Header */}
-        <header className="fixed top-0 left-0 right-0 bg-white border-b border-gray-300 shadow-lg z-50 p-4 flex justify-between items-center">
+        <header className="fixed top-0 left-0 right-0 bg-white border-b border-gray-300 shadow-lg z-50 p-4 flex justify-between items-center">         
           <h1 className="text-lg font-bold">AAT Business Solutions</h1>
           <nav className="space-x-6">
             <a href="#" className="hover:underline">Home</a>
             <a href="#services" className="hover:underline">Services</a>
-            <a href="src/about_page.jsx" className="hover:underline">About</a>
+            <a href="#about" className="hover:underline">About</a>
             <a href="#contact" className="hover:underline">Contact</a>
           </nav>
         </header>
-
-
 
       {/* Hero Section */}
       <section className="text-center py-20 bg-gradient-to-b from-white to-gray-100">
         <img src="/logo.png" alt="Logo" className="mx-auto mb-6 w-[90px]" />
         <h2 className="text-4xl font-bold mb-4">Transforming Business Through Technology</h2>
         <p className="text-lg mb-6 max-w-xl mx-auto">
-          Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations,
+          Leading provider of AI & Machine Learning solutions, 
+          Data Engineering, 
+          SAP implementations,
           and comprehensive cybersecurity services.
         </p>
         <div className="space-x-4">
@@ -109,7 +110,7 @@ export default function AATBusinessSolutions() {
 
 
       {/* Contact Form */}
-      <section className="py-16 bg-gray-50" id="contact">
+      <section id="contact" className="py-16 bg-gray-50" >
         <div className="max-w-xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
           <form className="space-y-4">
@@ -122,7 +123,8 @@ export default function AATBusinessSolutions() {
         </div>
       </section>
 
-<section className="bg-white py-10">
+
+<section id="contact" className="bg-white py-10">
   <div className="max-w-3xl mx-auto text-center mb-10">
     <h3 className="text-3xl font-bold mb-2">Contact Us</h3>
     <p className="text-gray-600 text-lg">
@@ -184,7 +186,11 @@ export default function AATBusinessSolutions() {
             </a>
           </Button>
 
-          <Button variant="outline" className="w-full">Call Now</Button>
+          <Button variant="outline" className="w-full">
+            <a href="tel:+27 10 442 4640">
+              Call Now
+            </a>
+          </Button>
           
           <Button variant="outline" className="w-full">
             <a href="mailto:admin@aatsolutions.co.za">
