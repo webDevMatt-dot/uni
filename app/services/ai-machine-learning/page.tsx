@@ -35,7 +35,7 @@ export default function AIMachineLearningPage() {
               driving innovation, efficiency, and data-driven decision-making.
             </p>
             <div className="space-x-4 flex justify-center">
-              <Link href="/contact">
+              <Link href="/contact-pages">
                 <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300">
                   Get a Free AI Consultation
                 </Button>

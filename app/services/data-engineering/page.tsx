@@ -32,7 +32,7 @@ export default function DataEngineeringSciencePage() {
               Unlock the true potential of your data with robust <strong className="font-semibold text-black">data engineering and advanced data science</strong> services, driving insights and informed decision-making.
             </p>
             <div className="space-x-4 flex justify-center">
-              <Link href="/contact">
+              <Link href="/contact-pages">
                 <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300">
                   Get a Free Data Consultation
                 </Button>

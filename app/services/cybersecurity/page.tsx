@@ -35,7 +35,7 @@ export default function CybersecurityServicesPage() {
               <strong className="font-semibold text-black">cybersecurity services</strong>, safeguarding your organization from evolving threats.
             </p>
             <div className="space-x-4 flex justify-center">
-              <Link href="/contact" passHref>
+              <Link href="/contact-pages" passHref>
                 <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer">
                   Get a Free Security Assessment
                 </Button>

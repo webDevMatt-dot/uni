@@ -31,7 +31,7 @@ export default function SAPSolutionsPage() {
               Streamline your business operations and maximize efficiency with our comprehensive <strong className="font-semibold text-black">SAP solutions</strong>, tailored to drive your digital transformation journey.
             </p>
             <div className="space-x-4 flex justify-center">
-              <Link href="/contact">
+              <Link href="/contact-pages">
                 <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300">
                   Get a Free SAP Consultation
                 </Button>
