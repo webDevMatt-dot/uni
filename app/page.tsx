@@ -53,7 +53,7 @@ export default function AATBusinessSolutions() {
         <meta
           name="description"
           content="Leading provider of <b>AI & Machine Learning solutions, 
-          Data Engineering, SAP implementations, and cybersecurity services.<b>"
+          Data Engineering, SAP implementations, and Cybersecurity Services.<b>"
         />
       </Head>
 
