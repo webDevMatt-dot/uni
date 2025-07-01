@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Head from "next/head";
 import { Navbar } from "src/components/ui/Navbar";
@@ -84,16 +85,28 @@ export default function ContactPage() {
                     required
                     className="w-1/3 p-3 border border-gray-300 rounded-md"
                   >
-                    {countryCodes.map(({ code, label }) => (
-                      <option key={code} value={code}>{label} {code}</option>
+                    {countryCodes.map((country) => (
+                      <option
+                        key={`${country.code}-${country.label}`}
+                        value={country.code}
+                      >
+                        {`${country.label.replace(/^[^ ]+ /, "")} ${country.code}`}
+                      </option>
                     ))}
                   </select>
+
                   <input
                     type="tel"
                     name="phone"
                     placeholder="Phone Number"
                     required
+                    pattern="[0-9]{4,15}"
+                    inputMode="numeric"
                     className="w-2/3 p-3 border border-gray-300 rounded-md"
+                    onInput={(e) => {
+                      const input = e.target as HTMLInputElement;
+                      input.value = input.value.replace(/[^0-9]/g, '');
+                    }}
                   />
                 </div>
 
