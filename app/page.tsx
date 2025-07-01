@@ -62,38 +62,44 @@ export default function AATBusinessSolutions() {
 
       <Navbar />
 
-      {/* Hero Section */}
-      <section className="text-center py-24 bg-gradient-to-b from-white to-gray-100">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
-            Transforming Business Through Technology
-          </span>
-        </h1>
-        <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-          Leading provider of <strong className="font-semibold text-black">AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.</strong>
-        </p>
+{/* Hero Section */}
+<section className="text-center py-24 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
 
-        <div className="space-x-4">
-          <Button>
-            <a href="#services">Explore Our Services</a>
-          </Button>
+  <div className="bg-white/80 backdrop-blur-sm py-16 px-4 rounded-md max-w-4xl mx-auto ">
+    <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
+      <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
+        Transforming Business Through Technology
+      </span>
+    </h1>
+    <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
+      Leading provider of <strong className="font-semibold text-black">AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.</strong>
+    </p>
 
-          <Button variant="outline">
-            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp" 
-              target="_blank"
-              rel="noopener noreferrer">
-              Schedule Consultation
-            </a>
-          </Button>
-        </div>
+    <div className="space-x-4">
+      <Button>
+        <a href="#services">Explore Our Services</a>
+      </Button>
 
-        <div className="flex justify-center mt-10 space-x-10 text-lg">
-          <div><strong>15+</strong><br />Years Experience</div>
-          <div><strong>500+</strong><br />Projects Completed</div>
-          <div><strong>200+</strong><br />Happy Clients</div>
-          <div><strong>24/7</strong><br />Support</div>
-        </div>
-      </section>
+      <Button variant="outline">
+        <a
+          href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Schedule Consultation
+        </a>
+      </Button>
+    </div>
+
+    <div className="flex justify-center mt-10 space-x-10 text-lg">
+      <div><strong>15+</strong><br />Years Experience</div>
+      <div><strong>500+</strong><br />Projects Completed</div>
+      <div><strong>200+</strong><br />Happy Clients</div>
+      <div><strong>24/7</strong><br />Support</div>
+    </div>
+  </div>
+</section>
+
 
       {/* Services Section */}
       <section id="services" className="py-16 bg-white">
