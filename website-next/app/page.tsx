@@ -68,7 +68,7 @@ export default function AATBusinessSolutions() {
           </span>
         </h1>
         <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-          Leading provider of <strong className="font-semibold text-black">AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive cybersecurity services.</strong>
+          Leading provider of <strong className="font-semibold text-black">AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.</strong>
         </p>
 
         <div className="space-x-4">
