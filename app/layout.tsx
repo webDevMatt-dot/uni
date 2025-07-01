@@ -16,6 +16,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AAT Business Solutions",
   description: "Transforming Business Through Technology",
+  icons: {
+    icon: "logo.png",}
 };
 
 export default function RootLayout({
