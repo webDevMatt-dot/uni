@@ -874,6 +874,10 @@
     background-repeat: no-repeat;
   }
 
+  .object-contain {
+    object-fit: contain;
+  }
+
   .object-cover {
     object-fit: cover;
   }
