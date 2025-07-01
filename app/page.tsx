@@ -14,6 +14,7 @@ const services = [
       "ML training and deployment",
       "AI integration for business workflows"
     ],
+    emoji: "🔗",
     link: "/services/ai-machine-learning"
   },
   {
