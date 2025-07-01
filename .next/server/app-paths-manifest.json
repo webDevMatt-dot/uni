@@ -1,0 +1,6 @@
+{
+  "/contact-pages/page": "app/contact-pages/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/services/ai-machine-learning/page": "app/services/ai-machine-learning/page.js"
+}

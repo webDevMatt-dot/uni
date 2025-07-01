@@ -4,9 +4,6 @@ import Link from "next/link";
 import { Navbar } from "src/components/ui/Navbar";
 import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
-import { Input } from "src/components/ui/input";
-import { Textarea } from "src/components/ui/textarea";
-import { ScheduleButton } from "src/components/ui/schedule";
 import { Footer } from "src/components/ui/Footer";
 
 const services = [
@@ -182,7 +179,7 @@ export default function AATBusinessSolutions() {
         <div className="space-y-2">
 
           <Button className="w-full">
-            <a href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding AAT Solutions">
+            <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding AAT Solutions">
               WhatsApp Us
             </a>
           </Button>
@@ -209,7 +206,7 @@ export default function AATBusinessSolutions() {
 
          {/*+27 81 651 5179 (Call &amp; WhatsApp)*/}
         <p>
-          <a href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding AAT Solutions" className="hover:underline">
+          <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding AAT Solutions" className="hover:underline">
             Cell: +27 81 651 5179
           </a>
         </p>

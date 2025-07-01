@@ -61,7 +61,7 @@ export default function AboutUsPage() {
 
           {/* Core Message */}
           <section className="text-center bg-gray-50 py-12 px-6 rounded-lg shadow-sm mb-16">
-            <h2 className="text-3xl font-bold text-black mb-4">It's All About Creativity</h2>
+            <h2 className="text-3xl font-bold text-black mb-4">It&apos;s All About Creativity</h2>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
               AAT Solutions specializes in exceptional delivery of business and technical IT projects. We are dedicated to building long-term relationships with our clients,
               investing in their journey of technological adoption, and seeing projects come to life.

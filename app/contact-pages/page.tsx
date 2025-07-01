@@ -29,7 +29,7 @@ export default function ContactPage() {
                 </h1>
 
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                  We'd love to hear from you. Whether you have a question about our services, want to work with us, or just want to connect — we’re here.
+                  We&apos;d love to hear from you. Whether you have a question about our services, want to work with us, or just want to connect — we’re here.
                 </p>
               </section>
 
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   <h2 className="text-xl font-bold mb-2">Other Ways to Reach Us</h2>
                   <p className="text-sm">
                     📱 <a
-                      href="https://wa.me/27816515179?text=Hello, I'm contacting you from your website"
+                      href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you from your website"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"

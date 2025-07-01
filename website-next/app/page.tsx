@@ -172,7 +172,7 @@ export default function AATBusinessSolutions() {
               </div>
               <div className="space-y-2">
                 <Button className="w-full">
-                  <a href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding AAT Solutions">
+                  <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding AAT Solutions">
                     WhatsApp Us
                   </a>
                 </Button>
@@ -195,7 +195,7 @@ export default function AATBusinessSolutions() {
             <CardContent className="p-6">
               <h4 className="font-bold mb-2">Phone</h4>
               <p>
-                <a href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding AAT Solutions" className="hover:underline">
+                <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding AAT Solutions" className="hover:underline">
                   Cell: +27 81 651 5179
                 </a>
               </p>

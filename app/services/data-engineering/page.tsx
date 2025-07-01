@@ -62,7 +62,7 @@ export default function DataEngineeringSciencePage() {
               }, {
                 emoji: "☁️",
                 title: "Data Warehousing & Data Lakes",
-                description: "Build scalable and secure data storage solutions tailored to your needs, whether it's a structured data warehouse or a flexible data lake for big data analytics."
+                description: "Build scalable and secure data storage solutions tailored to your needs, whether it&apos;s a structured data warehouse or a flexible data lake for big data analytics."
               }, {
                 emoji: "📈",
                 title: "Business Intelligence (BI) & Reporting",
@@ -103,7 +103,7 @@ export default function DataEngineeringSciencePage() {
                 <li><strong className="text-black">Expertise:</strong> Our team comprises seasoned data engineers and scientists with a deep understanding of various industries.</li>
                 <li><strong className="text-black">Scalable Solutions:</strong> We build future-proof data architectures that grow with your business needs.</li>
                 <li><strong className="text-black">Actionable Insights:</strong> We focus on translating raw data into clear, strategic intelligence for decision-makers.</li>
-                <li><strong className="text-black">Security & Compliance:</strong> Your data's safety and regulatory adherence are our top priorities.</li>
+                <li><strong className="text-black">Security & Compliance:</strong> Your data&apos;s safety and regulatory adherence are our top priorities.</li>
               </ul>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function DataEngineeringSciencePage() {
                   </a>
                 </p>
                 <p className="mt-2">
-                  <a href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding your Data Engineering & Science services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
+                  <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding your Data Engineering & Science services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
                     📱 WhatsApp Us
                   </a>
                 </p>

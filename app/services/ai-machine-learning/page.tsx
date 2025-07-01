@@ -116,12 +116,12 @@ export default function AIMachineLearningPage() {
             <div className="space-y-6 text-gray-700 leading-relaxed text-base">
               <p>
                 At AAT Business Solutions, we believe in practical AI. Our approach combines deep technical expertise with a keen understanding of your business objectives.
-                We don't just build models; we build solutions that integrate seamlessly into your operations and deliver measurable ROI.
+                We don&apos;t just build models; we build solutions that integrate seamlessly into your operations and deliver measurable ROI.
               </p>
               <ul className="list-disc list-inside space-y-2 text-base ml-4">
                 <li><strong className="text-black">Experienced Team:</strong> Our data scientists and ML engineers bring years of industry experience and a passion for innovation.</li>
                 <li><strong className="text-black">Customized Solutions:</strong> We never offer off-the-shelf answers; only tailored solutions meticulously designed for your unique challenges.</li>
-                <li><strong className="text-black">End-to-End Support:</strong> From initial conceptualization and data preparation to model deployment and ongoing maintenance, we're with you every step of the way.</li>
+                <li><strong className="text-black">End-to-End Support:</strong> From initial conceptualization and data preparation to model deployment and ongoing maintenance, we&apos;re with you every step of the way.</li>
                 <li><strong className="text-black">Focus on ROI:</strong> We prioritize AI applications that genuinely drive significant business value, enhance efficiency, and provide a clear return on your investment.</li>
               </ul>
             </div>
@@ -133,7 +133,7 @@ export default function AIMachineLearningPage() {
               <div>
                 <h3 className="font-bold text-xl mb-3 text-center text-black">Ready to Innovate with AI?</h3>
                 <p className="text-sm text-gray-600 mb-5 text-center leading-relaxed">
-                  Unlock new possibilities and gain a competitive edge. Let's discuss how AI can transform your business.
+                  Unlock new possibilities and gain a competitive edge. Let&apos;s discuss how AI can transform your business.
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
@@ -159,7 +159,7 @@ export default function AIMachineLearningPage() {
                   </a>
                 </p>
                 <p className="mt-2">
-                  <a href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding your AI & Machine Learning services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
+                  <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding your AI & Machine Learning services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
                     📱 WhatsApp Us
                   </a>
                 </p>

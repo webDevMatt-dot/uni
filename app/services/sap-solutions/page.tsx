@@ -144,7 +144,7 @@ export default function SAPSolutionsPage() {
                   </a>
                 </p>
                 <p className="mt-2">
-                  <a href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding your SAP Solutions services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
+                  <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding your SAP Solutions services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
                     📱 WhatsApp Us
                   </a>
                 </p>
