@@ -4,6 +4,7 @@ import { Navbar } from "src/components/ui/Navbar";
 import { Card, CardContent } from "src/components/ui/card";
 import { Footer } from "src/components/ui/Footer";
 import { TeamGallery } from "src/components/ui/TeamGallery";
+import { countryCodes } from "src/data/countryCodes";
 
 export default function ContactPage() {
   return (
@@ -17,17 +18,15 @@ export default function ContactPage() {
       <main className="pt-24 px-6 min-h-screen bg-white text-gray-800 font-sans">
         <div className="max-w-6xl mx-auto">
 
-          {/* Contact Info inside Card */}
+          {/* Contact Info Card */}
           <Card className="bg-white border border-gray-200 shadow-lg rounded-xl mb-16">
             <CardContent className="p-8">
-              {/* Page Header */}
               <section className="mb-12 text-center">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-red-700">
                     Get in Touch with AAT Business Solutions
                   </span>
                 </h1>
-
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                   We&apos;d love to hear from you. Whether you have a question about our services, want to work with us, or just want to connect — we’re here.
                 </p>
@@ -37,12 +36,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-xl font-bold mb-2">Our Office</h2>
                   <p className="text-sm">
-                    <a
-                      href="https://www.google.com/maps?q=8+Fred+Verseput+Road,+Halfway+Gardens+1686,+Midrand"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:underline block"
-                    >
+                    <a href="https://www.google.com/maps?q=8+Fred+Verseput+Road,+Halfway+Gardens+1686,+Midrand" target="_blank" rel="noopener noreferrer" className="hover:underline block">
                       8 Fred Verseput Road<br />
                       Halfway Gardens 1686, Midrand
                     </a>
@@ -58,12 +52,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-xl font-bold mb-2">Other Ways to Reach Us</h2>
                   <p className="text-sm">
-                    📱 <a
-                      href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you from your website"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:underline"
-                    >
+                    📱 <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you from your website" target="_blank" rel="noopener noreferrer" className="hover:underline">
                       Message us on WhatsApp
                     </a>
                   </p>
@@ -72,14 +61,77 @@ export default function ContactPage() {
             </CardContent>
           </Card>
 
-          <Card className="bg-white border border-gray-200 shadow-lg rounded-xl mb-0">
+          {/* 🧁 Contact Form Card (Formspree) */}
+          <Card className="bg-white border border-gray-200 shadow-lg rounded-xl mb-16">
             <CardContent className="p-8">
-              {/* Team Members Row */}
-              <section>
-                <TeamGallery />
-              </section>
+              <h2 className="text-2xl font-bold text-center mb-6">Send Us a Message</h2>
+              <form
+                action="https://formspree.io/f/xanjvkeq"
+                method="POST"
+                className="space-y-6"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Full Name"
+                  required
+                  className="w-full p-3 border border-gray-300 rounded-md"
+                />
+
+                <div className="flex gap-2">
+                  <select
+                    name="countryCode"
+                    required
+                    className="w-1/3 p-3 border border-gray-300 rounded-md"
+                  >
+                    {countryCodes.map(({ code, label }) => (
+                      <option key={code} value={code}>{label} {code}</option>
+                    ))}
+                  </select>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number"
+                    required
+                    className="w-2/3 p-3 border border-gray-300 rounded-md"
+                  />
+                </div>
+
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  className="w-full p-3 border border-gray-300 rounded-md"
+                />
+
+                <input
+                  type="text"
+                  name="company"
+                  placeholder="Company Name (or type 'personal' or 'pvt')"
+                  className="w-full p-3 border border-gray-300 rounded-md"
+                />
+
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  rows={5}
+                  required
+                  className="w-full p-3 border border-gray-300 rounded-md"
+                ></textarea>
+
+                <button
+                  type="submit"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-md transition-all"
+                >
+                  Send Message
+                </button>
+              </form>
             </CardContent>
           </Card>
+
+          {/* 👥 Team Gallery */}
+          <TeamGallery />
 
         </div>
       </main>

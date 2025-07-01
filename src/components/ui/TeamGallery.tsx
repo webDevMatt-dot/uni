@@ -2,7 +2,7 @@ import React from "react";
 
 export function TeamGallery() {
   const teamImages = [
-    { src: "profile.png", alt: "Team Member 1", name: "Joe Mudangwe", prof: "SAP" },
+    { src: "profile.png", alt: "Team Member 1", name: "Joe Mudangwe", prof: "SAP Expert" },
     { src: "profile.png", alt: "Team Member 2", name: "Trust Chuma", prof: "SAP" },
     { src: "profile.png", alt: "Team Member 3", name: "Kudakwashe Mudangwe", prof: "AI & Machine Learning" },
     { src: "profile.png", alt: "Team Member 4", name: "Tadiwa Mudangwe", prof: "Data Engineering" },
