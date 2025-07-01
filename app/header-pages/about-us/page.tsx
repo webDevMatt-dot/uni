@@ -5,7 +5,6 @@ import { Navbar } from "src/components/ui/Navbar";
 import Layout from "src/components/ui/Layout";
 import { Card, CardContent } from "src/components/ui/card";
 import { Button } from "src/components/ui/button";
-import { Footer } from "src/components/ui/Footer";
 
 export default function AboutUsPage() {
   return (
@@ -85,7 +84,6 @@ export default function AboutUsPage() {
         </div>
       </div>
 
-      <Footer />
     </Layout>
   );
 }
