@@ -81,7 +81,7 @@ export default function AATBusinessSolutions() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full">
-              Schedule Consultation 66
+              Schedule Consultation
             </a>
           </Button>
         </div>
