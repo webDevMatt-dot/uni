@@ -1,10 +1,15 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-export const ScheduleButton = ({ onClick, children }) => {
+type ScheduleButtonProps = {
+  onClick: () => void;
+  children: ReactNode;
+};
+
+export const ScheduleButton = ({ onClick, children }: ScheduleButtonProps) => {
   return (
     <button
       onClick={onClick}
-      className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition"
+      className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
     >
       {children}
     </button>

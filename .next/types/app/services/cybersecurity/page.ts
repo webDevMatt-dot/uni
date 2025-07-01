@@ -1,4 +1,4 @@
-// File: C:\Users\mglui_tmsgo6b\OneDrive\Desktop\website-next\app\services\cybersecurity\page.tsx
+// File: C:\website-next\app\services\cybersecurity\page.tsx
 import * as entry from '../../../../../app/services/cybersecurity/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,6 +1,11 @@
 {
-  "/contact-pages/page": "app/contact-pages/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/services/ai-machine-learning/page": "app/services/ai-machine-learning/page.js",
+  "/header-pages/about-us/page": "app/header-pages/about-us/page.js",
+  "/services/cybersecurity/page": "app/services/cybersecurity/page.js",
+  "/contact-pages/page": "app/contact-pages/page.js",
   "/page": "app/page.js",
-  "/services/ai-machine-learning/page": "app/services/ai-machine-learning/page.js"
+  "/services/data-engineering/page": "app/services/data-engineering/page.js",
+  "/services/sap-solutions/page": "app/services/sap-solutions/page.js"
 }

@@ -1,4 +1,4 @@
-// File: C:\Users\mglui_tmsgo6b\OneDrive\Desktop\website-next\app\contact-pages\page.tsx
+// File: C:\website-next\app\contact-pages\page.tsx
 import * as entry from '../../../../app/contact-pages/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

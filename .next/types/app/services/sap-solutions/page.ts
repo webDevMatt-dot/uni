@@ -1,4 +1,4 @@
-// File: C:\Users\mglui_tmsgo6b\OneDrive\Desktop\website-next\app\services\sap-solutions\page.tsx
+// File: C:\website-next\app\services\sap-solutions\page.tsx
 import * as entry from '../../../../../app/services/sap-solutions/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
