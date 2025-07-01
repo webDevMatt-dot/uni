@@ -168,7 +168,6 @@ export default function AIMachineLearningPage() {
           </Card>
         </div>
       </div>
-      <Footer />
     </Layout>
   );
 }
