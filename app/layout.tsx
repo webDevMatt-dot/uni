@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "AAT Business Solutions",
   description: "Transforming Business Through Technology",
   icons: {
-    icon: "/logo.png",}
+    icon: "/logo.ico",}
 };
 
 export default function RootLayout({
