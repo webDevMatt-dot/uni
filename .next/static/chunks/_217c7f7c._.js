@@ -499,44 +499,23 @@ __turbopack_context__.s({
     "TeamGallery": (()=>TeamGallery)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+"use client";
+;
 ;
 function TeamGallery() {
     const teamImages = [
         {
-            src: "profile.png",
+            src: "/team1.jpg",
             alt: "Team Member 1",
-            name: "Joe Mudangwe",
-            prof: "SAP Expert"
+            name: "Alice",
+            prof: "Data Engineer"
         },
         {
-            src: "profile.png",
+            src: "/team2.jpg",
             alt: "Team Member 2",
-            name: "Trust Chuma",
-            prof: "SAP"
-        },
-        {
-            src: "profile.png",
-            alt: "Team Member 3",
-            name: "Kudakwashe Mudangwe",
-            prof: "AI & Machine Learning"
-        },
-        {
-            src: "profile.png",
-            alt: "Team Member 4",
-            name: "Tadiwa Mudangwe",
-            prof: "Data Engineering"
-        },
-        {
-            src: "profile.png",
-            alt: "Team Member 5",
-            name: "Matthew Luis",
-            prof: "Software Engineer"
-        },
-        {
-            src: "profile.png",
-            alt: "Team Member 6",
-            name: "Uncle Farai",
-            prof: "Python Expert"
+            name: "Bob",
+            prof: "ML Expert"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -551,18 +530,20 @@ function TeamGallery() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-24 h-24 rounded-full overflow-hidden shadow-md bg-gray-100",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: member.src,
                                 alt: member.alt,
-                                className: "w-full h-full object-cover"
+                                width: 96,
+                                height: 96,
+                                className: "object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                                lineNumber: 19,
+                                lineNumber: 17,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                            lineNumber: 18,
+                            lineNumber: 16,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -584,17 +565,17 @@ function TeamGallery() {
                     ]
                 }, idx, true, {
                     fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                    lineNumber: 17,
+                    lineNumber: 15,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/components/ui/TeamGallery.tsx",
-            lineNumber: 15,
+            lineNumber: 13,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ui/TeamGallery.tsx",
-        lineNumber: 14,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }

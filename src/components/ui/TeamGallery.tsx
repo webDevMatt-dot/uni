@@ -1,13 +1,11 @@
+"use client";
 import React from "react";
+import Image from "next/image";
 
 export function TeamGallery() {
   const teamImages = [
-    { src: "profile.png", alt: "Team Member 1", name: "Joe Mudangwe", prof: "SAP Expert" },
-    { src: "profile.png", alt: "Team Member 2", name: "Trust Chuma", prof: "SAP" },
-    { src: "profile.png", alt: "Team Member 3", name: "Kudakwashe Mudangwe", prof: "AI & Machine Learning" },
-    { src: "profile.png", alt: "Team Member 4", name: "Tadiwa Mudangwe", prof: "Data Engineering" },
-    { src: "profile.png", alt: "Team Member 5", name: "Matthew Luis", prof: "Software Engineer" },
-    { src: "profile.png", alt: "Team Member 6", name: "Uncle Farai", prof: "Python Expert" },
+    { src: "/team1.jpg", alt: "Team Member 1", name: "Alice", prof: "Data Engineer" },
+    { src: "/team2.jpg", alt: "Team Member 2", name: "Bob", prof: "ML Expert" },
   ];
 
   return (
@@ -16,10 +14,12 @@ export function TeamGallery() {
         {[...teamImages, ...teamImages].map((member, idx) => (
           <div key={idx} className="flex flex-col items-center min-w-[150px]">
             <div className="w-24 h-24 rounded-full overflow-hidden shadow-md bg-gray-100">
-              <img
+              <Image
                 src={member.src}
                 alt={member.alt}
-                className="w-full h-full object-cover"
+                width={96}
+                height={96}
+                className="object-cover"
               />
             </div>
             <p className="mt-2 text-sm font-semibold text-gray-800 text-center">{member.name}</p>
