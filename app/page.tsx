@@ -38,7 +38,7 @@ const services = [
     link: "/services/sap-solutions",
   },
   {
-    title: "Cybersecurity Services",
+    title: "Anti-Virus & Security Packages",
     items: [
       "Vulnerability assessment",
       "Penetration testing",
