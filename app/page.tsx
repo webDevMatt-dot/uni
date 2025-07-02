@@ -67,12 +67,16 @@ export default function AATBusinessSolutions() {
 
   <div className="bg-white/80 backdrop-blur-sm py-16 px-4 rounded-md max-w-4xl mx-auto ">
     <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
-      <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
-        Transforming Business Through Technology
+      <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600 text-4xl font-extrabold">
+        AAT Business Solutions
+      </span>
+      <br />
+      <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600 text-xl font-semibold">
+        Empowering Digital Excellence Through Innovation, Data, and Skills
       </span>
     </h1>
     <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-      Leading provider of <strong className="font-semibold text-black">AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.</strong>
+      Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
     </p>
 
     <div className="space-x-4">
@@ -92,9 +96,9 @@ export default function AATBusinessSolutions() {
     </div>
 
     <div className="flex justify-center mt-10 space-x-10 text-lg">
-      <div><strong>15+</strong><br />Years Experience</div>
-      <div><strong>500+</strong><br />Projects Completed</div>
-      <div><strong>200+</strong><br />Happy Clients</div>
+      <div><strong>7+</strong><br />Years Experience</div>
+      <div><strong>100+</strong><br />Projects Completed</div>
+      <div><strong>100+</strong><br />Happy Clients</div>
       <div><strong>24/7</strong><br />Support</div>
     </div>
   </div>
