@@ -62,50 +62,60 @@ export default function AATBusinessSolutions() {
 
       <Navbar />
 
-{/* Hero Section */}
-<section className="text-center py-24 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
+      {/* Hero Section */}
+      <section className="text-center py-20 md:py-24 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
+        <div className="bg-white/80 backdrop-blur-sm py-12 px-6 rounded-md max-w-4xl mx-auto">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-snug">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
+              AAT Business Solutions
+            </span>
+            <br />
+            <span className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600 block mt-2">
+              Empowering Digital Excellence Through Innovation, Data, and Skills
+            </span>
+          </h1>
 
-  <div className="bg-white/80 backdrop-blur-sm py-16 px-4 rounded-md max-w-4xl mx-auto ">
-    <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
-      <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600 text-4xl font-extrabold">
-        AAT Business Solutions
-      </span>
-      <br />
-      <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600 text-xl font-semibold">
-        Empowering Digital Excellence Through Innovation, Data, and Skills
-      </span>
-    </h1>
-      
-      <p className="text-base md:text-lg text-gray-700 max-w-2xl mx-auto mb-8">
-        Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
-      </p>
+          <p className="text-sm md:text-base text-gray-700 max-w-2xl mx-auto mb-6 md:mb-8">
+            Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
+          </p>
 
+          <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
+            <Button className="w-full md:w-auto">
+              <a href="#services">Explore Our Services</a>
+            </Button>
 
-    <div className="space-x-4">
-      <Button>
-        <a href="#services">Explore Our Services</a>
-      </Button>
+            <Button variant="outline" className="w-full md:w-auto">
+              <a
+                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Schedule Consultation
+              </a>
+            </Button>
+          </div>
 
-      <Button variant="outline">
-        <a
-          href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Schedule Consultation
-        </a>
-      </Button>
-    </div>
-
-    <div className="flex justify-center mt-10 space-x-10 text-lg">
-      <div><strong>7+</strong><br />Years Experience</div>
-      <div><strong>100+</strong><br />Projects Completed</div>
-      <div><strong>100+</strong><br />Happy Clients</div>
-      <div><strong>24/7</strong><br />Support</div>
-    </div>
-  </div>
-</section>
-
+          {/* Stats */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-10 text-base font-medium">
+            <div>
+              <strong className="block text-xl font-bold">7+</strong>
+              Years Experience
+            </div>
+            <div>
+              <strong className="block text-xl font-bold">100+</strong>
+              Projects Completed
+            </div>
+            <div>
+              <strong className="block text-xl font-bold">100+</strong>
+              Happy Clients
+            </div>
+            <div>
+              <strong className="block text-xl font-bold">24/7</strong>
+              Support
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Services Section */}
       <section id="services" className="py-16 bg-white">
@@ -113,7 +123,7 @@ export default function AATBusinessSolutions() {
         <p className="text-center mb-10 text-gray-600">
           We provide comprehensive technology solutions to help your business thrive in the digital age
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 px-4 md:px-6 max-w-6xl mx-auto">
           {services.map(({ title, items, link, emoji }, i) => (
             <Card key={i} className="border border-gray-200 hover:border-gray-400 transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
               <CardContent className="p-6 flex flex-col h-full justify-between">
