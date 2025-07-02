@@ -151,7 +151,7 @@
   :root, :host {
     --color-red-200: oklch(88.5% .062 18.334);
     --color-red-600: oklch(57.7% .245 27.325);
-    --color-red-700: oklch(50.5% .213 27.518);
+    --color-yellow-500: oklch(79.5% .184 86.047);
     --color-yellow-600: oklch(68.1% .162 75.834);
     --color-green-600: oklch(62.7% .194 149.214);
     --color-teal-200: oklch(91% .096 180.426);
@@ -203,6 +203,7 @@
     --radius-md: .375rem;
     --radius-lg: .5rem;
     --radius-xl: .75rem;
+    --animate-spin: spin 1s linear infinite;
     --blur-sm: 8px;
     --default-transition-duration: .15s;
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
@@ -512,6 +513,10 @@
     display: none;
   }
 
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
@@ -534,6 +539,10 @@
 
   .w-2\/3 {
     width: 66.6667%;
+  }
+
+  .w-8 {
+    width: calc(var(--spacing) * 8);
   }
 
   .w-24 {
@@ -574,6 +583,10 @@
 
   .transform {
     transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
+  }
+
+  .animate-spin {
+    animation: var(--animate-spin);
   }
 
   .cursor-pointer {
@@ -710,6 +723,11 @@
     border-top-width: 1px;
   }
 
+  .border-t-2 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
+
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -740,8 +758,8 @@
     border-color: var(--color-teal-200);
   }
 
-  .bg-blue-600 {
-    background-color: var(--color-blue-600);
+  .border-yellow-500 {
+    border-color: var(--color-yellow-500);
   }
 
   .bg-gray-50 {
@@ -768,6 +786,10 @@
     .bg-white\/80 {
       background-color: color-mix(in oklab, var(--color-white) 80%, transparent);
     }
+  }
+
+  .bg-yellow-500 {
+    background-color: var(--color-yellow-500);
   }
 
   .bg-gradient-to-r {
@@ -811,11 +833,6 @@
 
   .to-purple-600 {
     --tw-gradient-to: var(--color-purple-600);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-
-  .to-red-700 {
-    --tw-gradient-to: var(--color-red-700);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
@@ -885,16 +902,16 @@
     padding-block: calc(var(--spacing) * 2);
   }
 
-  .py-3 {
-    padding-block: calc(var(--spacing) * 3);
-  }
-
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
 
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
+  }
+
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
   }
 
   .py-10 {
@@ -1132,12 +1149,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-blue-700:hover {
-      background-color: var(--color-blue-700);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-gray-800:hover {
       background-color: var(--color-gray-800);
     }
@@ -1180,12 +1191,6 @@
   @media (width >= 48rem) {
     .md\:top-28 {
       top: calc(var(--spacing) * 28);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:col-span-2 {
-      grid-column: span 2 / span 2;
     }
   }
 
@@ -1533,6 +1538,12 @@ body {
   syntax: "*";
   inherits: false;
   initial-value: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 

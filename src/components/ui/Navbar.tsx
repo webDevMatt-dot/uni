@@ -8,7 +8,7 @@ export function Navbar() {
       
       {/* Left: Logo */}
       <div className="flex items-center">
-        <Link href="/">
+        <Link href="/" aria-label="Go to homepage">
           <Image
             src="/logo.ico"
             alt="AAT Business Solutions Logo"
@@ -19,8 +19,8 @@ export function Navbar() {
         </Link>
       </div>
 
-      {/* Right: Nav links */}
-      <nav className="space-x-6">
+      {/* Right: Navigation links */}
+      <nav aria-label="Main Navigation" className="space-x-6">
         <Link href="/" className="hover:underline">Home</Link>
         <Link href="/#services" className="hover:underline">Services</Link>
         <Link href="/header-pages/about-us" className="hover:underline">About</Link>
