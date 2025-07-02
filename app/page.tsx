@@ -53,7 +53,7 @@ export default function AATBusinessSolutions() {
   return (
     <div className="font-sans text-gray-800">
       <Head>
-        <title>AAT Business Solutions</title>
+        <title>AAT Business Solutionss</title>
         <meta
           name="description"
           content="Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and Cybersecurity Services."
