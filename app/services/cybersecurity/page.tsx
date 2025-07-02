@@ -24,7 +24,7 @@ export default function CybersecurityServicesPage() {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-800">
-                Cybersecurity Services
+                Anti-Virus & Security Packages
               </span>
             </h1>
             <p className="text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
