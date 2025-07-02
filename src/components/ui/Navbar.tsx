@@ -10,7 +10,7 @@ export function Navbar() {
       <div className="flex items-center">
         <Link href="/" aria-label="Go to homepage">
           <Image
-            src="/logo.png"
+            src="/next.svg"
             alt="AAT Business Solutions Logo"
             width={50}
             height={50}
