@@ -4,22 +4,27 @@ import Image from "next/image";
 
 export function TeamGallery() {
   const teamImages = [
-    { src: "/team1.jpg", alt: "Team Member 1", name: "Alice", prof: "Data Engineer" },
-    { src: "/team2.jpg", alt: "Team Member 2", name: "Bob", prof: "ML Expert" },
+    { src: "/profile.png", alt: "Team Member 1", name: "Joe Mudangwe", prof: "SAP Expert" },
+    { src: "/profile.png", alt: "Team Member 2", name: "Trust Chuma", prof: "SAP" },
+    { src: "/profile.png", alt: "Team Member 3", name: "Kudakwashe Mudangwe", prof: "AI & Machine Learning" },
+    { src: "/profile.png", alt: "Team Member 4", name: "Tadiwa Mudangwe", prof: "Data Engineering" },
+    { src: "/profile.png", alt: "Team Member 5", name: "Matthew Luis", prof: "Software Engineer" },
+    { src: "/profile.png", alt: "Team Member 6", name: "Uncle Farai", prof: "Python Expert" },
   ];
 
   return (
-    <div className="overflow-hidden w-full py-4 bg-white">
-      <div className="flex w-max animate-marquee whitespace-nowrap gap-8">
+    <div className="overflow-hidden w-full py-6 bg-white">
+      <div className="flex w-max animate-marquee whitespace-nowrap gap-8 px-4">
         {[...teamImages, ...teamImages].map((member, idx) => (
           <div key={idx} className="flex flex-col items-center min-w-[150px]">
-            <div className="w-24 h-24 rounded-full overflow-hidden shadow-md bg-gray-100">
+            <div className="w-24 h-24 rounded-full overflow-hidden shadow-md bg-gray-200">
               <Image
                 src={member.src}
                 alt={member.alt}
                 width={96}
                 height={96}
-                className="object-cover"
+                className="object-cover w-full h-full"
+                loading="lazy"
               />
             </div>
             <p className="mt-2 text-sm font-semibold text-gray-800 text-center">{member.name}</p>

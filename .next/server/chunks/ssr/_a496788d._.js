@@ -483,22 +483,46 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function TeamGallery() {
     const teamImages = [
         {
-            src: "/team1.jpg",
+            src: "/profile.png",
             alt: "Team Member 1",
-            name: "Alice",
-            prof: "Data Engineer"
+            name: "Joe Mudangwe",
+            prof: "SAP Expert"
         },
         {
-            src: "/team2.jpg",
+            src: "/profile.png",
             alt: "Team Member 2",
-            name: "Bob",
-            prof: "ML Expert"
+            name: "Trust Chuma",
+            prof: "SAP"
+        },
+        {
+            src: "/profile.png",
+            alt: "Team Member 3",
+            name: "Kudakwashe Mudangwe",
+            prof: "AI & Machine Learning"
+        },
+        {
+            src: "/profile.png",
+            alt: "Team Member 4",
+            name: "Tadiwa Mudangwe",
+            prof: "Data Engineering"
+        },
+        {
+            src: "/profile.png",
+            alt: "Team Member 5",
+            name: "Matthew Luis",
+            prof: "Software Engineer"
+        },
+        {
+            src: "/profile.png",
+            alt: "Team Member 6",
+            name: "Uncle Farai",
+            prof: "Python Expert"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "overflow-hidden w-full py-4 bg-white",
+        className: "overflow-hidden w-full py-6 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex w-max animate-marquee whitespace-nowrap gap-8",
+            className: "flex w-max animate-marquee whitespace-nowrap gap-8 px-4",
             children: [
                 ...teamImages,
                 ...teamImages
@@ -506,21 +530,22 @@ function TeamGallery() {
                     className: "flex flex-col items-center min-w-[150px]",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-24 h-24 rounded-full overflow-hidden shadow-md bg-gray-100",
+                            className: "w-24 h-24 rounded-full overflow-hidden shadow-md bg-gray-200",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: member.src,
                                 alt: member.alt,
                                 width: 96,
                                 height: 96,
-                                className: "object-cover"
+                                className: "object-cover w-full h-full",
+                                loading: "lazy"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                                lineNumber: 17,
+                                lineNumber: 21,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                            lineNumber: 16,
+                            lineNumber: 20,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -528,7 +553,7 @@ function TeamGallery() {
                             children: member.name
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                            lineNumber: 25,
+                            lineNumber: 30,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -536,23 +561,23 @@ function TeamGallery() {
                             children: member.prof
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                            lineNumber: 26,
+                            lineNumber: 31,
                             columnNumber: 13
                         }, this)
                     ]
                 }, idx, true, {
                     fileName: "[project]/src/components/ui/TeamGallery.tsx",
-                    lineNumber: 15,
+                    lineNumber: 19,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/components/ui/TeamGallery.tsx",
-            lineNumber: 13,
+            lineNumber: 17,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ui/TeamGallery.tsx",
-        lineNumber: 12,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
