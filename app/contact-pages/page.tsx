@@ -9,14 +9,18 @@ import { countryCodes } from "src/data/countryCodes";
 
 export default function ContactPage() {
   return (
-    <>
+    <div className="font-sans text-gray-800">
       <Head>
         <title>Contact Us | AAT Business Solutions</title>
+        <meta
+          name="description"
+          content="We'd love to hear from you — Contact AAT Business Solutions for inquiries, support, or partnership opportunities."
+        />
       </Head>
 
       <Navbar />
 
-      <main className="pt-24 px-6 min-h-screen bg-white text-gray-800 font-sans">
+      <main className="pt-24 px-6 min-h-screen bg-white">
         <div className="max-w-6xl mx-auto">
 
           {/* Contact Info Card */}
@@ -29,7 +33,7 @@ export default function ContactPage() {
                   </span>
                 </h1>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                  We&apos;d love to hear from you. Whether you have a question about our services, want to work with us, or just want to connect — we’re here.
+                  We'd love to hear from you. Whether you have a question about our services, want to work with us, or just want to connect — we’re here.
                 </p>
               </section>
 
@@ -53,7 +57,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-xl font-bold mb-2">Other Ways to Reach Us</h2>
                   <p className="text-sm">
-                    📱 <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you from your website" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    📱 <a href="https://wa.me/27816515179?text=Hello%2C%20I%27m%20contacting%20you%20from%20your%20website" target="_blank" rel="noopener noreferrer" className="hover:underline">
                       Message us on WhatsApp
                     </a>
                   </p>
@@ -62,7 +66,7 @@ export default function ContactPage() {
             </CardContent>
           </Card>
 
-          {/* 🧁 Contact Form Card (Formspree) */}
+          {/* Contact Form Card */}
           <Card className="bg-white border border-gray-200 shadow-lg rounded-xl mb-16">
             <CardContent className="p-8">
               <h2 className="text-2xl font-bold text-center mb-6">Send Us a Message</h2>
@@ -143,8 +147,11 @@ export default function ContactPage() {
             </CardContent>
           </Card>
 
-          {/* 👥 Team Gallery */}
-          <TeamGallery />
+          {/* Team Gallery */}
+          <section className="bg-white border border-gray-200 shadow-md rounded-xl p-8">
+            <h2 className="text-2xl font-bold text-center mb-6">Meet Our Team</h2>
+            <TeamGallery />
+          </section>
 
         </div>
       </main>
@@ -152,6 +159,6 @@ export default function ContactPage() {
       <div className="bg-white pt-6">
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
