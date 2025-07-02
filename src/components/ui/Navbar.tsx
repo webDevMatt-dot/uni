@@ -13,13 +13,7 @@ export function Navbar() {
         {/* Logo */}
         
         <Link href="/" aria-label="Home" className="flex items-center gap-2">
-          {/* <Image
-            src="/"
-            alt=""
-            width={40}
-            height={40}
-            className="object-contain"
-          />*/}
+
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">AAT Business Solutions</span>
         </Link>
         
