@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
@@ -64,11 +63,9 @@ export default function AATBusinessSolutions() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative text-center py-20 md:py-24 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
-        <div className="relative bg-white/90 backdrop-blur-sm py-14 px-6 rounded-md max-w-4xl mx-auto shadow-lg">
-          <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
+      <section className="text-center py-20 md:py-24 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
+        <div className="bg-white/80 backdrop-blur-sm py-12 px-6 rounded-md max-w-4xl mx-auto">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-snug">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
               AAT Business Solutions
             </span>
@@ -78,26 +75,20 @@ export default function AATBusinessSolutions() {
             </span>
           </h1>
 
-          <p className="text-base md:text-lg text-gray-700 max-w-2xl mx-auto mb-8 leading-relaxed">
+          <p className="text-sm md:text-base text-gray-700 max-w-2xl mx-auto mb-6 md:mb-8">
             Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
           </p>
 
           <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
-            <Button className="w-full md:w-auto transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg focus:scale-105 focus:shadow-lg">
-              <a href="#services" aria-label="Explore Our Services">
-                Explore Our Services
-              </a>
+            <Button className="w-full md:w-auto">
+              <a href="#services">Explore Our Services</a>
             </Button>
 
-            <Button
-              variant="outline"
-              className="w-full md:w-auto transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg focus:scale-105 focus:shadow-lg"
-            >
+            <Button variant="outline" className="w-full md:w-auto">
               <a
                 href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Schedule Consultation"
               >
                 Schedule Consultation
               </a>
@@ -105,21 +96,21 @@ export default function AATBusinessSolutions() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-12 text-base font-medium text-gray-900">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-10 text-base font-medium">
             <div>
-              <strong className="block text-2xl font-extrabold">7+</strong>
+              <strong className="block text-xl font-bold">7+</strong>
               Years Experience
             </div>
             <div>
-              <strong className="block text-2xl font-extrabold">100+</strong>
+              <strong className="block text-xl font-bold">100+</strong>
               Projects Completed
             </div>
             <div>
-              <strong className="block text-2xl font-extrabold">100+</strong>
+              <strong className="block text-xl font-bold">100+</strong>
               Happy Clients
             </div>
             <div>
-              <strong className="block text-2xl font-extrabold">24/7</strong>
+              <strong className="block text-xl font-bold">24/7</strong>
               Support
             </div>
           </div>
@@ -127,94 +118,41 @@ export default function AATBusinessSolutions() {
       </section>
 
       {/* Services Section */}
-      <section
-        id="services"
-        className="py-16 bg-gray-50 border-t border-gray-200"
-        aria-label="Our Services"
-      >
-        <h3 className="text-center text-3xl font-extrabold mb-6 text-gray-900">
-          Our Services
-        </h3>
-        <p className="text-center mb-12 text-gray-600 max-w-xl mx-auto text-lg leading-relaxed">
-          We provide comprehensive technology solutions to help your business
-          thrive in the digital age.
+      <section id="services" className="py-16 bg-white">
+        <h3 className="text-center text-2xl font-bold mb-4">Our Services</h3>
+        <p className="text-center mb-10 text-gray-600">
+          We provide comprehensive technology solutions to help your business thrive in the digital age
         </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 px-4 md:px-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 px-4 md:px-6 max-w-6xl mx-auto">
           {services.map(({ title, items, link, emoji }, i) => (
             <Card
               key={i}
-              className="border border-gray-200 rounded-lg cursor-pointer shadow-sm hover:shadow-lg hover:border-indigo-500 transition-shadow transition-transform duration-300 ease-in-out transform hover:scale-[1.03] opacity-0 animate-fadeIn"
-              style={{ animationDelay: `${i * 150}ms`, animationFillMode: "forwards" }}
+              className="border border-gray-200 hover:border-gray-400 transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer"
             >
               <CardContent className="p-6 flex flex-col h-full justify-between">
-                <div>
-                  <h4
-                    className="font-bold mb-3 text-lg flex items-center gap-2"
-                    aria-label={`${title} icon and title`}
-                  >
-                    <span
-                      className="text-3xl inline-block transition-transform duration-300 ease-in-out hover:rotate-12"
-                      role="img"
-                      aria-hidden="true"
-                    >
-                      {emoji}
-                    </span>
-                    {title}
+                {/* Apply animation delay style here on native div */}
+                <div style={{ animationDelay: `${i * 150}ms` }}>
+                  <h4 className="font-bold mb-3 text-lg">
+                    {emoji} {title}
                   </h4>
-                  <ul className="list-disc list-inside text-sm text-gray-700 mb-4 space-y-1">
+                  <ul className="list-disc list-inside text-sm text-gray-700 mb-4">
                     {items.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
+                  <Link href={link} passHref>
+                    <Button variant="outline" className="w-full mt-auto">
+                      View More Info
+                    </Button>
+                  </Link>
                 </div>
-                <Link href={link} passHref>
-                  <Button
-                    variant="outline"
-                    className="mt-auto w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg focus:scale-105 focus:shadow-lg"
-                    aria-label={`View more information about ${title}`}
-                  >
-                    View More Info
-                  </Button>
-                </Link>
               </CardContent>
             </Card>
           ))}
         </div>
       </section>
 
-      {/* Sticky Schedule Consultation Button */}
-      <a
-        href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-600 text-white px-5 py-3 rounded-full shadow-lg hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-400 transition-colors duration-300 z-50"
-        aria-label="Schedule Consultation"
-      >
-        📅 Schedule Consultation
-      </a>
-
       <Footer />
-
-      {/* Animation keyframes */}
-      <style jsx global>{`
-        @keyframes fadeIn {
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-          from {
-            opacity: 0;
-            transform: translateY(10px);
-          }
-        }
-        .animate-fadeIn {
-          animation-name: fadeIn;
-          animation-duration: 0.5s;
-          animation-timing-function: ease-out;
-          animation-fill-mode: forwards;
-        }
-      `}</style>
     </div>
   );
 }
