@@ -56,7 +56,7 @@ export default function AATBusinessSolutions() {
         <title>AAT Business Solutions</title>
         <meta
           name="description"
-          content="Leading provider of AI & Machine Learrrrrrrrrning solutions, Data Engineering, SAP implementations, and Cybersecurity Services."
+          content="Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and Cybersecurity Services."
         />
       </Head>
 

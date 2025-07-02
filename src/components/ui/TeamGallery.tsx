@@ -5,7 +5,7 @@ import "./team-gallery.css";
 
 export function TeamGallery() {
   const teamImages = [
-    { src: "/profile.png", alt: "Joe Mudangwe", name: "Joe Mudangwe", prof: "SAP Expert" },
+    { src: "/file.svg", alt: "Joe Mudangwe", name: "Joe Mudangwe", prof: "SAP Expert" },
     { src: "/profile.png", alt: "Trust Chuma", name: "Trust Chuma", prof: "SAP" },
     { src: "/profile.png", alt: "Kudakwashe Mudangwe", name: "Kudakwashe Mudangwe", prof: "AI & Machine Learning" },
     { src: "/profile.png", alt: "Tadiwa Mudangwe", name: "Tadiwa Mudangwe", prof: "Data Engineering" },
