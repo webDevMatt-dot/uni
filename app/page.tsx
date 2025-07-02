@@ -75,9 +75,11 @@ export default function AATBusinessSolutions() {
         Empowering Digital Excellence Through Innovation, Data, and Skills
       </span>
     </h1>
-    <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-      Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
-    </p>
+      
+      <p className="text-base md:text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+        Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
+      </p>
+
 
     <div className="space-x-4">
       <Button>
