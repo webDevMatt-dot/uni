@@ -160,6 +160,7 @@
     --color-blue-600: oklch(54.6% .245 262.881);
     --color-blue-700: oklch(48.8% .243 264.376);
     --color-indigo-200: oklch(87% .065 274.039);
+    --color-indigo-600: oklch(51.1% .262 276.966);
     --color-indigo-700: oklch(45.7% .24 277.023);
     --color-purple-600: oklch(55.8% .288 302.321);
     --color-gray-50: oklch(98.5% .002 247.839);
@@ -174,8 +175,10 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
+    --container-xl: 36rem;
     --container-2xl: 42rem;
     --container-4xl: 56rem;
+    --container-5xl: 64rem;
     --container-6xl: 72rem;
     --container-7xl: 80rem;
     --text-xs: .75rem;
@@ -555,12 +558,20 @@
     max-width: var(--container-4xl);
   }
 
+  .max-w-5xl {
+    max-width: var(--container-5xl);
+  }
+
   .max-w-6xl {
     max-width: var(--container-6xl);
   }
 
   .max-w-7xl {
     max-width: var(--container-7xl);
+  }
+
+  .max-w-xl {
+    max-width: var(--container-xl);
   }
 
   .min-w-\[150px\] {
@@ -749,6 +760,10 @@
 
   .bg-gray-700 {
     background-color: var(--color-gray-700);
+  }
+
+  .bg-indigo-600 {
+    background-color: var(--color-indigo-600);
   }
 
   .bg-white {
@@ -944,6 +959,10 @@
     text-align: center;
   }
 
+  .text-left {
+    text-align: left;
+  }
+
   .font-sans {
     font-family: var(--font-geist-sans);
   }
@@ -1047,6 +1066,10 @@
     color: var(--color-gray-800);
   }
 
+  .text-indigo-600 {
+    color: var(--color-indigo-600);
+  }
+
   .text-transparent {
     color: #0000;
   }
@@ -1148,6 +1171,12 @@
   @media (hover: hover) {
     .hover\:bg-blue-700:hover {
       background-color: var(--color-blue-700);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-gray-100:hover {
+      background-color: var(--color-gray-100);
     }
   }
 
