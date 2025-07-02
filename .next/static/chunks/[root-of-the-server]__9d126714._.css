@@ -1301,6 +1301,12 @@
   }
 
   @media (width >= 48rem) {
+    .md\:sticky {
+      position: sticky;
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:top-28 {
       top: calc(var(--spacing) * 28);
     }
