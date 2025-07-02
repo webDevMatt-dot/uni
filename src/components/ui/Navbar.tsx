@@ -11,16 +11,18 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
+        
         <Link href="/" aria-label="Home" className="flex items-center gap-2">
-          <Image
-            src="/logo.png"
-            alt="AAT Business Solutions Logo"
+          {/* <Image
+            src="/"
+            alt=""
             width={40}
             height={40}
             className="object-contain"
-          />
-          <span className="text-xl font-bold text-gray-900">AAT</span>
+          />*/}
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">AAT Business Solutions</span>
         </Link>
+        
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
