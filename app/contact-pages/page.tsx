@@ -29,7 +29,7 @@ export default function ContactPage() {
               <section className="mb-12 text-center">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-red-700">
-                    Get in Touch with AAT Business Solutions
+                    Get in Touch with AAT Business Solutions for the best services
                   </span>
                 </h1>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
