@@ -28,7 +28,7 @@ export function Navbar() {
         <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
           <Link href="/" className="hover:text-blue-600 transition">Home</Link>
           <Link href="/#services" className="hover:text-blue-600 transition">Services</Link>
-          <Link href="/#services" className="hover:text-blue-600 transition">Services</Link>
+          <Link href="/header-pages/about-us" className="hover:text-blue-600 transition">Services</Link>
           <Link href="/header-pages" className="hover:text-blue-600 transition">About</Link>
           <Link href="/contact-pages" className="hover:text-blue-600 transition">Contact</Link>
         </nav>
