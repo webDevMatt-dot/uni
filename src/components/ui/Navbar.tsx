@@ -48,7 +48,7 @@ export function Navbar() {
           <nav className="flex flex-col gap-4 text-gray-700 font-medium">
             <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
             <Link href="/#services" onClick={() => setMenuOpen(false)}>Services</Link>
-            <Link href="/about-us" onClick={() => setMenuOpen(false)}>About</Link>
+            <Link href="/header-pages/about-us" onClick={() => setMenuOpen(false)}>About</Link>
             <Link href="/contact-pages" onClick={() => setMenuOpen(false)}>Contact</Link>
           </nav>
         </div>
