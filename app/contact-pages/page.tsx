@@ -14,11 +14,6 @@ export default function ContactPage() {
 
       <Navbar />
 
-
-
-      <div className="bg-white pt-6">
-        <Footer />
-      </div>
     </>
   );
 }
