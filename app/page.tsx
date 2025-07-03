@@ -136,7 +136,7 @@ export default function AATBusinessSolutions() {
         <div className="max-w-5xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-4">Why Choose AAT?</h3>
           <p className="text-gray-700 mb-6">
-            We don't just deliver technology — we deliver measurable impact. Our team ensures each solution is tailor-made and ROI-driven.
+            We don&apos;t just deliver technology — we deliver measurable impact. Our team ensures each solution is tailor-made and ROI-driven.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
             <div><strong className="text-black">✔️ Industry Expertise:</strong> We bring deep domain knowledge.</div>
@@ -172,7 +172,7 @@ export default function AATBusinessSolutions() {
       <section className="py-16 bg-indigo-600 text-white text-center px-6">
         <h3 className="text-2xl font-bold mb-4">Let’s Build Something Great</h3>
         <p className="mb-6 max-w-xl mx-auto">
-          Whether you need help with AI, data engineering, SAP, or security — we're here to help you thrive.
+          Whether you need help with AI, data engineering, SAP, or security — we&apos;re here to help you thrive.
         </p>
         <Button size="lg" className="bg-white text-indigo-600 hover:bg-gray-100 transition-all duration-300">
           <a href="#services">Discover Our Solutions</a>
