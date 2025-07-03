@@ -11,15 +11,17 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" aria-label="Home" className="flex items-center gap-2">
+        <Link href="/" aria-label="Home" className="flex items-center gap-2" onClick={() => setMenuOpen(false)}>
           <Image
-            src="/"
-            alt=""
+            src="/logo.png"
+            alt="AAT Business Solutions Logo"
             width={40}
             height={40}
             className="object-contain"
           />
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">AAT Business Solutions</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+            AAT Business Solutions
+          </span>
         </Link>
 
         {/* Desktop Menu */}
@@ -46,7 +48,7 @@ export function Navbar() {
           <nav className="flex flex-col gap-4 text-gray-700 font-medium">
             <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
             <Link href="/#services" onClick={() => setMenuOpen(false)}>Services</Link>
-            <Link href="/header-pages/about-us" onClick={() => setMenuOpen(false)}>About</Link>
+            <Link href="/about-us" onClick={() => setMenuOpen(false)}>About</Link>
             <Link href="/contact-pages" onClick={() => setMenuOpen(false)}>Contact</Link>
           </nav>
         </div>

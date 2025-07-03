@@ -637,996 +637,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/data/countryCodes.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "countryCodes": (()=>countryCodes)
-});
-const countryCodes = [
-    {
-        code: "+93",
-        label: "🇦🇫 Afghanistan"
-    },
-    {
-        code: "+355",
-        label: "🇦🇱 Albania"
-    },
-    {
-        code: "+213",
-        label: "🇩🇿 Algeria"
-    },
-    {
-        code: "+1684",
-        label: "🇦🇸 American Samoa"
-    },
-    {
-        code: "+376",
-        label: "🇦🇩 Andorra"
-    },
-    {
-        code: "+244",
-        label: "🇦🇴 Angola"
-    },
-    {
-        code: "+1264",
-        label: "🇦🇮 Anguilla"
-    },
-    {
-        code: "+672",
-        label: "🇦🇶 Antarctica"
-    },
-    {
-        code: "+1268",
-        label: "🇦🇬 Antigua and Barbuda"
-    },
-    {
-        code: "+54",
-        label: "🇦🇷 Argentina"
-    },
-    {
-        code: "+374",
-        label: "🇦🇲 Armenia"
-    },
-    {
-        code: "+297",
-        label: "🇦🇼 Aruba"
-    },
-    {
-        code: "+61",
-        label: "🇦🇺 Australia"
-    },
-    {
-        code: "+43",
-        label: "🇦🇹 Austria"
-    },
-    {
-        code: "+994",
-        label: "🇦🇿 Azerbaijan"
-    },
-    {
-        code: "+1242",
-        label: "🇧🇸 Bahamas"
-    },
-    {
-        code: "+973",
-        label: "🇧🇭 Bahrain"
-    },
-    {
-        code: "+880",
-        label: "🇧🇩 Bangladesh"
-    },
-    {
-        code: "+1246",
-        label: "🇧🇧 Barbados"
-    },
-    {
-        code: "+375",
-        label: "🇧🇾 Belarus"
-    },
-    {
-        code: "+32",
-        label: "🇧🇪 Belgium"
-    },
-    {
-        code: "+501",
-        label: "🇧🇿 Belize"
-    },
-    {
-        code: "+229",
-        label: "🇧🇯 Benin"
-    },
-    {
-        code: "+1441",
-        label: "🇧🇲 Bermuda"
-    },
-    {
-        code: "+975",
-        label: "🇧🇹 Bhutan"
-    },
-    {
-        code: "+591",
-        label: "🇧🇴 Bolivia"
-    },
-    {
-        code: "+387",
-        label: "🇧🇦 Bosnia and Herzegovina"
-    },
-    {
-        code: "+267",
-        label: "🇧🇼 Botswana"
-    },
-    {
-        code: "+55",
-        label: "🇧🇷 Brazil"
-    },
-    {
-        code: "+246",
-        label: "🇮🇴 British Indian Ocean Territory"
-    },
-    {
-        code: "+1284",
-        label: "🇻🇬 British Virgin Islands"
-    },
-    {
-        code: "+673",
-        label: "🇧🇳 Brunei"
-    },
-    {
-        code: "+359",
-        label: "🇧🇬 Bulgaria"
-    },
-    {
-        code: "+226",
-        label: "🇧🇫 Burkina Faso"
-    },
-    {
-        code: "+257",
-        label: "🇧🇮 Burundi"
-    },
-    {
-        code: "+855",
-        label: "🇰🇭 Cambodia"
-    },
-    {
-        code: "+237",
-        label: "🇨🇲 Cameroon"
-    },
-    {
-        code: "+1",
-        label: "🇨🇦 Canada"
-    },
-    {
-        code: "+238",
-        label: "🇨🇻 Cape Verde"
-    },
-    {
-        code: "+1345",
-        label: "🇰🇾 Cayman Islands"
-    },
-    {
-        code: "+236",
-        label: "🇨🇫 Central African Republic"
-    },
-    {
-        code: "+235",
-        label: "🇹🇩 Chad"
-    },
-    {
-        code: "+56",
-        label: "🇨🇱 Chile"
-    },
-    {
-        code: "+86",
-        label: "🇨🇳 China"
-    },
-    {
-        code: "+61",
-        label: "🇨🇽 Christmas Island"
-    },
-    {
-        code: "+61",
-        label: "🇨🇨 Cocos Islands"
-    },
-    {
-        code: "+57",
-        label: "🇨🇴 Colombia"
-    },
-    {
-        code: "+269",
-        label: "🇰🇲 Comoros"
-    },
-    {
-        code: "+242",
-        label: "🇨🇬 Congo"
-    },
-    {
-        code: "+243",
-        label: "🇨🇩 Democratic Republic of the Congo"
-    },
-    {
-        code: "+682",
-        label: "🇨🇰 Cook Islands"
-    },
-    {
-        code: "+506",
-        label: "🇨🇷 Costa Rica"
-    },
-    {
-        code: "+225",
-        label: "🇨🇮 Côte d'Ivoire"
-    },
-    {
-        code: "+385",
-        label: "🇭🇷 Croatia"
-    },
-    {
-        code: "+53",
-        label: "🇨🇺 Cuba"
-    },
-    {
-        code: "+599",
-        label: "🇨🇼 Curacao"
-    },
-    {
-        code: "+357",
-        label: "🇨🇾 Cyprus"
-    },
-    {
-        code: "+420",
-        label: "🇨🇿 Czech Republic"
-    },
-    {
-        code: "+45",
-        label: "🇩🇰 Denmark"
-    },
-    {
-        code: "+253",
-        label: "🇩🇯 Djibouti"
-    },
-    {
-        code: "+1767",
-        label: "🇩🇲 Dominica"
-    },
-    {
-        code: "+1",
-        label: "🇩🇴 Dominican Republic"
-    },
-    {
-        code: "+670",
-        label: "🇹🇱 East Timor"
-    },
-    {
-        code: "+593",
-        label: "🇪🇨 Ecuador"
-    },
-    {
-        code: "+20",
-        label: "🇪🇬 Egypt"
-    },
-    {
-        code: "+503",
-        label: "🇸🇻 El Salvador"
-    },
-    {
-        code: "+240",
-        label: "🇬🇶 Equatorial Guinea"
-    },
-    {
-        code: "+291",
-        label: "🇪🇷 Eritrea"
-    },
-    {
-        code: "+372",
-        label: "🇪🇪 Estonia"
-    },
-    {
-        code: "+251",
-        label: "🇪🇹 Ethiopia"
-    },
-    {
-        code: "+500",
-        label: "🇫🇰 Falkland Islands"
-    },
-    {
-        code: "+298",
-        label: "🇫🇴 Faroe Islands"
-    },
-    {
-        code: "+679",
-        label: "🇫🇯 Fiji"
-    },
-    {
-        code: "+358",
-        label: "🇫🇮 Finland"
-    },
-    {
-        code: "+33",
-        label: "🇫🇷 France"
-    },
-    {
-        code: "+594",
-        label: "🇬🇫 French Guiana"
-    },
-    {
-        code: "+689",
-        label: "🇵🇫 French Polynesia"
-    },
-    {
-        code: "+241",
-        label: "🇬🇦 Gabon"
-    },
-    {
-        code: "+220",
-        label: "🇬🇲 Gambia"
-    },
-    {
-        code: "+995",
-        label: "🇬🇪 Georgia"
-    },
-    {
-        code: "+49",
-        label: "🇩🇪 Germany"
-    },
-    {
-        code: "+233",
-        label: "🇬🇭 Ghana"
-    },
-    {
-        code: "+350",
-        label: "🇬🇮 Gibraltar"
-    },
-    {
-        code: "+30",
-        label: "🇬🇷 Greece"
-    },
-    {
-        code: "+299",
-        label: "🇬🇱 Greenland"
-    },
-    {
-        code: "+1473",
-        label: "🇬🇩 Grenada"
-    },
-    {
-        code: "+590",
-        label: "🇬🇵 Guadeloupe"
-    },
-    {
-        code: "+1671",
-        label: "🇬🇺 Guam"
-    },
-    {
-        code: "+502",
-        label: "🇬🇹 Guatemala"
-    },
-    {
-        code: "+44",
-        label: "🇬🇬 Guernsey"
-    },
-    {
-        code: "+224",
-        label: "🇬🇳 Guinea"
-    },
-    {
-        code: "+245",
-        label: "🇬🇼 Guinea-Bissau"
-    },
-    {
-        code: "+592",
-        label: "🇬🇾 Guyana"
-    },
-    {
-        code: "+509",
-        label: "🇭🇹 Haiti"
-    },
-    {
-        code: "+504",
-        label: "🇭🇳 Honduras"
-    },
-    {
-        code: "+852",
-        label: "🇭🇰 Hong Kong"
-    },
-    {
-        code: "+36",
-        label: "🇭🇺 Hungary"
-    },
-    {
-        code: "+354",
-        label: "🇮🇸 Iceland"
-    },
-    {
-        code: "+91",
-        label: "🇮🇳 India"
-    },
-    {
-        code: "+62",
-        label: "🇮🇩 Indonesia"
-    },
-    {
-        code: "+98",
-        label: "🇮🇷 Iran"
-    },
-    {
-        code: "+964",
-        label: "🇮🇶 Iraq"
-    },
-    {
-        code: "+353",
-        label: "🇮🇪 Ireland"
-    },
-    {
-        code: "+44",
-        label: "🇮🇲 Isle of Man"
-    },
-    {
-        code: "+972",
-        label: "🇮🇱 Israel"
-    },
-    {
-        code: "+39",
-        label: "🇮🇹 Italy"
-    },
-    {
-        code: "+1876",
-        label: "🇯🇲 Jamaica"
-    },
-    {
-        code: "+81",
-        label: "🇯🇵 Japan"
-    },
-    {
-        code: "+44",
-        label: "🇯🇪 Jersey"
-    },
-    {
-        code: "+962",
-        label: "🇯🇴 Jordan"
-    },
-    {
-        code: "+7",
-        label: "🇰🇿 Kazakhstan"
-    },
-    {
-        code: "+254",
-        label: "🇰🇪 Kenya"
-    },
-    {
-        code: "+686",
-        label: "🇰🇮 Kiribati"
-    },
-    {
-        code: "+383",
-        label: "🇽🇰 Kosovo"
-    },
-    {
-        code: "+965",
-        label: "🇰🇼 Kuwait"
-    },
-    {
-        code: "+996",
-        label: "🇰🇬 Kyrgyzstan"
-    },
-    {
-        code: "+856",
-        label: "🇱🇦 Laos"
-    },
-    {
-        code: "+371",
-        label: "🇱🇻 Latvia"
-    },
-    {
-        code: "+961",
-        label: "🇱🇧 Lebanon"
-    },
-    {
-        code: "+266",
-        label: "🇱🇸 Lesotho"
-    },
-    {
-        code: "+231",
-        label: "🇱🇷 Liberia"
-    },
-    {
-        code: "+218",
-        label: "🇱🇾 Libya"
-    },
-    {
-        code: "+423",
-        label: "🇱🇮 Liechtenstein"
-    },
-    {
-        code: "+370",
-        label: "🇱🇹 Lithuania"
-    },
-    {
-        code: "+352",
-        label: "🇱🇺 Luxembourg"
-    },
-    {
-        code: "+853",
-        label: "🇲🇴 Macau"
-    },
-    {
-        code: "+389",
-        label: "🇲🇰 Macedonia"
-    },
-    {
-        code: "+261",
-        label: "🇲🇬 Madagascar"
-    },
-    {
-        code: "+265",
-        label: "🇲🇼 Malawi"
-    },
-    {
-        code: "+60",
-        label: "🇲🇾 Malaysia"
-    },
-    {
-        code: "+960",
-        label: "🇲🇻 Maldives"
-    },
-    {
-        code: "+223",
-        label: "🇲🇱 Mali"
-    },
-    {
-        code: "+356",
-        label: "🇲🇹 Malta"
-    },
-    {
-        code: "+692",
-        label: "🇲🇭 Marshall Islands"
-    },
-    {
-        code: "+596",
-        label: "🇲🇶 Martinique"
-    },
-    {
-        code: "+222",
-        label: "🇲🇷 Mauritania"
-    },
-    {
-        code: "+230",
-        label: "🇲🇺 Mauritius"
-    },
-    {
-        code: "+262",
-        label: "🇾🇹 Mayotte"
-    },
-    {
-        code: "+52",
-        label: "🇲🇽 Mexico"
-    },
-    {
-        code: "+691",
-        label: "🇫🇲 Micronesia"
-    },
-    {
-        code: "+373",
-        label: "🇲🇩 Moldova"
-    },
-    {
-        code: "+377",
-        label: "🇲🇨 Monaco"
-    },
-    {
-        code: "+976",
-        label: "🇲🇳 Mongolia"
-    },
-    {
-        code: "+382",
-        label: "🇲🇪 Montenegro"
-    },
-    {
-        code: "+1664",
-        label: "🇲🇸 Montserrat"
-    },
-    {
-        code: "+212",
-        label: "🇲🇦 Morocco"
-    },
-    {
-        code: "+258",
-        label: "🇲🇿 Mozambique"
-    },
-    {
-        code: "+95",
-        label: "🇲🇲 Myanmar"
-    },
-    {
-        code: "+264",
-        label: "🇳🇦 Namibia"
-    },
-    {
-        code: "+674",
-        label: "🇳🇷 Nauru"
-    },
-    {
-        code: "+977",
-        label: "🇳🇵 Nepal"
-    },
-    {
-        code: "+31",
-        label: "🇳🇱 Netherlands"
-    },
-    {
-        code: "+599",
-        label: "🇧🇶 Netherlands Antilles"
-    },
-    {
-        code: "+687",
-        label: "🇳🇨 New Caledonia"
-    },
-    {
-        code: "+64",
-        label: "🇳🇿 New Zealand"
-    },
-    {
-        code: "+505",
-        label: "🇳🇮 Nicaragua"
-    },
-    {
-        code: "+227",
-        label: "🇳🇪 Niger"
-    },
-    {
-        code: "+234",
-        label: "🇳🇬 Nigeria"
-    },
-    {
-        code: "+683",
-        label: "🇳🇺 Niue"
-    },
-    {
-        code: "+672",
-        label: "🇳🇫 Norfolk Island"
-    },
-    {
-        code: "+850",
-        label: "🇰🇵 North Korea"
-    },
-    {
-        code: "+1670",
-        label: "🇲🇵 Northern Mariana Islands"
-    },
-    {
-        code: "+47",
-        label: "🇳🇴 Norway"
-    },
-    {
-        code: "+968",
-        label: "🇴🇲 Oman"
-    },
-    {
-        code: "+92",
-        label: "🇵🇰 Pakistan"
-    },
-    {
-        code: "+680",
-        label: "🇵🇼 Palau"
-    },
-    {
-        code: "+970",
-        label: "🇵🇸 Palestine"
-    },
-    {
-        code: "+507",
-        label: "🇵🇦 Panama"
-    },
-    {
-        code: "+675",
-        label: "🇵🇬 Papua New Guinea"
-    },
-    {
-        code: "+595",
-        label: "🇵🇾 Paraguay"
-    },
-    {
-        code: "+51",
-        label: "🇵🇪 Peru"
-    },
-    {
-        code: "+63",
-        label: "🇵🇭 Philippines"
-    },
-    {
-        code: "+64",
-        label: "🇵🇳 Pitcairn"
-    },
-    {
-        code: "+48",
-        label: "🇵🇱 Poland"
-    },
-    {
-        code: "+351",
-        label: "🇵🇹 Portugal"
-    },
-    {
-        code: "+1",
-        label: "🇵🇷 Puerto Rico"
-    },
-    {
-        code: "+974",
-        label: "🇶🇦 Qatar"
-    },
-    {
-        code: "+262",
-        label: "🇷🇪 Reunion"
-    },
-    {
-        code: "+40",
-        label: "🇷🇴 Romania"
-    },
-    {
-        code: "+7",
-        label: "🇷🇺 Russia"
-    },
-    {
-        code: "+250",
-        label: "🇷🇼 Rwanda"
-    },
-    {
-        code: "+590",
-        label: "🇧🇱 Saint Barthelemy"
-    },
-    {
-        code: "+290",
-        label: "🇸🇭 Saint Helena"
-    },
-    {
-        code: "+1869",
-        label: "🇰🇳 Saint Kitts and Nevis"
-    },
-    {
-        code: "+1758",
-        label: "🇱🇨 Saint Lucia"
-    },
-    {
-        code: "+590",
-        label: "🇲🇫 Saint Martin"
-    },
-    {
-        code: "+508",
-        label: "🇵🇲 Saint Pierre and Miquelon"
-    },
-    {
-        code: "+1784",
-        label: "🇻🇨 Saint Vincent and the Grenadines"
-    },
-    {
-        code: "+685",
-        label: "🇼🇸 Samoa"
-    },
-    {
-        code: "+378",
-        label: "🇸🇲 San Marino"
-    },
-    {
-        code: "+239",
-        label: "🇸🇹 Sao Tome and Principe"
-    },
-    {
-        code: "+966",
-        label: "🇸🇦 Saudi Arabia"
-    },
-    {
-        code: "+221",
-        label: "🇸🇳 Senegal"
-    },
-    {
-        code: "+381",
-        label: "🇷🇸 Serbia"
-    },
-    {
-        code: "+248",
-        label: "🇸🇨 Seychelles"
-    },
-    {
-        code: "+232",
-        label: "🇸🇱 Sierra Leone"
-    },
-    {
-        code: "+65",
-        label: "🇸🇬 Singapore"
-    },
-    {
-        code: "+1721",
-        label: "🇸🇽 Sint Maarten"
-    },
-    {
-        code: "+421",
-        label: "🇸🇰 Slovakia"
-    },
-    {
-        code: "+386",
-        label: "🇸🇮 Slovenia"
-    },
-    {
-        code: "+677",
-        label: "🇸🇧 Solomon Islands"
-    },
-    {
-        code: "+252",
-        label: "🇸🇴 Somalia"
-    },
-    {
-        code: "+27",
-        label: "🇿🇦 South Africa"
-    },
-    {
-        code: "+82",
-        label: "🇰🇷 South Korea"
-    },
-    {
-        code: "+211",
-        label: "🇸🇸 South Sudan"
-    },
-    {
-        code: "+34",
-        label: "🇪🇸 Spain"
-    },
-    {
-        code: "+94",
-        label: "🇱🇰 Sri Lanka"
-    },
-    {
-        code: "+249",
-        label: "🇸🇩 Sudan"
-    },
-    {
-        code: "+597",
-        label: "🇸🇷 Suriname"
-    },
-    {
-        code: "+47",
-        label: "🇸🇯 Svalbard and Jan Mayen"
-    },
-    {
-        code: "+268",
-        label: "🇸🇿 Swaziland"
-    },
-    {
-        code: "+46",
-        label: "🇸🇪 Sweden"
-    },
-    {
-        code: "+41",
-        label: "🇨🇭 Switzerland"
-    },
-    {
-        code: "+963",
-        label: "🇸🇾 Syria"
-    },
-    {
-        code: "+886",
-        label: "🇹🇼 Taiwan"
-    },
-    {
-        code: "+992",
-        label: "🇹🇯 Tajikistan"
-    },
-    {
-        code: "+255",
-        label: "🇹🇿 Tanzania"
-    },
-    {
-        code: "+66",
-        label: "🇹🇭 Thailand"
-    },
-    {
-        code: "+228",
-        label: "🇹🇬 Togo"
-    },
-    {
-        code: "+690",
-        label: "🇹🇰 Tokelau"
-    },
-    {
-        code: "+676",
-        label: "🇹🇴 Tonga"
-    },
-    {
-        code: "+1868",
-        label: "🇹🇹 Trinidad and Tobago"
-    },
-    {
-        code: "+216",
-        label: "🇹🇳 Tunisia"
-    },
-    {
-        code: "+90",
-        label: "🇹🇷 Turkey"
-    },
-    {
-        code: "+993",
-        label: "🇹🇲 Turkmenistan"
-    },
-    {
-        code: "+1649",
-        label: "🇹🇨 Turks and Caicos Islands"
-    },
-    {
-        code: "+688",
-        label: "🇹🇻 Tuvalu"
-    },
-    {
-        code: "+1340",
-        label: "🇻🇮 U.S. Virgin Islands"
-    },
-    {
-        code: "+256",
-        label: "🇺🇬 Uganda"
-    },
-    {
-        code: "+380",
-        label: "🇺🇦 Ukraine"
-    },
-    {
-        code: "+971",
-        label: "🇦🇪 United Arab Emirates"
-    },
-    {
-        code: "+44",
-        label: "🇬🇧 United Kingdom"
-    },
-    {
-        code: "+1",
-        label: "🇺🇸 United States"
-    },
-    {
-        code: "+598",
-        label: "🇺🇾 Uruguay"
-    },
-    {
-        code: "+998",
-        label: "🇺🇿 Uzbekistan"
-    },
-    {
-        code: "+678",
-        label: "🇻🇺 Vanuatu"
-    },
-    {
-        code: "+379",
-        label: "🇻🇦 Vatican"
-    },
-    {
-        code: "+58",
-        label: "🇻🇪 Venezuela"
-    },
-    {
-        code: "+84",
-        label: "🇻🇳 Vietnam"
-    },
-    {
-        code: "+681",
-        label: "🇼🇫 Wallis and Futuna"
-    },
-    {
-        code: "+212",
-        label: "🇪🇭 Western Sahara"
-    },
-    {
-        code: "+967",
-        label: "🇾🇪 Yemen"
-    },
-    {
-        code: "+260",
-        label: "🇿🇲 Zambia"
-    },
-    {
-        code: "+263",
-        label: "🇿🇼 Zimbabwe"
-    }
-];
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
 "[project]/app/contact-pages/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -1642,11 +652,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$N
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/card.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/Footer.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$TeamGallery$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/TeamGallery.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$countryCodes$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/countryCodes.tsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
-;
 ;
 ;
 ;
@@ -1684,170 +692,148 @@ function ContactPage() {
                     children: "Contact Us | AAT Business Solutions"
                 }, void 0, false, {
                     fileName: "[project]/app/contact-pages/page.tsx",
-                    lineNumber: 41,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/contact-pages/page.tsx",
-                lineNumber: 40,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/app/contact-pages/page.tsx",
-                lineNumber: 44,
+                lineNumber: 43,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                className: "pt-24 px-6 min-h-screen bg-white text-gray-800 font-sans",
+                className: "pt-28 px-6 min-h-screen bg-white text-gray-800 font-sans",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-6xl mx-auto",
+                    className: "max-w-6xl mx-auto space-y-16",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "bg-white border border-gray-200 shadow-lg rounded-xl mb-16",
+                            className: "bg-white border border-gray-200 shadow-lg rounded-xl",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
                                 className: "p-8",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-2xl font-bold text-center mb-6",
-                                        children: "Send Us a Message"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                        className: "text-3xl font-bold mb-4",
+                                        children: "Contact Us"
                                     }, void 0, false, {
                                         fileName: "[project]/app/contact-pages/page.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                                        onSubmit: handleSubmit,
-                                        className: "space-y-6",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                type: "text",
-                                                name: "name",
-                                                placeholder: "Your Full Name",
-                                                required: true,
-                                                className: "w-full p-3 border border-gray-300 rounded-md"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/contact-pages/page.tsx",
-                                                lineNumber: 55,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex gap-2",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                        name: "countryCode",
-                                                        required: true,
-                                                        className: "w-1/3 p-3 border border-gray-300 rounded-md",
-                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$countryCodes$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["countryCodes"].map((country)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                value: country.code,
-                                                                children: `${country.label.replace(/^[^ ]+ /, "")} ${country.code}`
-                                                            }, `${country.code}-${country.label}`, false, {
-                                                                fileName: "[project]/app/contact-pages/page.tsx",
-                                                                lineNumber: 70,
-                                                                columnNumber: 23
-                                                            }, this))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/contact-pages/page.tsx",
-                                                        lineNumber: 64,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                        type: "tel",
-                                                        name: "phone",
-                                                        placeholder: "Phone Number",
-                                                        required: true,
-                                                        pattern: "[0-9]{4,15}",
-                                                        inputMode: "numeric",
-                                                        className: "w-2/3 p-3 border border-gray-300 rounded-md",
-                                                        onInput: (e)=>{
-                                                            const input = e.target;
-                                                            input.value = input.value.replace(/[^0-9]/g, '');
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/contact-pages/page.tsx",
-                                                        lineNumber: 79,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/app/contact-pages/page.tsx",
-                                                lineNumber: 63,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                type: "email",
-                                                name: "email",
-                                                placeholder: "Your Email",
-                                                required: true,
-                                                className: "w-full p-3 border border-gray-300 rounded-md"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/contact-pages/page.tsx",
-                                                lineNumber: 94,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                type: "text",
-                                                name: "company",
-                                                placeholder: "Company Name (or type 'personal' or 'pvt')",
-                                                className: "w-full p-3 border border-gray-300 rounded-md"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/contact-pages/page.tsx",
-                                                lineNumber: 102,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                                name: "message",
-                                                placeholder: "Your Message",
-                                                rows: 5,
-                                                required: true,
-                                                className: "w-full p-3 border border-gray-300 rounded-md"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/contact-pages/page.tsx",
-                                                lineNumber: 109,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-lg text-gray-700",
+                                        children: "We would love to hear from you. Please send us a message below."
+                                    }, void 0, false, {
                                         fileName: "[project]/app/contact-pages/page.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 50,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/contact-pages/page.tsx",
-                                lineNumber: 52,
+                                lineNumber: 48,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/contact-pages/page.tsx",
-                            lineNumber: 51,
+                            lineNumber: 47,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                            className: "bg-white border border-gray-200 shadow-lg rounded-xl",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                className: "p-8",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                                    onSubmit: handleSubmit,
+                                    className: "space-y-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            name: "name",
+                                            placeholder: "Your Full Name",
+                                            required: true,
+                                            className: "w-full p-3 border border-gray-300 rounded-md"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/contact-pages/page.tsx",
+                                            lineNumber: 59,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            name: "email",
+                                            type: "email",
+                                            placeholder: "Your Email",
+                                            required: true,
+                                            className: "w-full p-3 border border-gray-300 rounded-md"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/contact-pages/page.tsx",
+                                            lineNumber: 65,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                            name: "message",
+                                            placeholder: "Your Message",
+                                            rows: 5,
+                                            required: true,
+                                            className: "w-full p-3 border border-gray-300 rounded-md"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/contact-pages/page.tsx",
+                                            lineNumber: 72,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "submit",
+                                            disabled: loading,
+                                            className: "w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-md transition",
+                                            children: loading ? "Sending..." : "Send Message"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/contact-pages/page.tsx",
+                                            lineNumber: 79,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/contact-pages/page.tsx",
+                                    lineNumber: 58,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/contact-pages/page.tsx",
+                                lineNumber: 57,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/contact-pages/page.tsx",
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$TeamGallery$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TeamGallery"], {}, void 0, false, {
                             fileName: "[project]/app/contact-pages/page.tsx",
-                            lineNumber: 122,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/contact-pages/page.tsx",
-                    lineNumber: 47,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/contact-pages/page.tsx",
-                lineNumber: 46,
+                lineNumber: 45,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-white pt-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                     fileName: "[project]/app/contact-pages/page.tsx",
-                    lineNumber: 127,
+                    lineNumber: 95,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/contact-pages/page.tsx",
-                lineNumber: 126,
+                lineNumber: 94,
                 columnNumber: 7
             }, this)
         ]
@@ -1863,4 +849,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }}),
 }]);
 
-//# sourceMappingURL=_217c7f7c._.js.map
+//# sourceMappingURL=_287fe74f._.js.map

@@ -15,11 +15,99 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.tsx [app-r
 
 var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
-const e = new Error(`Could not parse module '[project]/app/contact-pages/page.tsx'
-
-Unexpected token `option`. Expected jsx identifier`);
-e.code = 'MODULE_UNPARSEABLE';
-throw e;}}),
+/*#__PURE__*/ const { jsxDEV: _jsxDEV } = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+_jsxDEV("main", {
+    className: "pt-24 px-6 min-h-screen bg-white text-gray-800 font-sans",
+    children: /*#__PURE__*/ _jsxDEV("div", {
+        className: "max-w-6xl mx-auto",
+        children: [
+            /*#__PURE__*/ _jsxDEV(Card, {
+                className: "mb-16",
+                children: /*#__PURE__*/ _jsxDEV(CardContent, {
+                    children: [
+                        /*#__PURE__*/ _jsxDEV("h1", {
+                            children: "Contact Us"
+                        }, void 0, false, {
+                            fileName: "[project]/app/contact-pages/page.tsx",
+                            lineNumber: 5,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDEV("p", {
+                            children: "We would love to hear from you."
+                        }, void 0, false, {
+                            fileName: "[project]/app/contact-pages/page.tsx",
+                            lineNumber: 6,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/contact-pages/page.tsx",
+                    lineNumber: 4,
+                    columnNumber: 7
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/contact-pages/page.tsx",
+                lineNumber: 3,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ _jsxDEV(Card, {
+                className: "mb-16",
+                children: /*#__PURE__*/ _jsxDEV(CardContent, {
+                    children: /*#__PURE__*/ _jsxDEV("form", {
+                        onSubmit: handleSubmit,
+                        className: "space-y-6",
+                        children: [
+                            /*#__PURE__*/ _jsxDEV("input", {
+                                name: "name",
+                                placeholder: "Your Name",
+                                required: true,
+                                className: "w-full"
+                            }, void 0, false, {
+                                fileName: "[project]/app/contact-pages/page.tsx",
+                                lineNumber: 12,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ _jsxDEV("button", {
+                                type: "submit",
+                                children: "Send"
+                            }, void 0, false, {
+                                fileName: "[project]/app/contact-pages/page.tsx",
+                                lineNumber: 14,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/contact-pages/page.tsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/app/contact-pages/page.tsx",
+                    lineNumber: 10,
+                    columnNumber: 7
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/contact-pages/page.tsx",
+                lineNumber: 9,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ _jsxDEV(TeamGallery, {}, void 0, false, {
+                fileName: "[project]/app/contact-pages/page.tsx",
+                lineNumber: 18,
+                columnNumber: 5
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/contact-pages/page.tsx",
+        lineNumber: 2,
+        columnNumber: 3
+    }, this)
+}, void 0, false, {
+    fileName: "[project]/app/contact-pages/page.tsx",
+    lineNumber: 1,
+    columnNumber: 1
+}, this);
+}}),
 "[project]/app/contact-pages/page.tsx [app-rsc] (ecmascript, Next.js server component)": ((__turbopack_context__) => {
 
 var { g: global, __dirname } = __turbopack_context__;
