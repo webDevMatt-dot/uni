@@ -29,7 +29,7 @@ export default function ContactPage() {
                 </h1>
 
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                  We'd love to hear from you. Whether you have a question about our services, want to work with us, or just want to connect — we’re here.
+                  We&apos;d love to hear from you. Whether you have a question about our services, want to work with us, or just want to connect — we’&apos;re here.
                 </p>
               </section>
 
