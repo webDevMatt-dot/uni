@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
@@ -15,20 +16,20 @@ export default function AboutUsPage() {
 
       <Navbar />
 
-      <div className="bg-white text-gray-800 pt-28 px-6"> {/* pt-28 gives space below navbar */}
+      <div className="bg-white text-gray-800 pt-28 px-4 sm:px-6"> {/* padding adjusts based on screen */}
         <div className="max-w-6xl mx-auto">
 
           {/* Page Header */}
-          <section className="text-center mb-12">
-            <Card className="shadow-sm border border-gray-200 bg-white rounded-lg">
-              <CardContent className="p-8 md:p-10">
-                <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
+          <section className="text-center mb-10 sm:mb-12">
+            <Card className="shadow-sm border border-gray-200 bg-white rounded-lg w-full">
+              <CardContent className="p-6 sm:p-8 md:p-10">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black mb-4">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600">
                     About Us
                   </span>
                 </h1>
-                <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
-                  At AAT Business Solutions, we combine 
+                <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
+                  At AAT Business Solutions, we combine
                   <strong className="font-semibold text-black"> innovative thinking with cutting-edge technology </strong>
                   to deliver results-driven business solutions in ICT and Communications.
                 </p>
@@ -37,20 +38,20 @@ export default function AboutUsPage() {
           </section>
 
           {/* Mission & Vision */}
-          <section className="grid md:grid-cols-2 gap-8 mb-16">
-            <Card className="border border-gray-200 bg-white shadow-sm">
-              <CardContent className="p-6">
-                <h2 className="text-2xl font-bold text-black mb-3">🎯 Our Mission</h2>
-                <p className="text-gray-700">
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-14">
+            <Card className="border border-gray-200 bg-white shadow-sm w-full">
+              <CardContent className="p-6 sm:p-8">
+                <h2 className="text-xl sm:text-2xl font-bold text-black mb-3">🎯 Our Mission</h2>
+                <p className="text-gray-700 text-sm sm:text-base">
                   Our mission is to achieve the reputation of a quality, high standard & reliable solution and service provider company in the ICT and Communications industry.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="border border-gray-200 bg-white shadow-sm">
-              <CardContent className="p-6">
-                <h2 className="text-2xl font-bold text-black mb-3">👁️ Our Vision</h2>
-                <p className="text-gray-700">
+            <Card className="border border-gray-200 bg-white shadow-sm w-full">
+              <CardContent className="p-6 sm:p-8">
+                <h2 className="text-xl sm:text-2xl font-bold text-black mb-3">👁️ Our Vision</h2>
+                <p className="text-gray-700 text-sm sm:text-base">
                   Our vision is to achieve 100% customer satisfaction by delivering quality products and services at an affordable cost. Our forward vision is to become a leading
                   technology-based corporate solutions provider, capable of demanding unconditional response from the targeted niche.
                 </p>
@@ -59,9 +60,9 @@ export default function AboutUsPage() {
           </section>
 
           {/* Core Message */}
-          <section className="text-center bg-gray-50 py-12 px-6 rounded-lg shadow-sm mb-16">
-            <h2 className="text-3xl font-bold text-black mb-4">It&apos;s All About Creativity</h2>
-            <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+          <section className="text-center bg-gray-50 py-10 sm:py-12 px-4 sm:px-6 rounded-lg shadow-sm mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4">It&apos;s All About Creativity</h2>
+            <p className="text-base sm:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
               AAT Solutions specializes in exceptional delivery of business and technical IT projects. We are dedicated to building long-term relationships with our clients,
               investing in their journey of technological adoption, and seeing projects come to life.
               <br /><br />
@@ -71,19 +72,18 @@ export default function AboutUsPage() {
           </section>
 
           {/* Call to Action */}
-          <section className="text-center mb-0">
-            <h3 className="text-2xl font-semibold text-black mb-8">
+          <section className="text-center mb-10">
+            <h3 className="text-xl sm:text-2xl font-semibold text-black mb-6">
               Want to know how we can help you?
             </h3>
             <Link href="/contact-pages" className="hover:underline">
-              <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 mb-8">
+              <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300">
                 Contact Us Today
               </Button>
             </Link>
           </section>
         </div>
       </div>
-
     </Layout>
   );
 }
