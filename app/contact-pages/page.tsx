@@ -29,7 +29,7 @@ export default function ContactPage() {
               </span>
             </h1>
             <p className="text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-              We'd love to hear from you! Whether you have questions about our AI & Machine Learning services, need support, or want to discuss a project, our team is here to help.
+              We&apos;d love to hear from you! Whether you have questions about our AI & Machine Learning services, need support, or want to discuss a project, our team is here to help.
             </p>
 
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
