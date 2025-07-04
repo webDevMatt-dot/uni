@@ -97,7 +97,7 @@ export default function ContactPage() {
                       >
                         {countryCodes.map((c, i) => (
                           <option key={i} value={c.code}>
-                            {c.country} ({c.code})
+                            {c.code} ({c.label})
                           </option>
                         ))}
                       </select>
