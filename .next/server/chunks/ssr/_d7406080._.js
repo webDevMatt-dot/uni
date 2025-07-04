@@ -1788,7 +1788,7 @@ function ContactPage() {
                                                                                 children: [
                                                                                     c.code,
                                                                                     " (",
-                                                                                    c.label,
+                                                                                    c.code,
                                                                                     ")"
                                                                                 ]
                                                                             }, i, true, {
