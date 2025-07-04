@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { Navbar } from "src/components/ui/Navbar";
@@ -7,39 +7,41 @@ import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
+import { countryCodes } from "src/data/countryCodes";
 
-export default function AIMachineLearningPage() {
+export default function ContactPage() {
+  const [selectedCode, setSelectedCode] = useState("+27");
+
   return (
     <Layout>
       <Head>
-        <title>AI & Machine Learning | AAT Business Solutions</title>
+        <title>Contact Us | AAT Business Solutions</title>
       </Head>
 
       <Navbar />
 
       <div className="min-h-screen bg-white text-gray-800 font-sans pt-20 px-4 md:px-6">
-
         {/* Hero Section */}
         <section className="py-16 md:py-20 text-center px-4 md:px-6 mb-12 rounded-lg shadow-sm bg-white">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-tight">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-                AI & Machine Learning Solutions
+                Get in Touch with AAT Business Solutions
               </span>
             </h1>
             <p className="text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-              Transform your business with <strong className="font-semibold text-black">cutting-edge artificial intelligence and machine learning</strong>,
-              driving innovation, efficiency, and data-driven decision-making.
+              We'd love to hear from you! Whether you have questions about our AI & Machine Learning services, need support, or want to discuss a project, our team is here to help.
             </p>
+
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
-              <Link href="/contact-pages">
-                <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 w-full sm:w-auto">
-                  Get a Free AI Consultation
+              <a href="mailto:admin@aatsolutions.co.za">
+                <Button size="lg" className="rounded-md shadow-md w-full sm:w-auto">
+                  📧 Email Us
                 </Button>
-              </Link>
-              <a href="#offerings">
-                <Button size="lg" variant="outline" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 w-full sm:w-auto">
-                  Learn More
+              </a>
+              <a href="#contact-form">
+                <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
+                  Send a Message
                 </Button>
               </a>
             </div>
@@ -48,46 +50,88 @@ export default function AIMachineLearningPage() {
 
         {/* Main Content */}
         <div className="max-w-6xl mx-auto pb-16 flex flex-col md:flex-row justify-between items-start gap-12">
-          {/* Left: Offerings */}
+          {/* Left: Contact Form */}
           <div className="md:w-2/3 w-full">
-            <h2 id="offerings" className="text-2xl md:text-3xl font-bold mb-8 text-black border-b-2 pb-2 border-indigo-200">
-              Our Core AI & ML Offerings
+            <h2 id="contact-form" className="text-2xl md:text-3xl font-bold mb-8 text-black border-b-2 pb-2 border-indigo-200">
+              Send Us a Message
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-              {[
-                { emoji: "⚙️", title: "Custom AI Model Development", description: "We design and build bespoke AI models tailored to your unique business problems, from predictive analytics to advanced pattern recognition." },
-                { emoji: "📊", title: "Predictive Analytics & Forecasting", description: "Use historical data to predict future trends. Perfect for demand forecasting, risk assessment, and planning." },
-                { emoji: "🗣️", title: "Natural Language Processing (NLP)", description: "Boost support, analyze feedback, and automate content with smart language models." },
-                { emoji: "👁️", title: "Computer Vision Applications", description: "Detect patterns, automate inspection, and enable visual insights with AI that sees like humans." },
-                { emoji: "📈", title: "AI Strategy Consulting", description: "Let’s map out your AI path. We'll guide you from vision to execution with clear ROI." },
-                { emoji: "🎓", title: "Machine Learning Training Programs", description: "Train your team with hands-on sessions that demystify ML and empower smart decisions." },
-              ].map((item, i) => (
-                <Card key={i} className="border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300">
-                  <CardContent className="p-6">
-                    <div className="flex items-center gap-3 mb-3">
-                      <span className="text-3xl">{item.emoji}</span>
-                      <h3 className="font-bold text-lg md:text-xl text-black">{item.title}</h3>
+            <Card className="border border-gray-200 rounded-lg shadow-md mb-10">
+              <CardContent className="p-6">
+                <form
+                  action="https://formspree.io/f/xanjvkeq"
+                  method="POST"
+                  className="space-y-6"
+                >
+                  {/* Name */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      required
+                      className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                  </div>
+
+                  {/* Email */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      required
+                      className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                  </div>
+
+                  {/* Phone */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                    <div className="flex gap-2">
+                      <select
+                        name="country_code"
+                        value={selectedCode}
+                        onChange={(e) => setSelectedCode(e.target.value)}
+                        className="w-1/3 border border-gray-300 rounded-md px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      >
+                        {countryCodes.map((c, i) => (
+                          <option key={i} value={c.code}>
+                            {c.country} ({c.code})
+                          </option>
+                        ))}
+                      </select>
+                      <input
+                        type="tel"
+                        name="phone"
+                        required
+                        placeholder="e.g. 812345678"
+                        className="w-2/3 border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      />
                     </div>
-                    <p className="text-gray-700 text-sm leading-relaxed">{item.description}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+                  </div>
 
-            {/* Why Us */}
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-indigo-200 mt-12">
-              Why Partner with AAT Business Solutions?
-            </h2>
-            <div className="space-y-6 text-gray-700 text-base leading-relaxed">
-              <p>We combine deep AI/ML know-how with your business goals to deliver solutions that actually work and bring ROI.</p>
-              <ul className="list-disc list-inside ml-4 space-y-2">
-                <li><strong className="text-black">Experienced Team:</strong> Real-world engineers solving real-world problems.</li>
-                <li><strong className="text-black">Tailored Solutions:</strong> No off-the-shelf gimmicks — just what fits your use case best.</li>
-                <li><strong className="text-black">End-to-End Support:</strong> We guide you from idea to rollout to long-term scaling.</li>
-                <li><strong className="text-black">Focus on ROI:</strong> We target efficiency, insight, and impact, not just hype.</li>
-              </ul>
-            </div>
+                  {/* Message */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                    <textarea
+                      name="message"
+                      rows={5}
+                      required
+                      className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    ></textarea>
+                  </div>
+
+                  {/* Submit */}
+                  <button
+                    type="submit"
+                    className="bg-blue-600 text-white font-semibold px-6 py-2 rounded-md hover:bg-blue-700 transition"
+                  >
+                    Send Message
+                  </button>
+                </form>
+              </CardContent>
+            </Card>
           </div>
 
           {/* Right: Sticky CTA */}
@@ -119,7 +163,12 @@ export default function AIMachineLearningPage() {
                   </a>
                 </p>
                 <p className="mt-2">
-                  <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding your AI & Machine Learning services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
+                  <a
+                    href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding your AI & Machine Learning services."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline flex items-center justify-center gap-2"
+                  >
                     📱 WhatsApp Us
                   </a>
                 </p>
