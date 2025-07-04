@@ -100,13 +100,18 @@ export default function ContactPage() {
                           </option>
                         ))}
                       </select>
-                      <input
+                        <input
                         type="tel"
                         name="phone"
                         required
                         placeholder="e.g. 812345678"
+                        inputMode="numeric"
+                        pattern="[0-9]*"
+                        onInput={(e) => {
+                            e.currentTarget.value = e.currentTarget.value.replace(/\D/g, "");
+                        }}
                         className="w-2/3 border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      />
+                        />
                     </div>
                   </div>
 
@@ -131,7 +136,7 @@ export default function ContactPage() {
                 </form>
               </CardContent>
             </Card>
-          </div>
+          </div>4
 
           {/* Right: Sticky CTA */}
           <Card className="w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg sticky md:top-28 self-start bg-white">
