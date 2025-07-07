@@ -3,15 +3,14 @@ import { Button } from "./button";
 
 export function LearnButton() {
   return (
-    <div className="mt-5 flex justify-center sm:justify-start">
+    <div className="mt-4 flex justify-center w-full">
       <a
         href="#offerings"
-        className="inline-block"
+        className="inline-block w-full sm:w-auto"
       >
         <Button
-          size="lg"
           variant="outline"
-          className="px-6 py-3 text-base md:text-lg rounded-md shadow-md hover:shadow-lg transition duration-300"
+          className="w-full sm:w-auto px-4 py-2 text-sm sm:text-base rounded-md shadow-md hover:shadow-lg transition duration-300"
         >
           📘 Learn More
         </Button>
