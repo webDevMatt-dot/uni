@@ -17,7 +17,7 @@ export default function CybersecurityServicesPage() {
 
       <Navbar />
 
-      <div className="min-h-screen bg-white text-gray-800 font-sans pt-20 px-4 md:px-6">
+      <div className="min-h-screen bg-white text-gray-800 font-sans pt-15 px-4 md:px-6">
 
         {/* Hero Section */}
         <section className="py-16 md:py-20 text-center px-4 md:px-6 mb-12 rounded-lg shadow-sm bg-white">

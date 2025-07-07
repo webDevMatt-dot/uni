@@ -1012,6 +1012,10 @@
     padding-top: calc(var(--spacing) * 10);
   }
 
+  .pt-15 {
+    padding-top: calc(var(--spacing) * 15);
+  }
+
   .pt-16 {
     padding-top: calc(var(--spacing) * 16);
   }
