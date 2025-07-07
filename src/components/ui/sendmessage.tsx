@@ -3,7 +3,7 @@ import { Button } from "./button";
 
 export function SendMessageButton() {
   return (
-    <div className="mt-5 flex justify-center sm:justify-start w-full">
+    <div className="mt-5 flex justify-center  w-full">
       <a href="#contact-form" className="inline-block">
         <Button
           size="lg"
