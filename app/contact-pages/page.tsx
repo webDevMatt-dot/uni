@@ -39,10 +39,12 @@ export default function ContactPage() {
                 <ScheduleButton />
                 </div>
 
-
                 <div>
-                  <SendMessageButton />
-                </div>
+                  <SendMessageButton/>
+                  </div>
+                
+
+            </div>
           </div>
         </section>
 
