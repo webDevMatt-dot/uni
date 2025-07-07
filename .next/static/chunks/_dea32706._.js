@@ -631,14 +631,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$b
 ;
 function LearnButton() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "mt-5",
+        className: "mt-5 w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
             href: "#offerings",
+            className: "block w-full sm:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                 size: "lg",
                 variant: "outline",
-                className: "rounded-md shadow-md hover:shadow-lg transition-all duration-300 w-full sm:w-auto",
-                children: "Learn More"
+                className: "w-full sm:w-auto py-3 text-base sm:text-lg rounded-md shadow-md hover:shadow-lg transition duration-300",
+                children: "📘 Learn More"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/learn.tsx",
                 lineNumber: 8,
@@ -647,7 +648,7 @@ function LearnButton() {
         }, void 0, false, {
             fileName: "[project]/src/components/ui/learn.tsx",
             lineNumber: 7,
-            columnNumber: 9
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ui/learn.tsx",
