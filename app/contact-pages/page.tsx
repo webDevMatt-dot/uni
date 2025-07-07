@@ -34,15 +34,17 @@ export default function ContactPage() {
 
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
             
-                    <div className="mt-5">
-                    <ScheduleButton />
-                    </div>
+                <div className="mt-5">
+                <ScheduleButton />
+                </div>
+                <div className="mt-5">
+                    <a href="#contact-form">
+                        <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
+                        Send a Message
+                        </Button>
+                    </a>
+                </div>
 
-                <a href="#contact-form">
-                    <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
-                    Send a Message
-                    </Button>
-                </a>
             </div>
           </div>
         </section>
