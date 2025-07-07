@@ -167,7 +167,8 @@ export default function AATBusinessSolutions() {
         <p className="mb-6 max-w-xl mx-auto">
           Whether you need help with AI, data engineering, SAP, or security — we&apos;re here to help you thrive.
         </p>
-            <ExploreButton />
+
+        <ExploreButton />
 
       </section>
 
