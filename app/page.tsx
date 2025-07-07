@@ -80,8 +80,8 @@ export default function AATBusinessSolutions() {
             Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
           </p>
           <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
-            <ExploreButton />
-            <ScheduleButton />
+            <div><ExploreButton /></div>
+            <div><ScheduleButton /></div>
 
           </div>
           {/* Stats */}
