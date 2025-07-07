@@ -1,11 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import { Navbar } from "src/components/ui/Navbar";
-import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
+import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 
 export default function SAPSolutionsPage() {
   return (
@@ -131,20 +131,14 @@ export default function SAPSolutionsPage() {
               </div>
               <div className="flex flex-col gap-3 mt-4">
                 {/* button to schedule appointments */}
-                <ScheduleButton />
+                <div>
+                  <ScheduleButton />
+                </div>
 
-                <a
-                  href="/AAT_Solutions_SAP_Brochure.pdf"
-                  download="AAT_SAP_Brochure.pdf"
-                  className="w-full"
-                >
-                  <Button
-                    variant="outline"
-                    className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300"
-                  >
-                    Download Our SAP Brochure
-                  </Button>
-                </a>
+                <div>
+                  <DownloadBrochureButton />
+                </div>
+
               </div>
               <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
                 <p className="mb-2">

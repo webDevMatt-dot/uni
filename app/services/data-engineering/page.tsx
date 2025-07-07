@@ -2,11 +2,11 @@
 import React from "react";
 import Head from "next/head";
 import { Navbar } from "src/components/ui/Navbar";
-import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
+import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 
 export default function DataEngineeringSciencePage() {
   return (
@@ -140,21 +140,15 @@ export default function DataEngineeringSciencePage() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
-                {/* button to schedule appointments */}
-                <ScheduleButton />
 
-                <a
-                  href="/AAT_Solutions_Data_Brochure.pdf"
-                  download="AAT_Data_Brochure.pdf"
-                  className="w-full"
-                >
-                  <Button
-                    variant="outline"
-                    className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300"
-                  >
-                    Download Our Data Brochure
-                  </Button>
-                </a>
+              <div>
+                <ScheduleButton />
+              </div>
+                
+              <div>
+                <DownloadBrochureButton />
+              </div>
+
               </div>
               <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-teal-200">
                 <p className="mb-2">

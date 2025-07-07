@@ -2,11 +2,11 @@
 import React from "react";
 import Head from "next/head";
 import { Navbar } from "src/components/ui/Navbar";
-import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
+import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 
 export default function AIMachineLearningPage() {
   return (
@@ -96,12 +96,14 @@ export default function AIMachineLearningPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
-                <ScheduleButton />
-                <a href="/AAT_Solutions_AI_ML_Brochure.pdf" download className="w-full">
-                  <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
-                    Download AI/ML Brochure
-                  </Button>
-                </a>
+                <div>
+                  <ScheduleButton />
+                </div>
+                
+                <div>
+                  <DownloadBrochureButton />
+                </div>
+
               </div>
               <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
                 <p className="mb-2">
