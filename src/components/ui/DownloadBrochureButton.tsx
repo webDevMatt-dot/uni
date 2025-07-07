@@ -5,7 +5,7 @@ export function DownloadBrochureButton() {
   return (
     <div className="mt-4 flex justify-center w-full">
       <a
-        href="/AAT_Solutions_Brochure.pdf"
+        href="/dummy.pdf"
         download
         className="inline-block w-full sm:w-auto"
       >
