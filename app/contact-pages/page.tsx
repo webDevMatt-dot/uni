@@ -33,7 +33,7 @@ export default function ContactPage() {
               We&apos;d love to hear from you! Whether you have questions about our AI & Machine Learning services, need support, or want to discuss a project, our team is here to help.
             </p>
 
-            <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
+            <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
             
                 <div>
                   <ScheduleButton />
