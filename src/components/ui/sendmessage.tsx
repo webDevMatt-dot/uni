@@ -5,11 +5,7 @@ export function SendMessageButton() {
   return (
     <div className="mt-5 flex justify-center  w-full">
       <a href="#contact-form" className="inline-block">
-        <Button
-          size="lg"
-          variant="outline"
-          className="px-6 py-3 text-base md:text-lg rounded-md shadow-md hover:shadow-lg transition duration-300"
-        >
+        <Button className="w-full md:w-auto px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300">
           ✉️ Send a Message
         </Button>
       </a>

@@ -35,7 +35,7 @@ function Navbar() {
                         onClick: ()=>setMenuOpen(false),
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/next.svg",
+                                src: "/aat_logo.png",
                                 alt: "",
                                 width: 40,
                                 height: 40,
@@ -555,9 +555,7 @@ function SendMessageButton() {
             href: "#contact-form",
             className: "inline-block",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                size: "lg",
-                variant: "outline",
-                className: "px-6 py-3 text-base md:text-lg rounded-md shadow-md hover:shadow-lg transition duration-300",
+                className: "w-full md:w-auto px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300",
                 children: "✉️ Send a Message"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/sendmessage.tsx",

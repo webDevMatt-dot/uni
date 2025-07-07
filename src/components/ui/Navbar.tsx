@@ -13,7 +13,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" aria-label="Home" className="flex items-center gap-2" onClick={() => setMenuOpen(false)}>
           <Image
-            src="/next.svg"
+            src="/aat_logo.png"
             alt=""
             width={40}
             height={40}
