@@ -167,9 +167,8 @@ export default function AATBusinessSolutions() {
         <p className="mb-6 max-w-xl mx-auto">
           Whether you need help with AI, data engineering, SAP, or security — we&apos;re here to help you thrive.
         </p>
-        <Button size="lg" className="bg-white text-indigo-600 hover:bg-gray-100 transition-all duration-300">
-          <a href="#services">Discover Our Solutions</a>
-        </Button>
+            <ExploreButton />
+
       </section>
 
       <Footer />
