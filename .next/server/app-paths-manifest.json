@@ -1,4 +1,6 @@
 {
   "/page": "app/page.js",
+  "/services/ai-machine-learning/page": "app/services/ai-machine-learning/page.js",
+  "/services/cybersecurity/page": "app/services/cybersecurity/page.js",
   "/services/data-engineering/page": "app/services/data-engineering/page.js"
 }

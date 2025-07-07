@@ -616,13 +616,13 @@ function LearnButton() {
     }, this);
 }
 }}),
-"[project]/app/services/ai-machine-learning/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"[project]/app/services/cybersecurity/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>AIMachineLearningPage)
+    "default": (()=>CybersecurityServicesPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/noop-head.js [app-ssr] (ecmascript)");
@@ -641,24 +641,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$l
 ;
 ;
 ;
-function AIMachineLearningPage() {
+function CybersecurityServicesPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Layout$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "AI & Machine Learning | AAT Business Solutions"
+                    children: "Cybersecurity Services | AAT Business Solutions"
                 }, void 0, false, {
-                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                     lineNumber: 15,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                fileName: "[project]/app/services/cybersecurity/page.tsx",
                 lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
-                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                fileName: "[project]/app/services/cybersecurity/page.tsx",
                 lineNumber: 18,
                 columnNumber: 7
             }, this),
@@ -671,66 +671,67 @@ function AIMachineLearningPage() {
                             className: "max-w-4xl mx-auto",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-3xl md:text-5xl font-extrabold text-black mb-4 leading-tight",
+                                    className: "text-3xl md:text-5xl font-extrabold text-black mb-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600",
-                                        children: "AI & Machine Learning Solutions"
+                                        className: "bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-800",
+                                        children: "Anti-Virus & Security Packages"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                         lineNumber: 26,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                                     lineNumber: 25,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-8",
                                     children: [
-                                        "Transform your business with ",
+                                        "Protect your digital assets and ensure business continuity with our",
+                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                             className: "font-semibold text-black",
-                                            children: "cutting-edge artificial intelligence and machine learning"
+                                            children: "cybersecurity services"
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 31,
-                                            columnNumber: 44
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 32,
+                                            columnNumber: 15
                                         }, this),
-                                        ", driving innovation, efficiency, and data-driven decision-making."
+                                        ", safeguarding your organization from evolving threats."
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                                     lineNumber: 30,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col sm:flex-row sm:justify-center gap-4",
+                                    className: "flex flex-col sm:flex-row justify-center gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
                                             lineNumber: 35,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LearnButton"], {}, void 0, false, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
                                             lineNumber: 37,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                                     lineNumber: 34,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                            fileName: "[project]/app/services/cybersecurity/page.tsx",
                             lineNumber: 24,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                         lineNumber: 23,
                         columnNumber: 9
                     }, this),
@@ -742,10 +743,10 @@ function AIMachineLearningPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         id: "offerings",
-                                        className: "text-2xl md:text-3xl font-bold mb-8 text-black border-b-2 pb-2 border-indigo-200",
-                                        children: "Our Core AI & ML Offerings"
+                                        className: "text-2xl md:text-3xl font-bold mb-8 text-black border-b-2 pb-2 border-red-200",
+                                        children: "Our Comprehensive Cybersecurity Offerings"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                         lineNumber: 46,
                                         columnNumber: 13
                                     }, this),
@@ -753,34 +754,34 @@ function AIMachineLearningPage() {
                                         className: "grid grid-cols-1 md:grid-cols-2 gap-8 mb-10",
                                         children: [
                                             {
-                                                emoji: "⚙️",
-                                                title: "Custom AI Model Development",
-                                                description: "We design and build bespoke AI models tailored to your unique business problems, from predictive analytics to advanced pattern recognition."
+                                                emoji: "🔍",
+                                                title: "Vulnerability Assessment",
+                                                description: "Identify and categorize security weaknesses in your systems and applications before they can be exploited by malicious actors."
                                             },
                                             {
-                                                emoji: "📊",
-                                                title: "Predictive Analytics & Forecasting",
-                                                description: "Use historical data to predict future trends. Perfect for demand forecasting, risk assessment, and planning."
+                                                emoji: "🛡️",
+                                                title: "Penetration Testing",
+                                                description: "Simulate real-world attacks to uncover exploitable vulnerabilities in your network, applications, and physical security posture."
                                             },
                                             {
-                                                emoji: "🗣️",
-                                                title: "Natural Language Processing (NLP)",
-                                                description: "Boost support, analyze feedback, and automate content with smart language models."
+                                                emoji: "🚨",
+                                                title: "Managed Security Services (MSS)",
+                                                description: "Outsource your security operations to our experts for 24/7 monitoring, threat detection, incident response, and improvement."
                                             },
                                             {
-                                                emoji: "👁️",
-                                                title: "Computer Vision Applications",
-                                                description: "Detect patterns, automate inspection, and enable visual insights with AI that sees like humans."
+                                                emoji: "🧠",
+                                                title: "Security Consulting & Strategy",
+                                                description: "Develop a cybersecurity roadmap aligned with your goals — covering compliance, risk, and architecture."
                                             },
                                             {
-                                                emoji: "📈",
-                                                title: "AI Strategy Consulting",
-                                                description: "Let’s map out your AI path. We'll guide you from vision to execution with clear ROI."
+                                                emoji: "🩹",
+                                                title: "Incident Response & Recovery",
+                                                description: "Minimize the impact of breaches with rapid detection, containment, and recovery strategies."
                                             },
                                             {
-                                                emoji: "🎓",
-                                                title: "Machine Learning Training Programs",
-                                                description: "Train your team with hands-on sessions that demystify ML and empower smart decisions."
+                                                emoji: "🧑‍🏫",
+                                                title: "Security Awareness Training",
+                                                description: "Train employees on phishing, password hygiene, and how to defend against threats effectively."
                                             }
                                         ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                                                 className: "border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300",
@@ -794,7 +795,7 @@ function AIMachineLearningPage() {
                                                                     className: "text-3xl",
                                                                     children: item.emoji
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                                     lineNumber: 62,
                                                                     columnNumber: 23
                                                                 }, this),
@@ -802,13 +803,13 @@ function AIMachineLearningPage() {
                                                                     className: "font-bold text-lg md:text-xl text-black",
                                                                     children: item.title
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                                     lineNumber: 63,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                             lineNumber: 61,
                                                             columnNumber: 21
                                                         }, this),
@@ -816,31 +817,31 @@ function AIMachineLearningPage() {
                                                             className: "text-gray-700 text-sm leading-relaxed",
                                                             children: item.description
                                                         }, void 0, false, {
-                                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                             lineNumber: 65,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                     lineNumber: 60,
                                                     columnNumber: 19
                                                 }, this)
                                             }, i, false, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                 lineNumber: 59,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                         lineNumber: 50,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-indigo-200 mt-12",
-                                        children: "Why Partner with AAT Business Solutions?"
+                                        className: "text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-red-200 mt-12",
+                                        children: "Why Partner with AAT for Cybersecurity?"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                         lineNumber: 72,
                                         columnNumber: 13
                                     }, this),
@@ -848,9 +849,9 @@ function AIMachineLearningPage() {
                                         className: "space-y-6 text-gray-700 text-base leading-relaxed",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "We combine deep AI/ML know-how with your business goals to deliver solutions that actually work and bring ROI."
+                                                children: "In today's interconnected world, robust cybersecurity is non-negotiable. AAT Business Solutions provides proactive and comprehensive security services designed to protect your most valuable assets, ensuring compliance and peace of mind."
                                             }, void 0, false, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                 lineNumber: 76,
                                                 columnNumber: 15
                                             }, this),
@@ -861,17 +862,34 @@ function AIMachineLearningPage() {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Experienced Team:"
+                                                                children: "Proactive Defense:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 78,
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                                lineNumber: 80,
                                                                 columnNumber: 21
                                                             }, this),
-                                                            " Real-world engineers solving real-world problems."
+                                                            " We anticipate and mitigate threats before they impact you."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 78,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 80,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-black",
+                                                                children: "Certified Professionals:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                                lineNumber: 81,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            " Our experts are credentialed and experienced."
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 81,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -880,66 +898,49 @@ function AIMachineLearningPage() {
                                                                 className: "text-black",
                                                                 children: "Tailored Solutions:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 79,
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                                lineNumber: 82,
                                                                 columnNumber: 21
                                                             }, this),
-                                                            " No off-the-shelf gimmicks — just what fits your use case best."
+                                                            " Every business is different — your protection should be too."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 79,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 82,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "End-to-End Support:"
+                                                                children: "24/7 Vigilance:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 80,
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                                lineNumber: 83,
                                                                 columnNumber: 21
                                                             }, this),
-                                                            " We guide you from idea to rollout to long-term scaling."
+                                                            " We never sleep, so you can."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 80,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                className: "text-black",
-                                                                children: "Focus on ROI:"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 81,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            " We target efficiency, insight, and impact, not just hype."
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 81,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 83,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 77,
+                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                lineNumber: 79,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                         lineNumber: 75,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                fileName: "[project]/app/services/cybersecurity/page.tsx",
                                 lineNumber: 45,
                                 columnNumber: 11
                             }, this),
@@ -952,75 +953,74 @@ function AIMachineLearningPage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "font-bold text-xl mb-3 text-center text-black",
-                                                    children: "Ready to Innovate with AI?"
+                                                    children: "Secure Your Business Today"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 90,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 92,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-gray-600 mb-5 text-center leading-relaxed",
-                                                    children: "Unlock new possibilities and gain a competitive edge. Let's discuss how AI can transform your business."
+                                                    children: "Don't wait for a breach. Get ahead of cyber threats with our expert security solutions."
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 91,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 95,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 89,
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 91,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-col gap-3 mt-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 96,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 100,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "/AAT_Solutions_AI_ML_Brochure.pdf",
+                                                    href: "/AAT_Solutions_Cybersecurity_Brochure.pdf",
                                                     download: true,
                                                     className: "w-full",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                         variant: "outline",
                                                         className: "w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300",
-                                                        children: "Download AI/ML Brochure"
+                                                        children: "Download Security Brochure"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 98,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 102,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 97,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 101,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 95,
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 99,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200",
+                                            className: "mt-6 text-center text-sm text-gray-500 border-t pt-4 border-red-200 space-y-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mb-2",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "mailto:admin@aatsolutions.co.za",
                                                         className: "hover:underline flex items-center justify-center gap-2",
                                                         children: "📧 admin@aatsolutions.co.za"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 105,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 109,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 104,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 108,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1029,65 +1029,64 @@ function AIMachineLearningPage() {
                                                         className: "hover:underline flex items-center justify-center gap-2",
                                                         children: "📞 +27 81 651 5179"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 110,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 114,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 109,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 113,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mt-2",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "https://wa.me/27816515179?text=Hello, I'm contacting you regarding your AI & Machine Learning services.",
+                                                        href: "https://wa.me/27816515179?text=Hello, I'm contacting you regarding your Cybersecurity services.",
                                                         target: "_blank",
                                                         rel: "noopener noreferrer",
                                                         className: "hover:underline flex items-center justify-center gap-2",
                                                         children: "📱 WhatsApp Us"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 115,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 119,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 114,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 118,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 103,
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                    lineNumber: 88,
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                lineNumber: 87,
+                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                         lineNumber: 43,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                fileName: "[project]/app/services/cybersecurity/page.tsx",
                 lineNumber: 20,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+        fileName: "[project]/app/services/cybersecurity/page.tsx",
         lineNumber: 13,
         columnNumber: 5
     }, this);
@@ -1096,4 +1095,4 @@ function AIMachineLearningPage() {
 
 };
 
-//# sourceMappingURL=_2f70f2d3._.js.map
+//# sourceMappingURL=_9897872a._.js.map

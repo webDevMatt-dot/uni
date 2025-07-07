@@ -433,6 +433,10 @@
     display: none;
   }
 
+  .inline-block {
+    display: inline-block;
+  }
+
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
@@ -1194,6 +1198,12 @@
   @media (width >= 40rem) {
     .sm\:justify-center {
       justify-content: center;
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:justify-start {
+      justify-content: flex-start;
     }
   }
 
