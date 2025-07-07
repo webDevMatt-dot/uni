@@ -992,6 +992,10 @@
     padding-block: calc(var(--spacing) * 12);
   }
 
+  .py-14 {
+    padding-block: calc(var(--spacing) * 14);
+  }
+
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
   }
@@ -1006,6 +1010,10 @@
 
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
+  }
+
+  .pt-16 {
+    padding-top: calc(var(--spacing) * 16);
   }
 
   .pt-20 {
@@ -1443,6 +1451,48 @@
   }
 
   @media (width >= 40rem) {
+    .sm\:py-16 {
+      padding-block: calc(var(--spacing) * 16);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:py-20 {
+      padding-block: calc(var(--spacing) * 20);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:pt-10 {
+      padding-top: calc(var(--spacing) * 10);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:pt-15 {
+      padding-top: calc(var(--spacing) * 15);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:pt-16 {
+      padding-top: calc(var(--spacing) * 16);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:pt-20 {
+      padding-top: calc(var(--spacing) * 20);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:pt-24 {
+      padding-top: calc(var(--spacing) * 24);
+    }
+  }
+
+  @media (width >= 40rem) {
     .sm\:text-2xl {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -1606,6 +1656,12 @@
   @media (width >= 48rem) {
     .md\:py-24 {
       padding-block: calc(var(--spacing) * 24);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:pb-20 {
+      padding-bottom: calc(var(--spacing) * 20);
     }
   }
 

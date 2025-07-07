@@ -26,7 +26,7 @@ const services = [
       "Data lakes & warehousing",
       "Analytics and BI reporting",
     ],
-    emoji: "📊",
+    emoji: "📈",
     link: "/services/data-engineering",
   },
   {
@@ -65,8 +65,8 @@ export default function AATBusinessSolutions() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="text-center py-20 md:py-24 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
-        <div className="bg-white/80 backdrop-blur-sm py-12 px-6 rounded-md max-w-4xl mx-auto">
+      <section className="text-center pt-20 sm:pt-24 pb-16 md:pb-20 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
+        <div className="bg-white/80 backdrop-blur-sm py-10 px-6 rounded-md max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-snug">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
               AAT Business Solutions
@@ -82,7 +82,6 @@ export default function AATBusinessSolutions() {
           <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
             <div><ExploreButton /></div>
             <div><ScheduleButton /></div>
-
           </div>
           {/* Stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-10 text-base font-medium">
@@ -95,12 +94,12 @@ export default function AATBusinessSolutions() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-16 bg-white">
+      <section id="services" className="py-14 sm:py-16 bg-white">
         <h3 className="text-center text-2xl font-bold mb-4">Our Services</h3>
         <p className="text-center mb-10 text-gray-600">
           We provide comprehensive technology solutions to help your business thrive in the digital age.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 px-4 md:px-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 md:px-6 max-w-6xl mx-auto">
           {services.map(({ title, items, link, emoji }, i) => (
             <Card
               key={i}
@@ -125,7 +124,7 @@ export default function AATBusinessSolutions() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-gray-50 px-4">
+      <section className="py-16 sm:py-20 bg-gray-50 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-4">Why Choose AAT?</h3>
           <p className="text-gray-700 mb-6">
@@ -141,7 +140,7 @@ export default function AATBusinessSolutions() {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-20 bg-white px-4">
+      <section className="py-16 sm:py-20 bg-white px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-6">Success Stories</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
@@ -162,14 +161,13 @@ export default function AATBusinessSolutions() {
       </section>
 
       {/* Quick CTA Section */}
-      <section className="py-16 bg-indigo-600 text-white text-center px-6">
+      <section className="py-14 sm:py-16 bg-indigo-600 text-white text-center px-6">
         <h3 className="text-2xl font-bold mb-4">Let’s Build Something Great</h3>
         <p className="mb-6 max-w-xl mx-auto">
           Whether you need help with AI, data engineering, SAP, or security — we&apos;re here to help you thrive.
         </p>
 
         <ExploreButton />
-
       </section>
 
       <Footer />

@@ -656,219 +656,216 @@ function AboutUsPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-white text-gray-800 pt-28 px-4 sm:px-6",
-                children: [
-                    " ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-w-6xl mx-auto",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                className: "text-center mb-10 sm:mb-12",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                    className: "shadow-sm border border-gray-200 bg-white rounded-lg w-full",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                        className: "p-6 sm:p-8 md:p-10",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                className: "text-3xl sm:text-4xl md:text-5xl font-extrabold text-black mb-4",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
-                                                    children: "About Us"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                    lineNumber: 26,
-                                                    columnNumber: 19
-                                                }, this)
+                className: "bg-white text-gray-800 pt-16 sm:pt-15 px-4 sm:px-6",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-6xl mx-auto",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "text-center mb-8 sm:mb-12",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                                className: "shadow-sm border border-gray-200 bg-white rounded-lg w-full",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                    className: "p-6 sm:p-8 md:p-10",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                            className: "text-3xl sm:text-4xl md:text-5xl font-extrabold text-black mb-4",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
+                                                children: "About Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                lineNumber: 25,
-                                                columnNumber: 17
+                                                lineNumber: 26,
+                                                columnNumber: 13
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                            lineNumber: 25,
+                                            columnNumber: 11
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto",
+                                            children: [
+                                                "At AAT Business Solutions, we combine",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    className: "font-semibold text-black",
+                                                    children: " innovative thinking with cutting-edge technology "
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                                    lineNumber: 32,
+                                                    columnNumber: 13
+                                                }, this),
+                                                "to deliver results-driven business solutions in ICT and Communications."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                            lineNumber: 30,
+                                            columnNumber: 11
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                    lineNumber: 24,
+                                    columnNumber: 9
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                lineNumber: 23,
+                                columnNumber: 7
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/header-pages/about-us/page.tsx",
+                            lineNumber: 22,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                                    className: "border border-gray-200 bg-white shadow-sm w-full",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                        className: "p-6 sm:p-8",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                className: "text-xl sm:text-2xl font-bold text-black mb-3",
+                                                children: "🎯 Our Mission"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                                lineNumber: 43,
+                                                columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto",
-                                                children: [
-                                                    "At AAT Business Solutions, we combine",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        className: "font-semibold text-black",
-                                                        children: " innovative thinking with cutting-edge technology "
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                        lineNumber: 32,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    "to deliver results-driven business solutions in ICT and Communications."
-                                                ]
-                                            }, void 0, true, {
+                                                className: "text-gray-700 text-sm sm:text-base",
+                                                children: "Our mission is to achieve the reputation of a quality, high standard & reliable solution and service provider company in the ICT and Communications industry."
+                                            }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                lineNumber: 30,
-                                                columnNumber: 17
+                                                lineNumber: 44,
+                                                columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 15
+                                        lineNumber: 42,
+                                        columnNumber: 9
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                    lineNumber: 23,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                lineNumber: 22,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                className: "grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-14",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                        className: "border border-gray-200 bg-white shadow-sm w-full",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                            className: "p-6 sm:p-8",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-xl sm:text-2xl font-bold text-black mb-3",
-                                                    children: "🎯 Our Mission"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                    lineNumber: 43,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-gray-700 text-sm sm:text-base",
-                                                    children: "Our mission is to achieve the reputation of a quality, high standard & reliable solution and service provider company in the ICT and Communications industry."
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                    lineNumber: 44,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                            lineNumber: 42,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                        lineNumber: 41,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                        className: "border border-gray-200 bg-white shadow-sm w-full",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                            className: "p-6 sm:p-8",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-xl sm:text-2xl font-bold text-black mb-3",
-                                                    children: "👁️ Our Vision"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                    lineNumber: 52,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-gray-700 text-sm sm:text-base",
-                                                    children: "Our vision is to achieve 100% customer satisfaction by delivering quality products and services at an affordable cost. Our forward vision is to become a leading technology-based corporate solutions provider, capable of demanding unconditional response from the targeted niche."
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                    lineNumber: 53,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                            lineNumber: 51,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                lineNumber: 40,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                className: "text-center bg-gray-50 py-10 sm:py-12 px-4 sm:px-6 rounded-lg shadow-sm mb-16",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-2xl sm:text-3xl font-bold text-black mb-4",
-                                        children: "It's All About Creativity"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                        lineNumber: 63,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-base sm:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed",
+                                    lineNumber: 41,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                                    className: "border border-gray-200 bg-white shadow-sm w-full",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                        className: "p-6 sm:p-8",
                                         children: [
-                                            "AAT Solutions specializes in exceptional delivery of business and technical IT projects. We are dedicated to building long-term relationships with our clients, investing in their journey of technological adoption, and seeing projects come to life.",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                className: "text-xl sm:text-2xl font-bold text-black mb-3",
+                                                children: "👁️ Our Vision"
+                                            }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                lineNumber: 67,
-                                                columnNumber: 15
+                                                lineNumber: 52,
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-700 text-sm sm:text-base",
+                                                children: "Our vision is to achieve 100% customer satisfaction by delivering quality products and services at an affordable cost. Our forward vision is to become a leading technology-based corporate solutions provider, capable of demanding unconditional response from the targeted niche."
+                                            }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                                lineNumber: 67,
-                                                columnNumber: 21
-                                            }, this),
-                                            "We take the time to understand each client and their needs, walk the journey in envisioning the desired outcome, and then collaborate together in materializing those intentions. We embrace all our projects with ease and professionalism, ensuring that we become a trusted advisor and partner."
+                                                lineNumber: 53,
+                                                columnNumber: 11
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                        lineNumber: 64,
-                                        columnNumber: 13
+                                        lineNumber: 51,
+                                        columnNumber: 9
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                lineNumber: 62,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                className: "text-center mb-10",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl sm:text-2xl font-semibold text-black mb-6",
-                                        children: "Want to know how we can help you?"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                        lineNumber: 75,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$sendmessage$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SendMessageButton"], {}, void 0, false, {
+                                }, void 0, false, {
+                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                    lineNumber: 50,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/header-pages/about-us/page.tsx",
+                            lineNumber: 40,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "text-center bg-gray-50 py-10 sm:py-12 px-4 sm:px-6 rounded-lg shadow-sm mb-14",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-2xl sm:text-3xl font-bold text-black mb-4",
+                                    children: "It's All About Creativity"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                    lineNumber: 63,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-base sm:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed",
+                                    children: [
+                                        "AAT Solutions specializes in exceptional delivery of business and technical IT projects. We are dedicated to building long-term relationships with our clients, investing in their journey of technological adoption, and seeing projects come to life.",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 67,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                            lineNumber: 67,
                                             columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
+                                        }, this),
+                                        "We take the time to understand each client and their needs, walk the journey in envisioning the desired outcome, and then collaborate together in materializing those intentions. We embrace all our projects with ease and professionalism, ensuring that we become a trusted advisor and partner."
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                    lineNumber: 64,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/header-pages/about-us/page.tsx",
+                            lineNumber: 62,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "text-center mb-10",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-xl sm:text-2xl font-semibold text-black mb-6",
+                                    children: "Want to know how we can help you?"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                    lineNumber: 75,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$sendmessage$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SendMessageButton"], {}, void 0, false, {
                                         fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                        lineNumber: 78,
-                                        columnNumber: 13
+                                        lineNumber: 79,
+                                        columnNumber: 9
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/header-pages/about-us/page.tsx",
-                                lineNumber: 74,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/header-pages/about-us/page.tsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                                    lineNumber: 78,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/header-pages/about-us/page.tsx",
+                            lineNumber: 74,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/header-pages/about-us/page.tsx",
+                    lineNumber: 19,
+                    columnNumber: 3
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                 lineNumber: 18,
-                columnNumber: 7
+                columnNumber: 1
             }, this)
         ]
     }, void 0, true, {
