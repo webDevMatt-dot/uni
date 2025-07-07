@@ -33,16 +33,14 @@ export default function ContactPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
-              <a href="mailto:admin@aatsolutions.co.za">
-                <Button size="lg" className="rounded-md shadow-md w-full sm:w-auto">
-                  📧 Email Us
-                </Button>
-              </a>
-              <a href="#contact-form">
-                <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
-                  Send a Message
-                </Button>
-              </a>
+            
+                <ScheduleButton />
+
+                <a href="#contact-form">
+                    <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
+                    Send a Message
+                    </Button>
+                </a>
             </div>
           </div>
         </section>
@@ -173,12 +171,8 @@ export default function ContactPage() {
                 </a>
                 </div>
 
-                <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
-                <p>We usually reply within a few hours!</p>
-                </div>
-
                 <div className="mt-5">
-                <ScheduleButton />
+                
                 </div>
             </CardContent>
             </Card>
