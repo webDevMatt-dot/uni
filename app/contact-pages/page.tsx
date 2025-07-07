@@ -34,7 +34,9 @@ export default function ContactPage() {
 
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
             
-                <ScheduleButton />
+                    <div className="mt-5">
+                    <ScheduleButton />
+                    </div>
 
                 <a href="#contact-form">
                     <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
