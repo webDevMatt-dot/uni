@@ -32,9 +32,12 @@ export default function DataEngineeringSciencePage() {
               Unlock the true potential of your data with robust <strong className="font-semibold text-black">data engineering and advanced data science</strong> services, driving insights and informed decision-making.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <ScheduleButton />
-
-              <LearnButton />
+              <div>
+                <ScheduleButton />
+              </div>
+              <div>
+                <LearnButton />
+              </div>
             </div>
           </div>
         </section>

@@ -32,9 +32,12 @@ export default function AIMachineLearningPage() {
               driving innovation, efficiency, and data-driven decision-making.
             </p>
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
-              <ScheduleButton />
-
-              <LearnButton />
+              <div>
+                <ScheduleButton />
+              </div>
+              <div>
+                <LearnButton />
+              </div>
             </div>
           </div>
         </section>

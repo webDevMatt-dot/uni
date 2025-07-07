@@ -30,9 +30,12 @@ export default function SAPSolutionsPage() {
               Streamline your business operations and maximize efficiency with our comprehensive <strong className="font-semibold text-black">SAP solutions</strong>, tailored to drive your digital transformation journey.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <ScheduleButton />
-
-              <LearnButton />
+              <div>
+                <ScheduleButton />
+              </div>
+              <div>
+                <LearnButton />
+              </div>
             </div>
           </div>
         </section>
