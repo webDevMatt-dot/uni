@@ -13,7 +13,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" aria-label="Home" className="flex items-center gap-2" onClick={() => setMenuOpen(false)}>
           <Image
-            src="/logo.ico"
+            src="/next.svg"
             alt=""
             width={40}
             height={40}
