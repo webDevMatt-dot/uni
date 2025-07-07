@@ -20,33 +20,27 @@ export default function ContactPage() {
 
       <Navbar />
 
-      <div className="min-h-screen bg-white text-gray-800 font-sans pt-20 px-4 md:px-6">
-        {/* Hero Section */}
-        <section className="py-16 md:py-20 text-center px-4 md:px-6 mb-12 rounded-lg shadow-sm bg-white">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-tight">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-                Get in Touch with AAT Business Solutions
-              </span>
-            </h1>
-            <p className="text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-              We&apos;d love to hear from you! Whether you have questions about our AI & Machine Learning services, need support, or want to discuss a project, our team is here to help.
-            </p>
+      <div className="min-h-screen bg-white text-gray-800 font-sans pt-10 px-4 md:px-6">
+  {/* Hero Section */}
+  <section className="py-12 md:py-16 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-white">
+    <div className="max-w-4xl mx-auto">
+      <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-tight">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+          Get in Touch with AAT Business Solutions
+        </span>
+      </h1>
+      <p className="text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-6">
+        We&apos;d love to hear from you! Whether you have questions about our AI & Machine Learning services, need support, or want to discuss a project, our team is here to help.
+      </p>
 
-            <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
-            
-                <div>
-                  <ScheduleButton />
-                </div>
+      <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
+        
+        <div><ScheduleButton /></div>
+        <div><SendMessageButton /></div>
+      </div>
+    </div>
+  </section>
 
-                <div>
-                  <SendMessageButton/>
-                </div>
-                
-
-            </div>
-          </div>
-        </section>
 
         {/* Main Content */}
         <div className="max-w-6xl mx-auto pb-16 flex flex-col md:flex-row justify-between items-start gap-12">
