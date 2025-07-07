@@ -5,6 +5,8 @@ import { Navbar } from "src/components/ui/Navbar";
 import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import { Footer } from "src/components/ui/Footer";
+import { ScheduleButton } from "src/components/ui/schedule";
+import { ExploreButton } from "src/components/ui/explore";
 
 const services = [
   {
@@ -78,18 +80,9 @@ export default function AATBusinessSolutions() {
             Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services.
           </p>
           <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
-            <Button className="w-full md:w-auto">
-              <a href="#services">Explore Our Services</a>
-            </Button>
-            <Button variant="outline" className="w-full md:w-auto">
-              <a
-                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Schedule Consultation
-              </a>
-            </Button>
+            <ExploreButton />
+            <ScheduleButton />
+
           </div>
           {/* Stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-10 text-base font-medium">
