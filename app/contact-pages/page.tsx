@@ -176,6 +176,10 @@ export default function ContactPage() {
                 <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
                 <p>We usually reply within a few hours!</p>
                 </div>
+
+                <div className="mt-5">
+                <ScheduleButton />
+                </div>
             </CardContent>
             </Card>
 
