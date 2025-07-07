@@ -136,49 +136,49 @@ export default function ContactPage() {
                 </form>
               </CardContent>
             </Card>
-          </div>4
+          </div>
 
           {/* Right: Sticky CTA */}
-          <Card className="w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg sticky md:top-28 self-start bg-white">
+            <Card className="w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg sticky md:top-28 self-start bg-white">
             <CardContent className="p-6 flex flex-col h-full">
-              <div>
-                <h3 className="font-bold text-xl mb-3 text-center text-black">Ready to Innovate with AI?</h3>
+                <div>
+                <h3 className="font-bold text-xl mb-3 text-center text-black">
+                    Need a Quick Reply?
+                </h3>
                 <p className="text-sm text-gray-600 mb-5 text-center leading-relaxed">
-                  Unlock new possibilities and gain a competitive edge. Let&apos;s discuss how AI can transform your business.
+                    Call, WhatsApp, or email us and we’ll respond as soon as possible.
                 </p>
-              </div>
-              <div className="flex flex-col gap-3 mt-4">
-                <ScheduleButton />
-                <a href="/AAT_Solutions_AI_ML_Brochure.pdf" download className="w-full">
-                  <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
-                    Download AI/ML Brochure
-                  </Button>
+                </div>
+
+                <div className="flex flex-col gap-3 mt-4">
+                <a href="mailto:admin@aatsolutions.co.za" className="w-full">
+                    <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                    📧 Email Us
+                    </Button>
                 </a>
-              </div>
-              <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
-                <p className="mb-2">
-                  <a href="mailto:admin@aatsolutions.co.za" className="hover:underline flex items-center justify-center gap-2">
-                    📧 admin@aatsolutions.co.za
-                  </a>
-                </p>
-                <p>
-                  <a href="tel:+27816515179" className="hover:underline flex items-center justify-center gap-2">
-                    📞 +27 81 651 5179
-                  </a>
-                </p>
-                <p className="mt-2">
-                  <a
-                    href="https://wa.me/27816515179?text=Hello, I'm contacting you regarding your AI & Machine Learning services."
+                <a href="tel:+27816515179" className="w-full">
+                    <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                    📞 Call Now
+                    </Button>
+                </a>
+                <a
+                    href="https://wa.me/27816515179?text=Hi%20AAT%20Team!%20I%20have%20a%20question%20about%20your%20services."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:underline flex items-center justify-center gap-2"
-                  >
-                    📱 WhatsApp Us
-                  </a>
-                </p>
-              </div>
+                    className="w-full"
+                >
+                    <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
+                    💬 WhatsApp Us
+                    </Button>
+                </a>
+                </div>
+
+                <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
+                <p>We usually reply within a few hours!</p>
+                </div>
             </CardContent>
-          </Card>
+            </Card>
+
         </div>
       </div>
     </Layout>
