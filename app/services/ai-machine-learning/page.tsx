@@ -7,6 +7,7 @@ import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
+import { LearnButton } from "src/components/ui/learn";
 
 export default function AIMachineLearningPage() {
   return (
@@ -32,16 +33,9 @@ export default function AIMachineLearningPage() {
               driving innovation, efficiency, and data-driven decision-making.
             </p>
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
-              <Link href="/contact-pages">
-                <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 w-full sm:w-auto">
-                  Get a Free AI Consultation
-                </Button>
-              </Link>
-              <a href="#offerings">
-                <Button size="lg" variant="outline" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 w-full sm:w-auto">
-                  Learn More
-                </Button>
-              </a>
+              <ScheduleButton />
+
+              <LearnButton />
             </div>
           </div>
         </section>

@@ -1,9 +1,10 @@
 import React from "react";
-import { Button } from "./button"; // Since you're in the same folder, relative path is fine.
+import { Button } from "./button";
 
 export function ScheduleButton() {
   return (
-    <a
+    <div className="mt-5">
+          <a
       href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28DxHcn7rNkJfGFEJ4nRx_QjwFZ1nlpt149jJaNMfdqZadaQ6FbUw5Kh2JjMEPnIsN0rsRp8hp"
       target="_blank"
       rel="noopener noreferrer"
@@ -13,5 +14,7 @@ export function ScheduleButton() {
         Schedule A Consultation
       </Button>
     </a>
+    </div>
+
   );
 }

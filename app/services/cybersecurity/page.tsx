@@ -7,6 +7,7 @@ import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
+import { LearnButton } from "src/components/ui/learn";
 
 export default function CybersecurityServicesPage() {
   return (
@@ -32,16 +33,9 @@ export default function CybersecurityServicesPage() {
               <strong className="font-semibold text-black">cybersecurity services</strong>, safeguarding your organization from evolving threats.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link href="/contact-pages" passHref>
-                <Button size="lg" className="w-full sm:w-auto">
-                  Get a Free Security Assessment
-                </Button>
-              </Link>
-              <a href="#offerings">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                  Learn More
-                </Button>
-              </a>
+              <ScheduleButton />
+
+              <LearnButton />
             </div>
           </div>
         </section>

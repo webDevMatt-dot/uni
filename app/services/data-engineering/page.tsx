@@ -7,6 +7,7 @@ import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
+import { LearnButton } from "src/components/ui/learn";
 
 export default function DataEngineeringSciencePage() {
   return (
@@ -32,16 +33,9 @@ export default function DataEngineeringSciencePage() {
               Unlock the true potential of your data with robust <strong className="font-semibold text-black">data engineering and advanced data science</strong> services, driving insights and informed decision-making.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link href="/contact-pages">
-                <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 w-full sm:w-auto">
-                  Get a Free Data Consultation
-                </Button>
-              </Link>
-              <a href="#offerings">
-                <Button size="lg" variant="outline" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300 w-full sm:w-auto">
-                  Learn More
-                </Button>
-              </a>
+              <ScheduleButton />
+
+              <LearnButton />
             </div>
           </div>
         </section>
