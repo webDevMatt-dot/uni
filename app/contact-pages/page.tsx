@@ -7,6 +7,7 @@ import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
 import { countryCodes } from "src/data/countryCodes";
+import { SendMessageButton } from "src/components/ui/sendmessage";
 
 export default function ContactPage() {
   const [selectedCode, setSelectedCode] = useState("+27");
@@ -34,19 +35,14 @@ export default function ContactPage() {
 
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
             
-                <div className="mt-5">
+                <div>
                 <ScheduleButton />
                 </div>
 
-                <div className="mt-5">
-                    <a href="#contact-form">
-                        <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
-                        Send a Message
-                        </Button>
-                    </a>
-                </div>
 
-            </div>
+                <div>
+                  <SendMessageButton />
+                </div>
           </div>
         </section>
 
