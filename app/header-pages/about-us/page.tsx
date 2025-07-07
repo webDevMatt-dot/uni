@@ -6,6 +6,7 @@ import { Navbar } from "src/components/ui/Navbar";
 import Layout from "src/components/ui/Layout";
 import { Card, CardContent } from "src/components/ui/card";
 import { Button } from "src/components/ui/button";
+import { SendMessageButton } from "src/components/ui/sendmessage";
 
 export default function AboutUsPage() {
   return (
@@ -76,11 +77,9 @@ export default function AboutUsPage() {
             <h3 className="text-xl sm:text-2xl font-semibold text-black mb-6">
               Want to know how we can help you?
             </h3>
-            <Link href="/contact-pages" className="hover:underline">
-              <Button size="lg" className="rounded-md shadow-md hover:shadow-lg transition-all duration-300">
-                Contact Us Today
-              </Button>
-            </Link>
+            <div>
+              <SendMessageButton/>
+            </div>
           </section>
         </div>
       </div>

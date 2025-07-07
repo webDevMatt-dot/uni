@@ -36,12 +36,12 @@ export default function ContactPage() {
             <div className="flex flex-col sm:flex-row sm:justify-center gap-4">
             
                 <div>
-                <ScheduleButton />
+                  <ScheduleButton />
                 </div>
 
                 <div>
                   <SendMessageButton/>
-                  </div>
+                </div>
                 
 
             </div>
