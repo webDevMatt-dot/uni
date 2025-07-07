@@ -37,6 +37,7 @@ export default function ContactPage() {
                 <div className="mt-5">
                 <ScheduleButton />
                 </div>
+
                 <div className="mt-5">
                     <a href="#contact-form">
                         <Button size="lg" variant="outline" className="rounded-md shadow-md w-full sm:w-auto">
@@ -71,6 +72,7 @@ export default function ContactPage() {
                       type="text"
                       name="name"
                       required
+                      placeholder="e.g. John Doe"
                       className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
@@ -82,6 +84,7 @@ export default function ContactPage() {
                       type="email"
                       name="email"
                       required
+                      placeholder="email@domain.com"
                       className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                   </div>
@@ -124,6 +127,7 @@ export default function ContactPage() {
                       name="message"
                       rows={5}
                       required
+                      placeholder="Type your message here..."
                       className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     ></textarea>
                   </div>
