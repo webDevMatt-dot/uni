@@ -800,7 +800,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$s
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/learn.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/DownloadBrochureButton.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ContactInfo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/ContactInfo.tsx [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module 'src/components/sections/SAPServicesList'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 "use client";
+;
 ;
 ;
 ;
@@ -818,17 +824,17 @@ function SAPSolutionsPage() {
                     children: "SAP Solutions | AAT Business Solutions"
                 }, void 0, false, {
                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -846,12 +852,12 @@ function SAPSolutionsPage() {
                                         children: "SAP Solutions & Digital Transformation"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 27,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -863,14 +869,14 @@ function SAPSolutionsPage() {
                                             children: "SAP solutions"
                                         }, void 0, false, {
                                             fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 31,
+                                            lineNumber: 32,
                                             columnNumber: 98
                                         }, this),
                                         ", tailored to drive your digital transformation journey."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -879,40 +885,40 @@ function SAPSolutionsPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 35,
+                                                lineNumber: 36,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 34,
+                                            lineNumber: 35,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LearnButton"], {}, void 0, false, {
                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 38,
+                                                lineNumber: 39,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/services/sap-solutions/page.tsx",
-                            lineNumber: 24,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -927,102 +933,20 @@ function SAPSolutionsPage() {
                                         children: "Our Comprehensive SAP Offerings"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 47,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "grid grid-cols-1 md:grid-cols-2 gap-8 mb-10",
-                                        children: [
-                                            {
-                                                emoji: "🚀",
-                                                title: "SAP Implementation",
-                                                description: "End-to-end SAP implementation services tailored to your business needs, ensuring a smooth transition and optimal system setup for maximum efficiency."
-                                            },
-                                            {
-                                                emoji: "🔄",
-                                                title: "Migration & Upgrades",
-                                                description: "Seamless migration of your existing SAP systems to newer versions or cloud platforms, minimizing downtime and ensuring data integrity throughout the process."
-                                            },
-                                            {
-                                                emoji: "🔧",
-                                                title: "Customization & Development",
-                                                description: "Tailored SAP customizations, including ABAP development, Fiori apps, and integration with third-party systems to meet your specific business requirements."
-                                            },
-                                            {
-                                                emoji: "🤝",
-                                                title: "Support & Maintenance",
-                                                description: "Reliable ongoing support, proactive monitoring, and expert maintenance services to ensure your SAP systems run smoothly and efficiently 24/7."
-                                            },
-                                            {
-                                                emoji: "💡",
-                                                title: "S/4HANA Transformation",
-                                                description: "Guide your transition to SAP S/4HANA, leveraging its in-memory computing capabilities for real-time analytics and simplified processes."
-                                            },
-                                            {
-                                                emoji: "☁️",
-                                                title: "Cloud SAP Solutions",
-                                                description: "Implement and manage SAP solutions on leading cloud platforms, offering flexibility, scalability, and reduced infrastructure costs."
-                                            }
-                                        ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                                className: "border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                                    className: "p-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 mb-3",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-3xl",
-                                                                    children: item.emoji
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                    lineNumber: 89,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "font-bold text-xl text-black",
-                                                                    children: item.title
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                    lineNumber: 90,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                            lineNumber: 88,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-700 text-sm leading-relaxed",
-                                                            children: item.description
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                            lineNumber: 92,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 87,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, index, false, {
-                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 83,
-                                                columnNumber: 17
-                                            }, this))
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SAPServicesList, {}, void 0, false, {
                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 13
+                                        lineNumber: 51,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-indigo-200 mt-12",
                                         children: "Why Partner with AAT for SAP Solutions?"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 53,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1032,7 +956,7 @@ function SAPSolutionsPage() {
                                                 children: "AAT Business Solutions stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 57,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1045,14 +969,14 @@ function SAPSolutionsPage() {
                                                                 children: "Certified Experts:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                lineNumber: 107,
+                                                                lineNumber: 62,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " Our team consists of highly skilled and certified SAP consultants."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 61,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1062,14 +986,14 @@ function SAPSolutionsPage() {
                                                                 children: "Proven Methodologies:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                lineNumber: 110,
+                                                                lineNumber: 65,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " We follow industry-leading best practices for successful project delivery."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 109,
+                                                        lineNumber: 64,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1079,14 +1003,14 @@ function SAPSolutionsPage() {
                                                                 children: "Holistic Approach:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                lineNumber: 113,
+                                                                lineNumber: 68,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " From strategy to implementation and ongoing support, we cover all aspects of your SAP journey."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 67,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1096,32 +1020,32 @@ function SAPSolutionsPage() {
                                                                 children: "Business-Centric Focus:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                lineNumber: 116,
+                                                                lineNumber: 71,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " Our solutions are designed to align with and accelerate your specific business objectives."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 115,
+                                                        lineNumber: 70,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 60,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1136,7 +1060,7 @@ function SAPSolutionsPage() {
                                                     children: "Ready to Optimize with SAP?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 82,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1144,13 +1068,13 @@ function SAPSolutionsPage() {
                                                     children: "Streamline your operations and enhance efficiency. Contact us for a specialized SAP consultation."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 128,
+                                                    lineNumber: 83,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1159,69 +1083,69 @@ function SAPSolutionsPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
                                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 134,
+                                                        lineNumber: 89,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 88,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DownloadBrochureButton"], {}, void 0, false, {
                                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 137,
+                                                        lineNumber: 92,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 91,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ContactInfo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ContactInfo"], {}, void 0, false, {
                                                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 141,
+                                                        lineNumber: 95,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 94,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 80,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                lineNumber: 122,
+                                lineNumber: 77,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/services/sap-solutions/page.tsx",
-                        lineNumber: 44,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/services/sap-solutions/page.tsx",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/services/sap-solutions/page.tsx",
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 5
     }, this);
 }

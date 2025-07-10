@@ -8,6 +8,8 @@ import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
 import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 import { ContactInfo } from "src/components/ui/ContactInfo";
+import { DataEngineeringServicesList } from "src/components/sections/serviceSections/DataEngineeringServicesList";
+
 
 export default function DataEngineeringSciencePage() {
   return (
@@ -49,59 +51,7 @@ export default function DataEngineeringSciencePage() {
               Our Core Data Offerings
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-              {[
-                {
-                  emoji: "🔗",
-                  title: "ETL Pipelines & Data Integration",
-                  description:
-                    "We design and implement robust Extract, Transform, Load (ETL) pipelines to consolidate data from disparate sources, ensuring data quality and accessibility for analysis.",
-                },
-                {
-                  emoji: "☁️",
-                  title: "Data Warehousing & Data Lakes",
-                  description:
-                    "Build scalable and secure data storage solutions tailored to your needs, whether it's a structured data warehouse or a flexible data lake for big data analytics.",
-                },
-                {
-                  emoji: "📈",
-                  title: "Business Intelligence (BI) & Reporting",
-                  description:
-                    "Transform raw data into actionable insights with interactive dashboards and custom reports, empowering your team to make data-driven decisions swiftly.",
-                },
-                {
-                  emoji: "🔬",
-                  title: "Advanced Analytics & Statistical Modeling",
-                  description:
-                    "Utilize sophisticated analytical techniques and statistical models to uncover hidden patterns, forecast trends, and optimize business processes for maximum efficiency.",
-                },
-                {
-                  emoji: "🔒",
-                  title: "Data Governance & Security",
-                  description:
-                    "Establish robust data governance frameworks and implement stringent security measures to ensure data integrity, compliance, and protection against unauthorized access.",
-                },
-                {
-                  emoji: "🧭",
-                  title: "Data Strategy & Consulting",
-                  description:
-                    "Develop a comprehensive data strategy aligned with your business goals. We provide expert consulting to maximize the value of your data assets and drive innovation.",
-                },
-              ].map((item, index) => (
-                <Card
-                  key={index}
-                  className="border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
-                >
-                  <CardContent className="p-6">
-                    <div className="flex items-center gap-3 mb-3">
-                      <span className="text-3xl">{item.emoji}</span>
-                      <h3 className="font-bold text-xl text-black">{item.title}</h3>
-                    </div>
-                    <p className="text-gray-700 text-sm leading-relaxed">{item.description}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+              <DataEngineeringServicesList />
 
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-teal-200 mt-12">
               Why Partner with AAT for Data Solutions?

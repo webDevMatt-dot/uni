@@ -800,7 +800,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$s
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/learn.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/DownloadBrochureButton.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ContactInfo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/ContactInfo.tsx [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module 'src/components/sections/AIMLServicesList'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 "use client";
+;
 ;
 ;
 ;
@@ -818,17 +824,17 @@ function AIMachineLearningPage() {
                     children: "AI & Machine Learning | AAT Business Solutions"
                 }, void 0, false, {
                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                    lineNumber: 16,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                lineNumber: 15,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                lineNumber: 19,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -846,12 +852,12 @@ function AIMachineLearningPage() {
                                         children: "AI & Machine Learning Solutions"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -863,14 +869,14 @@ function AIMachineLearningPage() {
                                             children: "cutting-edge artificial intelligence and machine learning"
                                         }, void 0, false, {
                                             fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 31,
+                                            lineNumber: 33,
                                             columnNumber: 44
                                         }, this),
                                         ", driving innovation, efficiency, and data-driven decision-making."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -879,40 +885,40 @@ function AIMachineLearningPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 36,
+                                                lineNumber: 38,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 35,
+                                            lineNumber: 37,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LearnButton"], {}, void 0, false, {
                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 39,
+                                                lineNumber: 41,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 36,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                            lineNumber: 24,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                        lineNumber: 23,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -927,102 +933,20 @@ function AIMachineLearningPage() {
                                         children: "Our Core AI & ML Offerings"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 51,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "grid grid-cols-1 md:grid-cols-2 gap-8 mb-10",
-                                        children: [
-                                            {
-                                                emoji: "⚙️",
-                                                title: "Custom AI Model Development",
-                                                description: "We design and build bespoke AI models tailored to your unique business problems, from predictive analytics to advanced pattern recognition."
-                                            },
-                                            {
-                                                emoji: "📊",
-                                                title: "Predictive Analytics & Forecasting",
-                                                description: "Use historical data to predict future trends. Perfect for demand forecasting, risk assessment, and planning."
-                                            },
-                                            {
-                                                emoji: "🗣️",
-                                                title: "Natural Language Processing (NLP)",
-                                                description: "Boost support, analyze feedback, and automate content with smart language models."
-                                            },
-                                            {
-                                                emoji: "👁️",
-                                                title: "Computer Vision Applications",
-                                                description: "Detect patterns, automate inspection, and enable visual insights with AI that sees like humans."
-                                            },
-                                            {
-                                                emoji: "📈",
-                                                title: "AI Strategy Consulting",
-                                                description: "Let’s map out your AI path. We'll guide you from vision to execution with clear ROI."
-                                            },
-                                            {
-                                                emoji: "🎓",
-                                                title: "Machine Learning Training Programs",
-                                                description: "Train your team with hands-on sessions that demystify ML and empower smart decisions."
-                                            }
-                                        ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                                className: "border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                                    className: "p-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 mb-3",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-3xl",
-                                                                    children: item.emoji
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                    lineNumber: 65,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "font-bold text-lg md:text-xl text-black",
-                                                                    children: item.title
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                    lineNumber: 66,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                            lineNumber: 64,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-gray-700 text-sm leading-relaxed",
-                                                            children: item.description
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                            lineNumber: 68,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 63,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, i, false, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 62,
-                                                columnNumber: 17
-                                            }, this))
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AIMLServicesList, {}, void 0, false, {
                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 53,
-                                        columnNumber: 13
+                                        lineNumber: 55,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-indigo-200 mt-12",
                                         children: "Why Partner with AAT Business Solutions?"
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1032,7 +956,7 @@ function AIMachineLearningPage() {
                                                 children: "We combine deep AI/ML know-how with your business goals to deliver solutions that actually work and bring ROI."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 79,
+                                                lineNumber: 62,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1045,14 +969,14 @@ function AIMachineLearningPage() {
                                                                 children: "Experienced Team:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 64,
                                                                 columnNumber: 21
                                                             }, this),
                                                             " Real-world engineers solving real-world problems."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 64,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1062,14 +986,14 @@ function AIMachineLearningPage() {
                                                                 children: "Tailored Solutions:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 82,
+                                                                lineNumber: 65,
                                                                 columnNumber: 21
                                                             }, this),
                                                             " No off-the-shelf gimmicks — just what fits your use case best."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 82,
+                                                        lineNumber: 65,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1079,14 +1003,14 @@ function AIMachineLearningPage() {
                                                                 children: "End-to-End Support:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 83,
+                                                                lineNumber: 66,
                                                                 columnNumber: 21
                                                             }, this),
                                                             " We guide you from idea to rollout to long-term scaling."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 66,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1096,32 +1020,32 @@ function AIMachineLearningPage() {
                                                                 children: "Focus on ROI:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 84,
+                                                                lineNumber: 67,
                                                                 columnNumber: 21
                                                             }, this),
                                                             " We target efficiency, insight, and impact, not just hype."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 84,
+                                                        lineNumber: 67,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 80,
+                                                lineNumber: 63,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 61,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                lineNumber: 48,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1136,7 +1060,7 @@ function AIMachineLearningPage() {
                                                     children: "Ready to Innovate with AI?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 76,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1144,13 +1068,13 @@ function AIMachineLearningPage() {
                                                     children: "Unlock new possibilities and gain a competitive edge. Let's discuss how AI can transform your business."
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 77,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 75,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1159,69 +1083,69 @@ function AIMachineLearningPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
                                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 83,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 82,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DownloadBrochureButton"], {}, void 0, false, {
                                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 103,
+                                                        lineNumber: 86,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 102,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ContactInfo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ContactInfo"], {}, void 0, false, {
                                                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 89,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 105,
+                                                    lineNumber: 88,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                lineNumber: 90,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                        lineNumber: 46,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                lineNumber: 21,
+                lineNumber: 23,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-        lineNumber: 14,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
