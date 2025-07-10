@@ -146,9 +146,10 @@ export default function DataEngineeringSciencePage() {
                 <div>
                   <DownloadBrochureButton />
                 </div>
+                <div>
+                  <ContactInfo />
+                </div>
               </div>
-              <ContactInfo />
-
             </CardContent>
           </Card>
         </div>

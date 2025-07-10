@@ -136,8 +136,12 @@ export default function SAPSolutionsPage() {
                 <div>
                   <DownloadBrochureButton />
                 </div>
+
+                <div>
+                  <ContactInfo />
+                </div>
               </div>
-              <ContactInfo />
+       
 
             </CardContent>
           </Card>

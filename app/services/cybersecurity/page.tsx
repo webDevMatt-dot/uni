@@ -106,8 +106,10 @@ export default function CybersecurityServicesPage() {
                 <div>
                   <DownloadBrochureButton />
                 </div>
+                <div>
+                  <ContactInfo />
+                </div>
               </div>
-              <ContactInfo />
 
             </CardContent>
           </Card>

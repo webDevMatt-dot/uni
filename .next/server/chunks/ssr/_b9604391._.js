@@ -718,13 +718,13 @@ function ContactInfo({ whatsappMessage = "" }) {
     }, this);
 }
 }}),
-"[project]/app/services/ai-machine-learning/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"[project]/app/services/sap-solutions/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>AIMachineLearningPage)
+    "default": (()=>SAPSolutionsPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/noop-head.js [app-ssr] (ecmascript)");
@@ -745,25 +745,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$C
 ;
 ;
 ;
-function AIMachineLearningPage() {
+function SAPSolutionsPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Layout$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "AI & Machine Learning | AAT Business Solutions"
+                    children: "SAP Solutions | AAT Business Solutions"
                 }, void 0, false, {
-                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                    fileName: "[project]/app/services/sap-solutions/page.tsx",
                     lineNumber: 16,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                fileName: "[project]/app/services/sap-solutions/page.tsx",
                 lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
-                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                lineNumber: 19,
+                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -775,78 +775,78 @@ function AIMachineLearningPage() {
                             className: "max-w-4xl mx-auto",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-3xl md:text-5xl font-extrabold text-black mb-4 leading-tight",
+                                    className: "text-3xl md:text-5xl font-extrabold text-black mb-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
-                                        children: "AI & Machine Learning Solutions"
+                                        children: "SAP Solutions & Digital Transformation"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
                                         lineNumber: 26,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
                                     lineNumber: 25,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-8",
                                     children: [
-                                        "Transform your business with ",
+                                        "Streamline your business operations and maximize efficiency with our comprehensive ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                             className: "font-semibold text-black",
-                                            children: "cutting-edge artificial intelligence and machine learning"
+                                            children: "SAP solutions"
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
                                             lineNumber: 31,
-                                            columnNumber: 44
+                                            columnNumber: 98
                                         }, this),
-                                        ", driving innovation, efficiency, and data-driven decision-making."
+                                        ", tailored to drive your digital transformation journey."
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
                                     lineNumber: 30,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col sm:flex-row sm:justify-center gap-4",
+                                    className: "flex flex-col sm:flex-row justify-center gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 36,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 35,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 35,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 34,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LearnButton"], {}, void 0, false, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 39,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 38,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 38,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 37,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                    lineNumber: 34,
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                            fileName: "[project]/app/services/sap-solutions/page.tsx",
                             lineNumber: 24,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+                        fileName: "[project]/app/services/sap-solutions/page.tsx",
                         lineNumber: 23,
                         columnNumber: 9
                     }, this),
@@ -859,47 +859,47 @@ function AIMachineLearningPage() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         id: "offerings",
                                         className: "text-2xl md:text-3xl font-bold mb-8 text-black border-b-2 pb-2 border-indigo-200",
-                                        children: "Our Core AI & ML Offerings"
+                                        children: "Our Comprehensive SAP Offerings"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 49,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 46,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "grid grid-cols-1 md:grid-cols-2 gap-8 mb-10",
                                         children: [
                                             {
-                                                emoji: "⚙️",
-                                                title: "Custom AI Model Development",
-                                                description: "We design and build bespoke AI models tailored to your unique business problems, from predictive analytics to advanced pattern recognition."
+                                                emoji: "🚀",
+                                                title: "SAP Implementation",
+                                                description: "End-to-end SAP implementation services tailored to your business needs, ensuring a smooth transition and optimal system setup for maximum efficiency."
                                             },
                                             {
-                                                emoji: "📊",
-                                                title: "Predictive Analytics & Forecasting",
-                                                description: "Use historical data to predict future trends. Perfect for demand forecasting, risk assessment, and planning."
+                                                emoji: "🔄",
+                                                title: "Migration & Upgrades",
+                                                description: "Seamless migration of your existing SAP systems to newer versions or cloud platforms, minimizing downtime and ensuring data integrity throughout the process."
                                             },
                                             {
-                                                emoji: "🗣️",
-                                                title: "Natural Language Processing (NLP)",
-                                                description: "Boost support, analyze feedback, and automate content with smart language models."
+                                                emoji: "🔧",
+                                                title: "Customization & Development",
+                                                description: "Tailored SAP customizations, including ABAP development, Fiori apps, and integration with third-party systems to meet your specific business requirements."
                                             },
                                             {
-                                                emoji: "👁️",
-                                                title: "Computer Vision Applications",
-                                                description: "Detect patterns, automate inspection, and enable visual insights with AI that sees like humans."
+                                                emoji: "🤝",
+                                                title: "Support & Maintenance",
+                                                description: "Reliable ongoing support, proactive monitoring, and expert maintenance services to ensure your SAP systems run smoothly and efficiently 24/7."
                                             },
                                             {
-                                                emoji: "📈",
-                                                title: "AI Strategy Consulting",
-                                                description: "Let’s map out your AI path. We'll guide you from vision to execution with clear ROI."
+                                                emoji: "💡",
+                                                title: "S/4HANA Transformation",
+                                                description: "Guide your transition to SAP S/4HANA, leveraging its in-memory computing capabilities for real-time analytics and simplified processes."
                                             },
                                             {
-                                                emoji: "🎓",
-                                                title: "Machine Learning Training Programs",
-                                                description: "Train your team with hands-on sessions that demystify ML and empower smart decisions."
+                                                emoji: "☁️",
+                                                title: "Cloud SAP Solutions",
+                                                description: "Implement and manage SAP solutions on leading cloud platforms, offering flexibility, scalability, and reduced infrastructure costs."
                                             }
-                                        ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                                                className: "border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300",
+                                        ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+                                                className: "border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                                     className: "p-6",
                                                     children: [
@@ -910,157 +910,157 @@ function AIMachineLearningPage() {
                                                                     className: "text-3xl",
                                                                     children: item.emoji
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                    lineNumber: 65,
+                                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                    lineNumber: 89,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "font-bold text-lg md:text-xl text-black",
+                                                                    className: "font-bold text-xl text-black",
                                                                     children: item.title
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                    lineNumber: 66,
+                                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                    lineNumber: 90,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                            lineNumber: 64,
+                                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                            lineNumber: 88,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-gray-700 text-sm leading-relaxed",
                                                             children: item.description
                                                         }, void 0, false, {
-                                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                            lineNumber: 68,
+                                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                            lineNumber: 92,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 63,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 87,
                                                     columnNumber: 19
                                                 }, this)
-                                            }, i, false, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 62,
+                                            }, index, false, {
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 83,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 53,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 50,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-indigo-200 mt-12",
-                                        children: "Why Partner with AAT Business Solutions?"
+                                        children: "Why Partner with AAT for SAP Solutions?"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 75,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 98,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-6 text-gray-700 text-base leading-relaxed",
+                                        className: "space-y-6 text-gray-700 leading-relaxed text-base",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "We combine deep AI/ML know-how with your business goals to deliver solutions that actually work and bring ROI."
+                                                children: "AAT Business Solutions stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth."
                                             }, void 0, false, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 79,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 102,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "list-disc list-inside ml-4 space-y-2",
+                                                className: "list-disc list-inside space-y-2 text-base ml-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Experienced Team:"
+                                                                children: "Certified Experts:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 81,
-                                                                columnNumber: 21
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 107,
+                                                                columnNumber: 19
                                                             }, this),
-                                                            " Real-world engineers solving real-world problems."
+                                                            " Our team consists of highly skilled and certified SAP consultants."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 81,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 106,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Tailored Solutions:"
+                                                                children: "Proven Methodologies:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 82,
-                                                                columnNumber: 21
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 110,
+                                                                columnNumber: 19
                                                             }, this),
-                                                            " No off-the-shelf gimmicks — just what fits your use case best."
+                                                            " We follow industry-leading best practices for successful project delivery."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 82,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 109,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "End-to-End Support:"
+                                                                children: "Holistic Approach:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 83,
-                                                                columnNumber: 21
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 113,
+                                                                columnNumber: 19
                                                             }, this),
-                                                            " We guide you from idea to rollout to long-term scaling."
+                                                            " From strategy to implementation and ongoing support, we cover all aspects of your SAP journey."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 83,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 112,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Focus on ROI:"
+                                                                children: "Business-Centric Focus:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                                lineNumber: 84,
-                                                                columnNumber: 21
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 116,
+                                                                columnNumber: 19
                                                             }, this),
-                                                            " We target efficiency, insight, and impact, not just hype."
+                                                            " Our solutions are designed to align with and accelerate your specific business objectives."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 84,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 115,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                lineNumber: 80,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 105,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                        lineNumber: 78,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 101,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                lineNumber: 48,
+                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg sticky md:top-28 self-start bg-white",
+                                className: "w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg self-start bg-white sticky md:top-28 md:sticky relative",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "p-6 flex flex-col h-full",
                                     children: [
@@ -1068,24 +1068,24 @@ function AIMachineLearningPage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "font-bold text-xl mb-3 text-center text-black",
-                                                    children: "Ready to Innovate with AI?"
+                                                    children: "Ready to Optimize with SAP?"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 93,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 127,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-gray-600 mb-5 text-center leading-relaxed",
-                                                    children: "Unlock new possibilities and gain a competitive edge. Let's discuss how AI can transform your business."
+                                                    children: "Streamline your operations and enhance efficiency. Contact us for a specialized SAP consultation."
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 94,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 128,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 92,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 126,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1093,69 +1093,69 @@ function AIMachineLearningPage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 100,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 134,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 99,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 133,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DownloadBrochureButton"], {}, void 0, false, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 103,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 137,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 102,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 136,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ContactInfo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ContactInfo"], {}, void 0, false, {
-                                                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                        lineNumber: 106,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 141,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                                    lineNumber: 105,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 140,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                            lineNumber: 98,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 132,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                    lineNumber: 91,
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                                lineNumber: 90,
+                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                        lineNumber: 46,
+                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                        lineNumber: 44,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/app/services/ai-machine-learning/page.tsx",
-                lineNumber: 21,
+                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/app/services/ai-machine-learning/page.tsx",
+        fileName: "[project]/app/services/sap-solutions/page.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, this);
@@ -1164,4 +1164,4 @@ function AIMachineLearningPage() {
 
 };
 
-//# sourceMappingURL=_5fb3434b._.js.map
+//# sourceMappingURL=_b9604391._.js.map
