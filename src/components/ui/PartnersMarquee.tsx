@@ -12,21 +12,19 @@ const partners = [
 
 export function PartnersMarquee() {
   return (
-    <div className="bg-gray-50 py-6 sm:py-8 overflow-hidden">
-      <div className="w-full whitespace-nowrap">
-        <div className="flex gap-12 animate-marquee">
-          {[...partners, ...partners].map((partner, index) => (
-            <img
-              key={index}
-              src={partner.src}
-              alt={partner.alt}
-              width={120}
-              height={60}
-              className="object-contain transition duration-300"
-              style={{ maxHeight: "60px" }}
-            />
-          ))}
-        </div>
+    <div className="bg-gray-50 py-6 sm:py-8 overflow-hidden relative">
+      <div className="flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2">
+        {[...partners, ...partners].map((partner, index) => (
+          <img
+            key={index}
+            src={partner.src}
+            alt={partner.alt}
+            width={120}
+            height={60}
+            className="object-contain mx-6 transition duration-300"
+            style={{ maxHeight: "60px" }}
+          />
+        ))}
       </div>
 
       <style jsx>{`
@@ -40,9 +38,7 @@ export function PartnersMarquee() {
         }
 
         .animate-marquee {
-          display: flex;
-          animation: marquee 30s linear infinite;
-          width: max-content;
+          animation: marquee 25s linear infinite;
         }
       `}</style>
     </div>
