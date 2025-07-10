@@ -223,7 +223,7 @@ const Footer = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    className: "text-xl font-semibold mb-3 text-blue-700",
+                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
                                     children: "AAT Business Solutions"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
@@ -235,7 +235,7 @@ const Footer = ()=>{
                                     children: "Your trusted partner for cutting-edge technology solutions. Specializing in AI, Data Engineering, SAP Solutions, and Cybersecurity."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 13,
+                                    lineNumber: 15,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -247,11 +247,11 @@ const Footer = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    className: "text-xl font-semibold mb-3 text-blue-700",
+                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
                                     children: "Our Services"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 21,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -260,83 +260,83 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/ai-machine-learning",
-                                                className: "hover:text-blue-600 transition",
+                                                className: "hover:text-green-600 transition",
                                                 children: "AI & Machine Learning Training"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 24,
+                                                lineNumber: 28,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 23,
+                                            lineNumber: 27,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/data-engineering",
-                                                className: "hover:text-blue-600 transition",
+                                                className: "hover:text-green-600 transition",
                                                 children: "Data Engineering & Science"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 29,
+                                                lineNumber: 33,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 32,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/sap-solutions",
-                                                className: "hover:text-blue-600 transition",
+                                                className: "hover:text-green-600 transition",
                                                 children: "SAP Solutions"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 38,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 33,
+                                            lineNumber: 37,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/cybersecurity",
-                                                className: "hover:text-blue-600 transition",
+                                                className: "hover:text-green-600 transition",
                                                 children: "Anti-Virus & Security Packages"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 39,
+                                                lineNumber: 43,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 42,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 22,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ui/Footer.tsx",
-                            lineNumber: 20,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    className: "text-xl font-semibold mb-3 text-blue-700",
+                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -347,58 +347,58 @@ const Footer = ()=>{
                                                 href: "https://www.google.com/maps?q=8+Fred+Verseput+Road,+Halfway+Gardens+1686,+Midrand",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "hover:text-blue-600 transition block",
+                                                className: "hover:text-green-600 transition block",
                                                 children: "📍 8 Fred Verseput Rd, Halfway Gardens, Midrand"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 57,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 50,
+                                            lineNumber: 56,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "https://wa.me/27816515179?text=Hello, I'm contacting you regarding AAT Solutions",
-                                                className: "hover:text-blue-600 transition block",
+                                                className: "hover:text-green-600 transition block",
                                                 children: "📱 +27 81 651 5179"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 67,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 66,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "mailto:admin@aatsolutions.co.za",
-                                                className: "hover:text-blue-600 transition block",
+                                                className: "hover:text-green-600 transition block",
                                                 children: "📧 admin@aatsolutions.co.za"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 69,
+                                                lineNumber: 75,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 74,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ui/Footer.tsx",
-                            lineNumber: 47,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this)
                     ]
@@ -421,7 +421,7 @@ const Footer = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/Footer.tsx",
-                lineNumber: 82,
+                lineNumber: 88,
                 columnNumber: 7
             }, this)
         ]
@@ -518,7 +518,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Button({ children, className = '', ...props }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-        className: `px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-800 transition-colors duration-200 ${className}`,
+        className: "bg-white text-green-700 hover:bg-green-100 px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300 w-full mt-auto",
         ...props,
         children: children
     }, void 0, false, {
@@ -609,7 +609,7 @@ function AboutUsPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-white text-gray-800 pt-16 sm:pt-15 px-4 sm:px-6",
+                className: "bg-white text-gray-800 pt-6 px-4 sm:px-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-6xl mx-auto",
                     children: [
@@ -628,12 +628,12 @@ function AboutUsPage() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                                                 lineNumber: 26,
-                                                columnNumber: 13
+                                                columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                                             lineNumber: 25,
-                                            columnNumber: 11
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto",
@@ -645,30 +645,30 @@ function AboutUsPage() {
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                                     lineNumber: 32,
-                                                    columnNumber: 13
+                                                    columnNumber: 19
                                                 }, this),
                                                 "to deliver results-driven business solutions in ICT and Communications."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                                             lineNumber: 30,
-                                            columnNumber: 11
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                     lineNumber: 24,
-                                    columnNumber: 9
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                                 lineNumber: 23,
-                                columnNumber: 7
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                             lineNumber: 22,
-                            columnNumber: 5
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12",
@@ -684,7 +684,7 @@ function AboutUsPage() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                                                 lineNumber: 43,
-                                                columnNumber: 11
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-gray-700 text-sm sm:text-base",
@@ -692,18 +692,18 @@ function AboutUsPage() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                                                 lineNumber: 44,
-                                                columnNumber: 11
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/header-pages/about-us/page.tsx",
                                         lineNumber: 42,
-                                        columnNumber: 9
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                     lineNumber: 41,
-                                    columnNumber: 7
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                                     className: "border border-gray-200 bg-white shadow-sm w-full",
@@ -716,7 +716,7 @@ function AboutUsPage() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                                                 lineNumber: 52,
-                                                columnNumber: 11
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-gray-700 text-sm sm:text-base",
@@ -724,24 +724,24 @@ function AboutUsPage() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                                                 lineNumber: 53,
-                                                columnNumber: 11
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/header-pages/about-us/page.tsx",
                                         lineNumber: 51,
-                                        columnNumber: 9
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                     lineNumber: 50,
-                                    columnNumber: 7
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                             lineNumber: 40,
-                            columnNumber: 5
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "text-center bg-gray-50 py-10 sm:py-12 px-4 sm:px-6 rounded-lg shadow-sm mb-14",
@@ -752,7 +752,7 @@ function AboutUsPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                     lineNumber: 63,
-                                    columnNumber: 7
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-base sm:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed",
@@ -761,25 +761,25 @@ function AboutUsPage() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                                             lineNumber: 67,
-                                            columnNumber: 9
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                                             lineNumber: 67,
-                                            columnNumber: 15
+                                            columnNumber: 21
                                         }, this),
                                         "We take the time to understand each client and their needs, walk the journey in envisioning the desired outcome, and then collaborate together in materializing those intentions. We embrace all our projects with ease and professionalism, ensuring that we become a trusted advisor and partner."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                     lineNumber: 64,
-                                    columnNumber: 7
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                             lineNumber: 62,
-                            columnNumber: 5
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "text-center mb-10",
@@ -790,35 +790,35 @@ function AboutUsPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                     lineNumber: 75,
-                                    columnNumber: 7
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$sendmessage$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SendMessageButton"], {}, void 0, false, {
                                         fileName: "[project]/app/header-pages/about-us/page.tsx",
                                         lineNumber: 79,
-                                        columnNumber: 9
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                                     lineNumber: 78,
-                                    columnNumber: 7
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/header-pages/about-us/page.tsx",
                             lineNumber: 74,
-                            columnNumber: 5
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/header-pages/about-us/page.tsx",
                     lineNumber: 19,
-                    columnNumber: 3
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/header-pages/about-us/page.tsx",
                 lineNumber: 18,
-                columnNumber: 1
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {

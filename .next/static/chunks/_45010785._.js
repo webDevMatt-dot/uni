@@ -706,13 +706,13 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/app/services/data-engineering/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/app/services/sap-solutions/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>DataEngineeringSciencePage)
+    "default": (()=>SAPSolutionsPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/noop-head.js [app-client] (ecmascript)");
@@ -731,24 +731,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$D
 ;
 ;
 ;
-function DataEngineeringSciencePage() {
+function SAPSolutionsPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Layout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "Data Engineering & Science | AAT Business Solutions"
+                    children: "SAP Solutions | AAT Business Solutions"
                 }, void 0, false, {
-                    fileName: "[project]/app/services/data-engineering/page.tsx",
+                    fileName: "[project]/app/services/sap-solutions/page.tsx",
                     lineNumber: 15,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/app/services/data-engineering/page.tsx",
+                fileName: "[project]/app/services/sap-solutions/page.tsx",
                 lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
-                fileName: "[project]/app/services/data-engineering/page.tsx",
+                fileName: "[project]/app/services/sap-solutions/page.tsx",
                 lineNumber: 19,
                 columnNumber: 7
             }, this),
@@ -763,35 +763,35 @@ function DataEngineeringSciencePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     className: "text-3xl md:text-5xl font-extrabold text-black mb-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
-                                        children: "Data Engineering & Science Solutions"
+                                        className: "bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-indigo-700",
+                                        children: "SAP Solutions & Digital Transformation"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                        lineNumber: 26,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 25,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                    lineNumber: 25,
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                    lineNumber: 24,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-8",
                                     children: [
-                                        "Unlock the true potential of your data with robust ",
+                                        "Streamline your business operations and maximize efficiency with our comprehensive ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                             className: "font-semibold text-black",
-                                            children: "data engineering and advanced data science"
+                                            children: "SAP solutions"
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                            lineNumber: 31,
-                                            columnNumber: 66
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 30,
+                                            columnNumber: 98
                                         }, this),
-                                        " services, driving insights and informed decision-making."
+                                        ", tailored to drive your digital transformation journey."
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                    lineNumber: 30,
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                    lineNumber: 29,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -799,41 +799,41 @@ function DataEngineeringSciencePage() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                lineNumber: 35,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 34,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                            lineNumber: 34,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 33,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LearnButton"], {}, void 0, false, {
-                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                lineNumber: 38,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 37,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                            lineNumber: 37,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 36,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                    lineNumber: 33,
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                            lineNumber: 24,
+                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                        lineNumber: 23,
+                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -844,45 +844,45 @@ function DataEngineeringSciencePage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         id: "offerings",
-                                        className: "text-2xl md:text-3xl font-bold mb-8 text-black border-b-2 pb-2 border-teal-200",
-                                        children: "Our Core Data Offerings"
+                                        className: "text-2xl md:text-3xl font-bold mb-8 text-black border-b-2 pb-2 border-indigo-200",
+                                        children: "Our Comprehensive SAP Offerings"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                        lineNumber: 47,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "grid grid-cols-1 md:grid-cols-2 gap-8 mb-10",
                                         children: [
                                             {
-                                                emoji: "🔗",
-                                                title: "ETL Pipelines & Data Integration",
-                                                description: "We design and implement robust Extract, Transform, Load (ETL) pipelines to consolidate data from disparate sources, ensuring data quality and accessibility for analysis."
+                                                emoji: "🚀",
+                                                title: "SAP Implementation",
+                                                description: "End-to-end SAP implementation services tailored to your business needs, ensuring a smooth transition and optimal system setup for maximum efficiency."
+                                            },
+                                            {
+                                                emoji: "🔄",
+                                                title: "Migration & Upgrades",
+                                                description: "Seamless migration of your existing SAP systems to newer versions or cloud platforms, minimizing downtime and ensuring data integrity throughout the process."
+                                            },
+                                            {
+                                                emoji: "🔧",
+                                                title: "Customization & Development",
+                                                description: "Tailored SAP customizations, including ABAP development, Fiori apps, and integration with third-party systems to meet your specific business requirements."
+                                            },
+                                            {
+                                                emoji: "🤝",
+                                                title: "Support & Maintenance",
+                                                description: "Reliable ongoing support, proactive monitoring, and expert maintenance services to ensure your SAP systems run smoothly and efficiently 24/7."
+                                            },
+                                            {
+                                                emoji: "💡",
+                                                title: "S/4HANA Transformation",
+                                                description: "Guide your transition to SAP S/4HANA, leveraging its in-memory computing capabilities for real-time analytics and simplified processes."
                                             },
                                             {
                                                 emoji: "☁️",
-                                                title: "Data Warehousing & Data Lakes",
-                                                description: "Build scalable and secure data storage solutions tailored to your needs, whether it's a structured data warehouse or a flexible data lake for big data analytics."
-                                            },
-                                            {
-                                                emoji: "📈",
-                                                title: "Business Intelligence (BI) & Reporting",
-                                                description: "Transform raw data into actionable insights with interactive dashboards and custom reports, empowering your team to make data-driven decisions swiftly."
-                                            },
-                                            {
-                                                emoji: "🔬",
-                                                title: "Advanced Analytics & Statistical Modeling",
-                                                description: "Utilize sophisticated analytical techniques and statistical models to uncover hidden patterns, forecast trends, and optimize business processes for maximum efficiency."
-                                            },
-                                            {
-                                                emoji: "🔒",
-                                                title: "Data Governance & Security",
-                                                description: "Establish robust data governance frameworks and implement stringent security measures to ensure data integrity, compliance, and protection against unauthorized access."
-                                            },
-                                            {
-                                                emoji: "🧭",
-                                                title: "Data Strategy & Consulting",
-                                                description: "Develop a comprehensive data strategy aligned with your business goals. We provide expert consulting to maximize the value of your data assets and drive innovation."
+                                                title: "Cloud SAP Solutions",
+                                                description: "Implement and manage SAP solutions on leading cloud platforms, offering flexibility, scalability, and reduced infrastructure costs."
                                             }
                                         ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
                                                 className: "border border-gray-200 rounded-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer",
@@ -896,64 +896,64 @@ function DataEngineeringSciencePage() {
                                                                     className: "text-3xl",
                                                                     children: item.emoji
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                                    lineNumber: 96,
+                                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                    lineNumber: 88,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                     className: "font-bold text-xl text-black",
                                                                     children: item.title
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                                    lineNumber: 97,
+                                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                    lineNumber: 89,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                            lineNumber: 95,
+                                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                            lineNumber: 87,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-gray-700 text-sm leading-relaxed",
                                                             children: item.description
                                                         }, void 0, false, {
-                                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                            lineNumber: 99,
+                                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                            lineNumber: 91,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 94,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 86,
                                                     columnNumber: 19
                                                 }, this)
                                             }, index, false, {
-                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                lineNumber: 90,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 82,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                        lineNumber: 51,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 49,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-teal-200 mt-12",
-                                        children: "Why Partner with AAT for Data Solutions?"
+                                        className: "text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-indigo-200 mt-12",
+                                        children: "Why Partner with AAT for SAP Solutions?"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                        lineNumber: 105,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 97,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "space-y-6 text-gray-700 leading-relaxed text-base",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "At AAT Business Solutions, we transform complex data challenges into actionable opportunities. Our holistic approach ensures your data infrastructure is efficient, secure, and capable of delivering profound insights that propel your business forward."
+                                                children: "AAT Business Solutions stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth."
                                             }, void 0, false, {
-                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                lineNumber: 109,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 101,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -963,90 +963,90 @@ function DataEngineeringSciencePage() {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Expertise:"
+                                                                children: "Certified Experts:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                                lineNumber: 114,
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 106,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " Our team comprises seasoned data engineers and scientists with a deep understanding of various industries."
+                                                            " Our team consists of highly skilled and certified SAP consultants."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 113,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 105,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Scalable Solutions:"
+                                                                children: "Proven Methodologies:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                                lineNumber: 117,
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 109,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " We build future-proof data architectures that grow with your business needs."
+                                                            " We follow industry-leading best practices for successful project delivery."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 116,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 108,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Actionable Insights:"
+                                                                children: "Holistic Approach:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                                lineNumber: 120,
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 112,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " We focus on translating raw data into clear, strategic intelligence for decision-makers."
+                                                            " From strategy to implementation and ongoing support, we cover all aspects of your SAP journey."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 119,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 111,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 className: "text-black",
-                                                                children: "Security & Compliance:"
+                                                                children: "Business-Centric Focus:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                                lineNumber: 123,
+                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                lineNumber: 115,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " Your data's safety and regulatory adherence are our top priorities."
+                                                            " Our solutions are designed to align with and accelerate your specific business objectives."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 122,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 114,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                lineNumber: 112,
+                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                lineNumber: 104,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                        lineNumber: 108,
+                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        lineNumber: 100,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                lineNumber: 46,
+                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg self-start bg-white   sticky md:top-28 md:sticky relative",
+                                className: "w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg self-start bg-white sticky md:top-28 md:sticky relative",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "p-6 flex flex-col h-full",
                                     children: [
@@ -1054,24 +1054,24 @@ function DataEngineeringSciencePage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "font-bold text-xl mb-3 text-center text-black",
-                                                    children: "Ready to Transform Your Data?"
+                                                    children: "Ready to Optimize with SAP?"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 136,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 126,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-gray-600 mb-5 text-center leading-relaxed",
-                                                    children: "Harness the power of your information for strategic growth. Contact us for a data solution consultation."
+                                                    children: "Streamline your operations and enhance efficiency. Contact us for a specialized SAP consultation."
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 137,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 127,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                            lineNumber: 135,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 125,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1079,34 +1079,34 @@ function DataEngineeringSciencePage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 143,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 133,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 142,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 132,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DownloadBrochureButton"], {}, void 0, false, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 146,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 136,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 145,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 135,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                            lineNumber: 141,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 131,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-6 text-center text-sm text-gray-500 border-t pt-4 border-teal-200",
+                                            className: "mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "mb-2",
@@ -1115,13 +1115,13 @@ function DataEngineeringSciencePage() {
                                                         className: "hover:underline flex items-center justify-center gap-2",
                                                         children: "📧 admin@aatsolutions.co.za"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 151,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 141,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 150,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 140,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1130,76 +1130,76 @@ function DataEngineeringSciencePage() {
                                                         className: "hover:underline flex items-center justify-center gap-2",
                                                         children: "📞 +27 81 651 5179"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 159,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 149,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 158,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 148,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "mt-2",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "https://wa.me/27816515179?text=Hello, I'm contacting you regarding your Data Engineering & Science services.",
+                                                        href: "https://wa.me/27816515179?text=Hello, I'm contacting you regarding your SAP Solutions services.",
                                                         target: "_blank",
                                                         rel: "noopener noreferrer",
                                                         className: "hover:underline flex items-center justify-center gap-2",
                                                         children: "📱 WhatsApp Us"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                        lineNumber: 167,
+                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        lineNumber: 157,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                                    lineNumber: 166,
+                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                    lineNumber: 156,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/data-engineering/page.tsx",
-                                            lineNumber: 149,
+                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                            lineNumber: 139,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/data-engineering/page.tsx",
-                                    lineNumber: 134,
+                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/app/services/data-engineering/page.tsx",
-                                lineNumber: 130,
+                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/services/data-engineering/page.tsx",
-                        lineNumber: 44,
+                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                        lineNumber: 43,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/app/services/data-engineering/page.tsx",
+                fileName: "[project]/app/services/sap-solutions/page.tsx",
                 lineNumber: 21,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/app/services/data-engineering/page.tsx",
+        fileName: "[project]/app/services/sap-solutions/page.tsx",
         lineNumber: 13,
         columnNumber: 5
     }, this);
 }
-_c = DataEngineeringSciencePage;
+_c = SAPSolutionsPage;
 var _c;
-__turbopack_context__.k.register(_c, "DataEngineeringSciencePage");
+__turbopack_context__.k.register(_c, "SAPSolutionsPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
 }]);
 
-//# sourceMappingURL=_e6728d22._.js.map
+//# sourceMappingURL=_45010785._.js.map

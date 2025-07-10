@@ -18,8 +18,7 @@ export default function DataEngineeringSciencePage() {
       {/* Navbar */}
       <Navbar />
       
-      <div className="min-h-screen bg-white text-gray-800 font-sans pt-15 px-4 md:px-6">
-
+      <div className="min-h-screen bg-white text-gray-800 font-sans pt-6 px-4 md:px-6">
         {/* Hero Section */}
         <section className="pt-10 md:pt-14 pb-12 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-white">
           <div className="max-w-4xl mx-auto">
@@ -140,15 +139,12 @@ export default function DataEngineeringSciencePage() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
-
-              <div>
-                <ScheduleButton />
-              </div>
-                
-              <div>
-                <DownloadBrochureButton />
-              </div>
-
+                <div>
+                  <ScheduleButton />
+                </div>
+                <div>
+                  <DownloadBrochureButton />
+                </div>
               </div>
               <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-teal-200">
                 <p className="mb-2">

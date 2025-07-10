@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Head from "next/head";
 import { Navbar } from "src/components/ui/Navbar";
@@ -17,8 +18,7 @@ export default function SAPSolutionsPage() {
       {/* Navbar */}
       <Navbar />
 
-      <div className="min-h-screen bg-white text-gray-800 font-sans pt-15 px-4 md:px-6">
-
+      <div className="min-h-screen bg-white text-gray-800 font-sans pt-6 px-4 md:px-6">
         <section className="pt-10 md:pt-14 pb-12 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-white">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4">
@@ -119,8 +119,7 @@ export default function SAPSolutionsPage() {
           </div>
 
           <Card
-            className="w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg self-start bg-white
-              sticky md:top-28 md:sticky relative"
+            className="w-full md:w-[320px] border border-gray-200 shadow-xl rounded-lg self-start bg-white sticky md:top-28 md:sticky relative"
           >
             <CardContent className="p-6 flex flex-col h-full">
               <div>
@@ -130,15 +129,12 @@ export default function SAPSolutionsPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
-                {/* button to schedule appointments */}
                 <div>
                   <ScheduleButton />
                 </div>
-
                 <div>
                   <DownloadBrochureButton />
                 </div>
-
               </div>
               <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
                 <p className="mb-2">
