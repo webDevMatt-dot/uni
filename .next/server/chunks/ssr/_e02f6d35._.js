@@ -831,23 +831,21 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/styled-jsx/style.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
-;
 ;
 ;
 const partners = [
     {
         src: "/avast.png",
-        alt: "avast"
+        alt: "Avast"
     },
     {
         src: "/avg.jpg",
-        alt: "avg"
+        alt: "AVG"
     },
     {
         src: "/bitdef.png",
-        alt: "bitdefender"
+        alt: "Bitdefender"
     },
     {
         src: "/mcafee.png",
@@ -864,44 +862,47 @@ const partners = [
 ];
 function PartnersMarquee() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-7cec81bce05946ab" + " " + "relative overflow-hidden bg-gray-50 py-6 sm:py-8",
+        className: "jsx-c6f6a9f3d93a203" + " " + "bg-gray-50 py-6 sm:py-8 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-7cec81bce05946ab" + " " + "absolute top-0 left-0 w-full h-full overflow-hidden",
+                className: "jsx-c6f6a9f3d93a203" + " " + "w-full whitespace-nowrap",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-7cec81bce05946ab" + " " + "flex animate-marquee gap-12 px-6 w-max",
+                    className: "jsx-c6f6a9f3d93a203" + " " + "flex gap-12 animate-marquee",
                     children: [
                         ...partners,
                         ...partners
-                    ].map((partner, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    ].map((partner, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: partner.src,
                             alt: partner.alt,
                             width: 120,
                             height: 60,
-                            className: "object-contain transition duration-300"
+                            style: {
+                                maxHeight: "60px"
+                            },
+                            className: "jsx-c6f6a9f3d93a203" + " " + "object-contain transition duration-300"
                         }, index, false, {
                             fileName: "[project]/src/components/ui/PartnersMarquee.tsx",
-                            lineNumber: 20,
+                            lineNumber: 19,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/PartnersMarquee.tsx",
-                    lineNumber: 18,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/PartnersMarquee.tsx",
-                lineNumber: 17,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "7cec81bce05946ab",
-                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-7cec81bce05946ab{animation:30s linear infinite marquee}"
+                id: "c6f6a9f3d93a203",
+                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-c6f6a9f3d93a203{width:max-content;animation:30s linear infinite marquee;display:flex}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ui/PartnersMarquee.tsx",
-        lineNumber: 16,
+        lineNumber: 15,
         columnNumber: 5
     }, this);
 }

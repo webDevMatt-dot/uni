@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 
 const partners = [
-  { src: "/avast.png", alt: "avast" },
-  { src: "/avg.jpg", alt: "avg" },
-  { src: "/bitdef.png", alt: "bitdefender" },
+  { src: "/avast.png", alt: "Avast" },
+  { src: "/avg.jpg", alt: "AVG" },
+  { src: "/bitdef.png", alt: "Bitdefender" },
   { src: "/mcafee.png", alt: "McAfee" },
   { src: "/oracle.jfif", alt: "Oracle" },
   { src: "/ibm.png", alt: "IBM" },
@@ -13,17 +12,18 @@ const partners = [
 
 export function PartnersMarquee() {
   return (
-    <div className="relative overflow-hidden bg-gray-50 py-6 sm:py-8">
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <div className="flex animate-marquee gap-12 px-6 w-max">
+    <div className="bg-gray-50 py-6 sm:py-8 overflow-hidden">
+      <div className="w-full whitespace-nowrap">
+        <div className="flex gap-12 animate-marquee">
           {[...partners, ...partners].map((partner, index) => (
-            <Image
+            <img
               key={index}
               src={partner.src}
               alt={partner.alt}
               width={120}
               height={60}
               className="object-contain transition duration-300"
+              style={{ maxHeight: "60px" }}
             />
           ))}
         </div>
@@ -40,7 +40,9 @@ export function PartnersMarquee() {
         }
 
         .animate-marquee {
+          display: flex;
           animation: marquee 30s linear infinite;
+          width: max-content;
         }
       `}</style>
     </div>
