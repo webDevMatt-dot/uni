@@ -31,7 +31,7 @@ export function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
           <Image
-            src="/next.svg"
+            src="/logo.png"
             alt="AAT Logo"
             width={scrolled ? 28 : 36}
             height={scrolled ? 28 : 36}

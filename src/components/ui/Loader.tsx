@@ -6,10 +6,10 @@ export function Loader() {
   return (
     <div className="fixed inset-0 bg-white z-[9999] flex items-center justify-center">
       <Image
-        src="/aat_logo.png" // ✅ Update this to your actual logo path
+        src="/logo.png" // ✅ Update this to your actual logo path
         alt="AAT Business Solutions Logo"
-        width={150}
-        height={150}
+        width={350}
+        height={350}
         className="animate-pulse object-contain"
       />
     </div>
