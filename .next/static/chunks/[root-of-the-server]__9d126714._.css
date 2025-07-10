@@ -1147,6 +1147,10 @@
     padding-bottom: calc(var(--spacing) * 12);
   }
 
+  .pb-14 {
+    padding-bottom: calc(var(--spacing) * 14);
+  }
+
   .pb-16 {
     padding-bottom: calc(var(--spacing) * 16);
   }
@@ -1598,6 +1602,12 @@
   @media (width >= 40rem) {
     .sm\:pt-24 {
       padding-top: calc(var(--spacing) * 24);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:pb-16 {
+      padding-bottom: calc(var(--spacing) * 16);
     }
   }
 
