@@ -7,6 +7,7 @@ import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
 import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
+import { ContactInfo } from "src/components/ui/ContactInfo";
 
 export default function CybersecurityServicesPage() {
   return (
@@ -106,23 +107,8 @@ export default function CybersecurityServicesPage() {
                   <DownloadBrochureButton />
                 </div>
               </div>
-              <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-red-200 space-y-2">
-                <p>
-                  <a href="mailto:admin@aatsolutions.co.za" className="hover:underline flex items-center justify-center gap-2">
-                    📧 admin@aatsolutions.co.za
-                  </a>
-                </p>
-                <p>
-                  <a href="tel:+27816515179" className="hover:underline flex items-center justify-center gap-2">
-                    📞 +27 81 651 5179
-                  </a>
-                </p>
-                <p>
-                  <a href="https://wa.me/27816515179?text=Hello, I&apos;m contacting you regarding your Cybersecurity services." target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
-                    📱 WhatsApp Us
-                  </a>
-                </p>
-              </div>
+              <ContactInfo />
+
             </CardContent>
           </Card>
         </div>
