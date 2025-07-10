@@ -9,6 +9,7 @@ import { LearnButton } from "src/components/ui/learn";
 import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 import { ContactInfo } from "src/components/ui/ContactInfo";
 import { SecurityServicesList } from "src/components/sections/serviceSections/SecurityServicesList";
+import { PartnersMarquee } from "src/components/ui/PartnersMarquee";
 
 export default function CybersecurityServicesPage() {
   return (
@@ -90,13 +91,15 @@ export default function CybersecurityServicesPage() {
                 </div>
                 <div>
                   <ContactInfo />
-                </div>
+                </div>                
               </div>
 
             </CardContent>
           </Card>
         </div>
       </div>
+        <PartnersMarquee />
+
     </Layout>
   );
 }

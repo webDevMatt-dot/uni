@@ -7,6 +7,8 @@ import { ServicesSection } from "src/components/sections/ServicesSection";
 import { WhyChooseUs } from "src/components/sections/WhyChooseUs";
 import { CaseStudies } from "src/components/sections/CaseStudies";
 import { CallToAction } from "src/components/sections/CallToAction";
+import { PartnersMarquee } from "src/components/ui/PartnersMarquee";
+
 
 export default function AATBusinessSolutions() {
   return (
@@ -23,7 +25,9 @@ export default function AATBusinessSolutions() {
       <ServicesSection />
       <WhyChooseUs />
       <CaseStudies />
-      <CallToAction />
+      <CallToAction />      
+      <PartnersMarquee />
+
       <Footer />
     </div>
   );
