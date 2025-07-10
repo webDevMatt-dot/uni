@@ -3,12 +3,12 @@ import React from "react";
 import Image from "next/image";
 
 const partners = [
-  { src: "/partners/avast.png", alt: "avast" },
-  { src: "/partners/avg.jpg", alt: "avg" },
-  { src: "/partners/bitdef.png", alt: "bitdefender" },
-  { src: "/partners/mcafee.png", alt: "McAfee" },
-  { src: "/partners/oracle.jfif", alt: "Oracle" },
-  { src: "/partners/ibm.png", alt: "IBM" },
+  { src: "/avast.png", alt: "avast" },
+  { src: "/avg.jpg", alt: "avg" },
+  { src: "/bitdef.png", alt: "bitdefender" },
+  { src: "/mcafee.png", alt: "McAfee" },
+  { src: "/oracle.jfif", alt: "Oracle" },
+  { src: "/ibm.png", alt: "IBM" },
 ];
 
 export function PartnersMarquee() {

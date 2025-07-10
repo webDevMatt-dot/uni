@@ -217,27 +217,27 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 const partners = [
     {
-        src: "/partners/avast.png",
+        src: "/avast.png",
         alt: "avast"
     },
     {
-        src: "/partners/avg.jpg",
+        src: "/avg.jpg",
         alt: "avg"
     },
     {
-        src: "/partners/bitdef.png",
+        src: "/bitdef.png",
         alt: "bitdefender"
     },
     {
-        src: "/partners/mcafee.png",
+        src: "/mcafee.png",
         alt: "McAfee"
     },
     {
-        src: "/partners/oracle.jfif",
+        src: "/oracle.jfif",
         alt: "Oracle"
     },
     {
-        src: "/partners/ibm.png",
+        src: "/ibm.png",
         alt: "IBM"
     }
 ];
