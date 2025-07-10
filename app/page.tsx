@@ -27,7 +27,6 @@ export default function AATBusinessSolutions() {
       <CaseStudies />
       <CallToAction />      
       <PartnersMarquee />
-
       <Footer />
     </div>
   );

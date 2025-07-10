@@ -47,10 +47,10 @@ export function Navbar() {
         </Link>
 
         <nav className="hidden md:flex space-x-8 text-white font-medium">
-          <Link href="/" className="hover:underline">Home</Link>
-          <Link href="/#services" className="hover:underline">Services</Link>
-          <Link href="/header-pages/about-us" className="hover:underline">About</Link>
-          <Link href="/contact-pages" className="hover:underline">Contact</Link>
+          <Link href="/" className="hover:text-green-200 transition-colors duration-200">Home</Link>
+          <Link href="/#services" className="hover:text-green-200 transition-colors duration-200">Services</Link>
+          <Link href="/header-pages/about-us" className="hover:text-green-200 transition-colors duration-200">About</Link>
+          <Link href="/contact-pages" className="hover:text-green-200 transition-colors duration-200">Contact</Link>
         </nav>
 
         <button
