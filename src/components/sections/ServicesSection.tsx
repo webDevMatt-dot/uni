@@ -25,7 +25,7 @@ export function ServicesSection() {
                   ))}
                 </ul>
                 <Link href={link} passHref>
-                  <Button variant="outline" className="w-full mt-auto">View More Info</Button>
+                  <Button className="bg-white text-green-700 hover:bg-green-100 px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300 w-full mt-auto" variant="outline">View More Info</Button>
                 </Link>
               </div>
             </CardContent>

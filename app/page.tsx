@@ -18,7 +18,6 @@ export default function AATBusinessSolutions() {
           content="Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and Cybersecurity Services."
         />
       </Head>
-      
       <Navbar />        
       <HeroSection />    
       <ServicesSection />
