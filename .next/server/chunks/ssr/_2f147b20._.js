@@ -393,12 +393,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$s
 ;
 function HeroSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "text-center pt-16 pb-12 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat",
+        className: "text-center pt-8 pb-6 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-white/80 backdrop-blur-sm py-8 px-6 rounded-md max-w-4xl mx-auto",
+            className: "bg-white/80 backdrop-blur-sm py-4 px-6 rounded-md max-w-4xl mx-auto",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-3xl md:text-5xl font-extrabold text-black mb-4 leading-snug",
+                    className: "text-3xl md:text-5xl font-extrabold text-black mb-2 leading-snug",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600",
@@ -414,7 +414,7 @@ function HeroSection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-xl md:text-2xl font-semibold block mt-2",
+                            className: "text-lg md:text-xl font-semibold block mt-1",
                             children: "Empowering Digital Excellence Through Innovation, Data, and Skills"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -428,7 +428,7 @@ function HeroSection() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-sm md:text-base text-gray-700 max-w-2xl mx-auto mb-6 md:mb-8",
+                    className: "text-sm md:text-base text-gray-700 max-w-2xl mx-auto mb-4",
                     children: "Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services."
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -467,7 +467,7 @@ function HeroSection() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-8 text-base font-medium",
+                    className: "grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-6 text-base font-medium",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
