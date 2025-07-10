@@ -20,7 +20,7 @@ export default function CybersecurityServicesPage() {
       <div className="min-h-screen bg-white text-gray-800 font-sans pt-15 px-4 md:px-6">
 
         {/* Hero Section */}
-        <section className="py-16 md:py-20 text-center px-4 md:px-6 mb-12 rounded-lg shadow-sm bg-white">
+        <section className="pt-10 md:pt-14 pb-12 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-white">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-800">
@@ -103,7 +103,6 @@ export default function CybersecurityServicesPage() {
                 <div>
                   <ScheduleButton />
                 </div>
-                
                 <div>
                   <DownloadBrochureButton />
                 </div>

@@ -19,8 +19,8 @@ export default function AATBusinessSolutions() {
         />
       </Head>
       
-      <Navbar />
-      <HeroSection />
+      <Navbar />        
+      <HeroSection />    
       <ServicesSection />
       <WhyChooseUs />
       <CaseStudies />

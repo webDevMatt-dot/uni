@@ -19,12 +19,11 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 transition-all duration-300 ease-in-out shadow-sm ${
+      className={`fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-green-600 to-yellow-400 border-b border-gray-200 transition-all duration-300 ease-in-out shadow-sm ${
         scrolled ? "py-1 shadow-md" : "py-3"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between transition-all duration-300">
-        {/* Logo + Brand */}
         <Link
           href="/"
           aria-label="Home"
@@ -39,7 +38,7 @@ export function Navbar() {
             className="object-contain transition-all duration-300"
           />
           <span
-            className={`text-base font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 whitespace-nowrap transition-all duration-300 ${
+            className={`text-base font-semibold text-white whitespace-nowrap transition-all duration-300 ${
               scrolled ? "text-sm" : "text-lg"
             }`}
           >
@@ -47,31 +46,15 @@ export function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
-          <Link href="/" className="hover:text-blue-600 transition">
-            Home
-          </Link>
-          <Link href="/#services" className="hover:text-blue-600 transition">
-            Services
-          </Link>
-          <Link
-            href="/header-pages/about-us"
-            className="hover:text-blue-600 transition"
-          >
-            About
-          </Link>
-          <Link
-            href="/contact-pages"
-            className="hover:text-blue-600 transition"
-          >
-            Contact
-          </Link>
+        <nav className="hidden md:flex space-x-8 text-white font-medium">
+          <Link href="/" className="hover:underline">Home</Link>
+          <Link href="/#services" className="hover:underline">Services</Link>
+          <Link href="/header-pages/about-us" className="hover:underline">About</Link>
+          <Link href="/contact-pages" className="hover:underline">Contact</Link>
         </nav>
 
-        {/* Mobile Menu Toggle */}
         <button
-          className="md:hidden text-gray-700"
+          className="md:hidden text-white"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -79,25 +62,13 @@ export function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu Dropdown */}
       {menuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200 shadow-sm px-6 pb-4">
-          <nav className="flex flex-col gap-4 text-gray-700 font-medium">
-            <Link href="/" onClick={() => setMenuOpen(false)}>
-              Home
-            </Link>
-            <Link href="/#services" onClick={() => setMenuOpen(false)}>
-              Services
-            </Link>
-            <Link
-              href="/header-pages/about-us"
-              onClick={() => setMenuOpen(false)}
-            >
-              About
-            </Link>
-            <Link href="/contact-pages" onClick={() => setMenuOpen(false)}>
-              Contact
-            </Link>
+        <div className="md:hidden bg-gradient-to-r from-green-600 to-yellow-400 border-t border-gray-200 px-6 pb-4">
+          <nav className="flex flex-col gap-4 text-white font-medium">
+            <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+            <Link href="/#services" onClick={() => setMenuOpen(false)}>Services</Link>
+            <Link href="/header-pages/about-us" onClick={() => setMenuOpen(false)}>About</Link>
+            <Link href="/contact-pages" onClick={() => setMenuOpen(false)}>Contact</Link>
           </nav>
         </div>
       )}

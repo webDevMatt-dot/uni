@@ -3,8 +3,8 @@ import { ScheduleButton } from "src/components/ui/schedule";
 
 export function HeroSection() {
   return (
-    <section className="text-center pt-20 sm:pt-24 pb-16 md:pb-20 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
-      <div className="bg-white/80 backdrop-blur-sm py-10 px-6 rounded-md max-w-4xl mx-auto">
+    <section className="text-center pt-16 pb-12 bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
+      <div className="bg-white/80 backdrop-blur-sm py-8 px-6 rounded-md max-w-4xl mx-auto">
         <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-snug">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
             AAT Business Solutions
@@ -21,7 +21,7 @@ export function HeroSection() {
           <div><ExploreButton /></div>
           <div><ScheduleButton /></div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-10 text-base font-medium">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mt-8 text-base font-medium">
           <div><strong className="block text-xl font-bold">7+</strong> Years Experience</div>
           <div><strong className="block text-xl font-bold">100+</strong> Projects Completed</div>
           <div><strong className="block text-xl font-bold">100+</strong> Happy Clients</div>
