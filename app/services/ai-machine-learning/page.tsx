@@ -15,7 +15,7 @@ export default function AIMachineLearningPage() {
   return (
     <Layout>
       <Head>
-        <title>AI & Machine Learning | AAT Business Solutions</title>
+        <title>AI & Machine Learning | Unison</title>
       </Head>
 
       <Navbar />
@@ -56,7 +56,7 @@ export default function AIMachineLearningPage() {
 
             {/* Why Us */}
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black border-b-2 pb-2 border-indigo-200 mt-12">
-              Why Partner with AAT Business Solutions?
+              Why Partner with Unison?
             </h2>
             <div className="space-y-6 text-gray-700 text-base leading-relaxed">
               <p>We combine deep AI/ML know-how with your business goals to deliver solutions that actually work and bring ROI.</p>

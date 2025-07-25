@@ -130,7 +130,7 @@ const Footer = ()=>{
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/header-pages/about-us",
                                         className: "hover:underline",
-                                        children: "AAT Business Solutions"
+                                        children: "Unison"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ui/Footer.tsx",
                                         lineNumber: 12,
@@ -331,7 +331,7 @@ const Footer = ()=>{
                     children: [
                         "© ",
                         new Date().getFullYear(),
-                        " AAT Business Solutions. All rights reserved."
+                        " Unison. All rights reserved."
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ui/Footer.tsx",
@@ -460,7 +460,7 @@ function Unison() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                        children: "AAT Business Solutions"
+                        children: "Unison"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 57,
@@ -495,7 +495,7 @@ function Unison() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600",
-                                    children: "AAT Business Solutions"
+                                    children: "Unison"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 70,

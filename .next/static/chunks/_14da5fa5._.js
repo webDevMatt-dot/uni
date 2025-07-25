@@ -30,7 +30,7 @@ _jsxDEV("header", {
                         }, this),
                         /*#__PURE__*/ _jsxDEV("span", {
                             className: "text-lg font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 whitespace-nowrap",
-                            children: "AAT Business Solutions"
+                            children: "Unison"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
                             lineNumber: 11,
@@ -244,7 +244,7 @@ const Footer = ()=>{
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/header-pages/about-us",
                                         className: "hover:underline",
-                                        children: "AAT Business Solutions"
+                                        children: "Unison"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ui/Footer.tsx",
                                         lineNumber: 12,
@@ -445,7 +445,7 @@ const Footer = ()=>{
                     children: [
                         "© ",
                         new Date().getFullYear(),
-                        " AAT Business Solutions. All rights reserved."
+                        " Unison. All rights reserved."
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ui/Footer.tsx",
@@ -714,7 +714,7 @@ function DataEngineeringSciencePage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "Data Engineering & Science | AAT Business Solutions"
+                    children: "Data Engineering & Science | Unison"
                 }, void 0, false, {
                     fileName: "[project]/app/services/data-engineering/page.tsx",
                     lineNumber: 15,
@@ -928,7 +928,7 @@ function DataEngineeringSciencePage() {
                                         className: "space-y-6 text-gray-700 leading-relaxed text-base",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "At AAT Business Solutions, we transform complex data challenges into actionable opportunities. Our holistic approach ensures your data infrastructure is efficient, secure, and capable of delivering profound insights that propel your business forward."
+                                                children: "At Unison, we transform complex data challenges into actionable opportunities. Our holistic approach ensures your data infrastructure is efficient, secure, and capable of delivering profound insights that propel your business forward."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/data-engineering/page.tsx",
                                                 lineNumber: 110,

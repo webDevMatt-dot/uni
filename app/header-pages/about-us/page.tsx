@@ -10,7 +10,7 @@ export default function AboutUsPage() {
   return (
     <Layout>
       <Head>
-        <title>About Us | AAT Business Solutions</title>
+        <title>About Us | Unison</title>
       </Head>
 
       <Navbar />
@@ -28,7 +28,7 @@ export default function AboutUsPage() {
                   </span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
-                  At AAT Business Solutions, we combine
+                  At Unison, we combine
                   <strong className="font-semibold text-black"> innovative thinking with cutting-edge technology </strong>
                   to deliver results-driven business solutions in ICT and Communications.
                 </p>

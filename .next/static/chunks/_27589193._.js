@@ -63,7 +63,7 @@ function Navbar() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: `text-base font-semibold text-white whitespace-nowrap transition-all duration-300 ${scrolled ? "text-sm" : "text-lg"}`,
-                                children: "AAT Business Solutions"
+                                children: "Unison"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/Navbar.tsx",
                                 lineNumber: 40,
@@ -279,7 +279,7 @@ const Footer = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
-                                    children: "AAT Business Solutions"
+                                    children: "Unison"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
                                     lineNumber: 12,
@@ -472,7 +472,7 @@ const Footer = ()=>{
                 children: [
                     "© ",
                     new Date().getFullYear(),
-                    " AAT Business Solutions. All rights reserved."
+                    " Unison. All rights reserved."
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/Footer.tsx",
@@ -926,7 +926,7 @@ function SAPSolutionsPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "SAP Solutions | AAT Business Solutions"
+                    children: "SAP Solutions | Unison"
                 }, void 0, false, {
                     fileName: "[project]/app/services/sap-solutions/page.tsx",
                     lineNumber: 17,
@@ -1058,7 +1058,7 @@ function SAPSolutionsPage() {
                                         className: "space-y-6 text-gray-700 leading-relaxed text-base",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "AAT Business Solutions stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth."
+                                                children: "Unison stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/sap-solutions/page.tsx",
                                                 lineNumber: 57,

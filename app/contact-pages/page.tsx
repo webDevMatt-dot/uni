@@ -15,7 +15,7 @@ export default function ContactPage() {
   return (
     <Layout>
       <Head>
-        <title>Contact Us | AAT Business Solutions</title>
+        <title>Contact Us | Unison</title>
       </Head>
 
       <Navbar />
@@ -26,7 +26,7 @@ export default function ContactPage() {
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl md:text-5xl font-extrabold text-black mb-4 leading-tight">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-          Get in Touch with AAT Business Solutions
+          Get in Touch with Unison
         </span>
       </h1>
       <p className="text-base md:text-xl text-gray-700 max-w-2xl mx-auto mb-6">

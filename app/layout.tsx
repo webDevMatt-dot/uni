@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AAT Business Solutions",
+  title: "Unison",
   description: "Transforming Business Through Technology",
   icons: {
     icon: "/logo.ico",}

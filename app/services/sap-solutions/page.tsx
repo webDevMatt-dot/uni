@@ -14,7 +14,7 @@ export default function SAPSolutionsPage() {
   return (
     <Layout>
       <Head>
-        <title>SAP Solutions | AAT Business Solutions</title>
+        <title>SAP Solutions | Unison</title>
       </Head>
 
       {/* Navbar */}
@@ -55,7 +55,7 @@ export default function SAPSolutionsPage() {
             </h2>
             <div className="space-y-6 text-gray-700 leading-relaxed text-base">
               <p>
-                AAT Business Solutions stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth.
+                Unison stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth.
               </p>
               <ul className="list-disc list-inside space-y-2 text-base ml-4">
                 <li>
