@@ -34,7 +34,7 @@ export function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
           <Image
-            src="/unison.png" // Your Unison logo image
+            src="/unison.svg" // Your Unison logo image
             alt="Unison Logo" // More descriptive alt text
             width={scrolled ? 38 : 46} // Image size controlled by scroll
             height={scrolled ? 38 : 46} // Image size controlled by scroll

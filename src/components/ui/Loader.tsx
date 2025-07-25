@@ -6,7 +6,7 @@ export function Loader() {
   return (
     <div className="fixed inset-0 bg-white z-[9999] flex items-center justify-center">
       <Image
-        src="/unison.png"
+        src="/unison.svg"
         alt="Unison Logo"
         width={350}
         height={350}
