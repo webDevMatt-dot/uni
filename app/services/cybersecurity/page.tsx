@@ -31,7 +31,7 @@ export default function CyberSecurityPage() {
               <strong className="font-semibold text-white">
                 top-tier security solutions
               </strong>{" "}
-              tailored to defend against today’s cyber threats.
+              tailored to defend against today's cyber threats.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <div><ScheduleButton /></div>
@@ -65,7 +65,7 @@ export default function CyberSecurityPage() {
               <ul className="list-disc list-inside ml-4 space-y-2">
                 <li>
                   <strong className="text-indigo-400">Proactive Defense:</strong>{" "}
-                  We don't just react — we prevent.
+                  We don&rsquo;t just react — we prevent.
                 </li>
                 <li>
                   <strong className="text-indigo-400">24/7 Monitoring:</strong>{" "}
@@ -88,11 +88,11 @@ export default function CyberSecurityPage() {
             <CardContent className="p-6 flex flex-col h-full text-white">
               <div>
                 <h3 className="font-bold text-xl mb-3 text-center text-indigo-400">
-                  Let’s Secure Your Business
+                  Let&rsquo;s Secure Your Business
                 </h3>
                 <p className="text-sm text-zinc-400 mb-5 text-center leading-relaxed">
                   Get a customized antivirus strategy and take control of
-                  your organization’s digital safety.
+                  your organization&rsquo;s digital safety.
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
