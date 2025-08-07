@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import { Navbar } from "src/components/ui/Navbar";
-import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "src/components/ui/card";
 import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
