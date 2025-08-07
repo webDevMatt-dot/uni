@@ -5,10 +5,10 @@ export function ContactInfo({ whatsappMessage = "" }) {
     <div className="mt-6 text-center text-sm text-gray-500 border-t pt-4 border-indigo-200">
       <p className="mb-2">
         <a
-          href="mailto:admin@aatsolutions.co.za"
+          href="mailto:admin@unidata.co.za"
           className="hover:text-green-600 flex items-center justify-center gap-2"
         >
-          📧 admin@aatsolutions.co.za
+          📧 admin@unidata.co.za
         </a>
       </p>
       <p>
