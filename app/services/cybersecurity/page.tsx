@@ -19,23 +19,28 @@ export default function CyberSecurityPage() {
 
       <Navbar />
 
-      <div className="min-h-screen bg-zinc-950 text-white font-sans pt-6 px-4 md:px-6">
+      <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans pt-6 px-4 md:px-6">
         {/* Hero Section */}
-        <section className="pt-10 md:pt-14 pb-12 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-zinc-900/80 backdrop-blur-md">
+        <section className="pt-10 md:pt-14 pb-12 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-white dark:bg-gray-800">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight text-indigo-400">
-              Antivirus Services
+            <h1 className="text-3xl md:text-5xl font-extrabold text-black dark:text-white mb-4">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-400 dark:to-teal-400">
+                Antivirus Services
+              </span>
             </h1>
-            <p className="text-base md:text-xl text-zinc-300 max-w-2xl mx-auto mb-8">
-              Safeguard your digital assets with{" "}
-              <strong className="font-semibold text-white">
-                top-tier security solutions
-              </strong>{" "}
-              tailored to defend against today&rsquo;s cyber threats.
+            <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8">
+              Safeguard your digital assets with{" "} <strong className="font-semibold text-white"> top-tier security solutions </strong>{" "} tailored to defend against today&rsquo;s cyber threats.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <div><ScheduleButton /></div>
-              <div><LearnButton /></div>
+              
+              <div>
+                <ScheduleButton />
+              </div>
+
+              <div>
+                <LearnButton />
+              </div>
+
             </div>
           </div>
         </section>
@@ -44,25 +49,23 @@ export default function CyberSecurityPage() {
         <div className="max-w-6xl mx-auto pb-16 flex flex-col md:flex-row justify-between items-start gap-12">
           {/* Left: Offerings */}
           <div className="md:w-2/3 w-full">
-            <h2
-              id="offerings"
-              className="text-2xl md:text-3xl font-bold mb-8 border-b-2 pb-2 border-indigo-600 text-indigo-400"
-            >
+            <h2 id="offerings" className="text-2xl md:text-3xl font-bold mb-8 border-b-2 pb-2 border-indigo-600 text-indigo-400">
               Our Antivirus Offerings
             </h2>
 
             <SecurityServicesList />
 
             {/* Why Us */}
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 border-b-2 pb-2 border-indigo-600 mt-12 text-indigo-400">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400 mt-12">
               Why Choose Unison Security?
             </h2>
-            <div className="space-y-6 text-zinc-400 text-base leading-relaxed">
+
+            <div className="space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base">
               <p>
                 We protect your infrastructure, data, and reputation with a
                 multi-layered approach tailored to your risk profile.
               </p>
-              <ul className="list-disc list-inside ml-4 space-y-2">
+              <ul className="list-disc list-inside space-y-2 text-base ml-4">
                 <li>
                   <strong className="text-indigo-400">Proactive Defense:</strong>{" "}
                   We don&rsquo;t just react — we prevent.
@@ -84,13 +87,13 @@ export default function CyberSecurityPage() {
           </div>
 
           {/* Right: Sticky CTA */}
-          <Card className="w-full md:w-[320px] border border-zinc-700 shadow-xl rounded-lg sticky md:top-28 self-start bg-zinc-900/70 backdrop-blur-md">
-            <CardContent className="p-6 flex flex-col h-full text-white">
+          <Card className="w-full md:w-[320px] border border-gray-200 dark:border-gray-700 shadow-xl rounded-lg self-start bg-white dark:bg-gray-800 sticky md:top-28 md:sticky relative">
+            <CardContent className="p-6 flex flex-col h-full">
               <div>
-                <h3 className="font-bold text-xl mb-3 text-center text-indigo-400">
+                <h3 className="font-bold text-xl mb-3 text-center text-black dark:text-white">
                   Let&rsquo;s Secure Your Business
                 </h3>
-                <p className="text-sm text-zinc-400 mb-5 text-center leading-relaxed">
+                <p className="text-sm text-gray-600 dark:text-gray-300 mb-5 text-center leading-relaxed">
                   Get a customized antivirus strategy and take control of
                   your organization&rsquo;s digital safety.
                 </p>

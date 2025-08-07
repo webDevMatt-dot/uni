@@ -34,12 +34,15 @@ export default function SAPSolutionsPage() {
               <strong className="font-semibold text-black dark:text-white">SAP solutions</strong>, tailored to drive your digital transformation journey.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
+              
               <div>
                 <ScheduleButton />
               </div>
+
               <div>
                 <LearnButton />
               </div>
+
             </div>
           </div>
         </section>
@@ -47,20 +50,16 @@ export default function SAPSolutionsPage() {
         <div className="max-w-6xl mx-auto pb-16 flex flex-col md:flex-row justify-between items-start gap-12">
           {/* Left Column */}
           <div className="md:w-2/3 w-full">
-            <h2
-              id="offerings"
-              className="text-2xl md:text-3xl font-bold mb-8 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400"
-            >
+            <h2 id="offerings" className="text-2xl md:text-3xl font-bold mb-8 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400">
               Our Comprehensive SAP Offerings
             </h2>
 
             <SAPServicesList />
 
-            <h2
-              className="text-2xl md:text-3xl font-bold mb-6 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400 mt-12"
-            >
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400 mt-12">
               Why Partner with AAT for SAP Solutions?
             </h2>
+            
             <div className="space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base">
               <p>
                 Unison stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth.

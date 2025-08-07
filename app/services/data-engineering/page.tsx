@@ -20,25 +20,28 @@ export default function DataEngineeringSciencePage() {
       {/* Navbar */}
       <Navbar />
 
-      <div className="min-h-screen bg-[#0f1117] text-gray-100 font-sans pt-6 px-4 md:px-6">
+      <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans pt-6 px-4 md:px-6">
         {/* Hero Section */}
-        <section className="pt-10 md:pt-14 pb-12 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-[#1a1c22] transition-colors duration-300">
+        <section className="pt-10 md:pt-14 pb-12 text-center px-4 md:px-6 mb-10 rounded-lg shadow-sm bg-white dark:bg-gray-800">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-teal-400">
+            <h1 className="text-3xl md:text-5xl font-extrabold text-black dark:text-white mb-4">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-400 dark:to-teal-400">
                 Data Engineering & Science Solutions
               </span>
             </h1>
-            <p className="text-base md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+            <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8">
               Unlock the true potential of your data with robust <strong className="font-semibold text-white">data engineering and advanced data science</strong> services, driving insights and informed decision-making.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
+              
               <div>
                 <ScheduleButton />
               </div>
+
               <div>
                 <LearnButton />
               </div>
+
             </div>
           </div>
         </section>
@@ -52,10 +55,11 @@ export default function DataEngineeringSciencePage() {
 
             <DataEngineeringServicesList />
 
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white border-b-2 pb-2 border-teal-500 mt-12">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400 mt-12">
               Why Partner with AAT for Data Solutions?
             </h2>
-            <div className="space-y-6 text-gray-300 leading-relaxed text-base">
+
+            <div className="space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base">
               <p>
                 At Unison, we transform complex data challenges into actionable opportunities. Our holistic approach ensures your data infrastructure is efficient, secure, and capable of delivering profound insights that propel your business forward.
               </p>
@@ -77,26 +81,20 @@ export default function DataEngineeringSciencePage() {
           </div>
 
           {/* Right Column: Sticky CTA */}
-          <Card
-            className="w-full md:w-[320px] border border-gray-700 shadow-xl rounded-lg self-start bg-[#1a1c22] sticky md:top-28 relative transition-colors duration-300"
-          >
+          <Card className="w-full md:w-[320px] border border-gray-200 dark:border-gray-700 shadow-xl rounded-lg self-start bg-white dark:bg-gray-800 sticky md:top-28 md:sticky relative">
             <CardContent className="p-6 flex flex-col h-full">
               <div>
-                <h3 className="font-bold text-xl mb-3 text-center text-white">Ready to Transform Your Data?</h3>
-                <p className="text-sm text-gray-400 mb-5 text-center leading-relaxed">
+                <h3 className="font-bold text-xl mb-3 text-center text-black dark:text-white">
+                  Ready to Transform Your Data?
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300 mb-5 text-center leading-relaxed">
                   Harness the power of your information for strategic growth. Contact us for a data solution consultation.
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
-                <div>
                   <ScheduleButton />
-                </div>
-                <div>
                   <DownloadBrochureButton />
-                </div>
-                <div>
                   <ContactInfo />
-                </div>
               </div>
             </CardContent>
           </Card>
