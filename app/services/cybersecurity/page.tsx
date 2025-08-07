@@ -31,7 +31,7 @@ export default function CyberSecurityPage() {
               <strong className="font-semibold text-white">
                 top-tier security solutions
               </strong>{" "}
-              tailored to defend against today's cyber threats.
+              tailored to defend against today&rsquo;s cyber threats.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <div><ScheduleButton /></div>

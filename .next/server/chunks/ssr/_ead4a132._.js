@@ -938,7 +938,7 @@ function CyberSecurityPage() {
                                             columnNumber: 15
                                         }, this),
                                         " ",
-                                        "tailored to defend against today's cyber threats."
+                                        "tailored to defend against today’s cyber threats."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/services/cybersecurity/page.tsx",
