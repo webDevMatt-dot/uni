@@ -73,10 +73,10 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="mailto:admin@aatsolutions.co.za"
+                  href="mailto:admin@unidata.co.za"
                   className="hover:text-indigo-400 transition block" // Accent hover
                 >
-                  📧 admin@aatsolutions.co.za
+                  📧 admin@unidata.co.za
                 </a>
               </li>
             </ul>

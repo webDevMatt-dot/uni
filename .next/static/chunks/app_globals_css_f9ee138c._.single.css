@@ -77,6 +77,8 @@
 
 @layer theme {
   :root, :host {
+    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --color-red-200: oklch(88.5% .062 18.334);
     --color-red-600: oklch(57.7% .245 27.325);
     --color-green-100: oklch(96.2% .044 156.743);
@@ -150,8 +152,8 @@
     --blur-sm: 8px;
     --default-transition-duration: .15s;
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
-    --default-font-family: var(--font-geist-sans);
-    --default-mono-font-family: var(--font-geist-mono);
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
   }
 }
 
@@ -729,6 +731,12 @@
     margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
   }
 
+  :where(.space-y-3 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
   :where(.space-y-4 > :not(:last-child)) {
     --tw-space-y-reverse: 0;
     margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
@@ -1074,7 +1082,7 @@
   }
 
   .font-sans {
-    font-family: var(--font-geist-sans);
+    font-family: var(--font-sans);
   }
 
   .text-2xl {
@@ -1449,12 +1457,6 @@
   }
 
   @media (width >= 40rem) {
-    .sm\:w-auto {
-      width: auto;
-    }
-  }
-
-  @media (width >= 40rem) {
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -1767,7 +1769,7 @@
   }
 
   .animate-marquee {
-    animation: 40s linear infinite marquee;
+    animation: 30s linear infinite marquee;
   }
 
   @keyframes marquee {
@@ -1800,21 +1802,7 @@ body {
 }
 
 html, body, #__next {
-  background-color: #fff;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-marquee {
-  animation: 30s linear infinite marquee;
+  background-color: var(--background);
 }
 
 @property --tw-translate-x {

@@ -55,7 +55,7 @@ function Navbar() {
                         className: "flex items-center gap-2",
                         onClick: ()=>setMenuOpen(false),
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/unison.svg" // Your Unison logo image
+                            src: "/unison.png" // Your Unison logo image
                             ,
                             alt: "Unison Logo" // More descriptive alt text
                             ,
@@ -420,10 +420,10 @@ const Footer = ()=>{
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "mailto:admin@aatsolutions.co.za",
+                                                href: "mailto:admin@unidata.co.za",
                                                 className: "hover:text-indigo-400 transition block" // Accent hover
                                                 ,
-                                                children: "📧 admin@aatsolutions.co.za"
+                                                children: "📧 admin@unidata.co.za"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
                                                 lineNumber: 75,
@@ -493,12 +493,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Button({ children, className = '', ...props }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         className: `
-        bg-indigo-600 text-white
-        hover:bg-indigo-500 hover:shadow-lg
-        px-5 py-2.5 text-sm md:text-base rounded-full
-        shadow-md transition duration-300 ease-in-out
-        w-full whitespace-nowrap
-        ${className}
+        bg-indigo-600 text-white                      // beautiful deep blue button
+        hover:bg-indigo-500 hover:shadow-lg           // smooth hover effect with shadow
+        px-5 py-2.5 text-sm md:text-base              // comfy padding & font scales on screens
+        rounded-full                                  // perfectly pill-shaped
+        shadow-md transition duration-300 ease-in-out // smooth animations
+        w-full whitespace-nowrap                      // fills container, no wrapping
+        ${className}                                  // allows custom styling when used
       `,
         ...props,
         children: children
@@ -534,7 +535,7 @@ function ExploreButton() {
             href: "#services",
             className: "inline-block w-full md:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                className: "w-full md:w-auto px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300",
+                className: "   bg-indigo-600 text-white   hover:bg-indigo-500 hover:shadow-lg   px-5 py-2.5 text-sm md:text-base   rounded-full shadow-md   transition duration-300 ease-in-out   w-full md:w-auto whitespace-nowrap   ",
                 children: "🔍 Explore Our Services"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/explore.tsx",
@@ -580,7 +581,7 @@ function ScheduleButton() {
             rel: "noopener noreferrer",
             className: "inline-block w-full md:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                className: "w-full md:w-auto px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300",
+                className: "   bg-indigo-600 text-white   hover:bg-indigo-500 hover:shadow-lg   px-5 py-2.5 text-sm md:text-base   rounded-full shadow-md   transition duration-300 ease-in-out   w-full md:w-auto whitespace-nowrap   ",
                 children: "📅 Schedule a Consultation"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/schedule.tsx",
@@ -1535,7 +1536,7 @@ function Loader() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "fixed inset-0 bg-white z-[9999] flex items-center justify-center",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            src: "/unison.svg",
+            src: "/unison.png",
             alt: "Unison Logo",
             width: 350,
             height: 350,

@@ -8,6 +8,7 @@ import Layout from "src/components/ui/Layout";
 import { ScheduleButton } from "src/components/ui/schedule";
 import { countryCodes } from "src/data/countryCodes";
 import { SendMessageButton } from "src/components/ui/sendmessage";
+import { ContactButtons } from "src/components/ui/ContactButtons";
 
 export default function ContactPage() {
   const [selectedCode, setSelectedCode] = useState("+27");
@@ -146,26 +147,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex flex-col gap-3 mt-4">
-                <a href="mailto:admin@aatsolutions.co.za" className="w-full">
-                    <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
-                    📧 Email Us
-                    </Button>
-                </a>
-                <a href="tel:+27816515179" className="w-full">
-                    <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
-                    📞 Call Now
-                    </Button>
-                </a>
-                <a
-                    href="https://wa.me/27816515179?text=Hi%20AAT%20Team!%20I%20have%20a%20question%20about%20your%20services."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full"
-                >
-                    <Button variant="outline" className="w-full py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300">
-                    💬 WhatsApp Us
-                    </Button>
-                </a>
+                  <ContactButtons /> 
                 </div>
 
                 <div className="mt-5">

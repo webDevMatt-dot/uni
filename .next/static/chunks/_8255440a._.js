@@ -29,7 +29,8 @@ function Navbar() {
         "Navbar.useEffect": ()=>{
             const handleScroll = {
                 "Navbar.useEffect.handleScroll": ()=>{
-                    setScrolled(window.scrollY > 10);
+                    // Adjusted scroll threshold for the shrinking effect
+                    setScrolled(window.scrollY > 50); // Consistent with your App.css scroll threshold
                 }
             }["Navbar.useEffect.handleScroll"];
             window.addEventListener("scroll", handleScroll);
@@ -39,7 +40,11 @@ function Navbar() {
         }
     }["Navbar.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: `fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-green-600 to-yellow-400 border-b border-gray-200 transition-all duration-300 ease-in-out shadow-sm ${scrolled ? "py-1 shadow-md" : "py-3"}`,
+        className: `fixed top-0 left-0 right-0 z-50
+        bg-zinc-950/80 backdrop-blur-sm border-b border-zinc-700
+        transition-all duration-300 ease-in-out shadow-sm
+        ${scrolled ? "py-2 shadow-md" : "py-4"}` // Adjusted padding for a slightly larger default/smaller scrolled state
+        ,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 flex items-center justify-between transition-all duration-300",
@@ -49,30 +54,22 @@ function Navbar() {
                         "aria-label": "Home",
                         className: "flex items-center gap-2",
                         onClick: ()=>setMenuOpen(false),
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/next.svg",
-                                alt: "AAT Logo",
-                                width: scrolled ? 28 : 36,
-                                height: scrolled ? 28 : 36,
-                                className: "object-contain transition-all duration-300"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/ui/Navbar.tsx",
-                                lineNumber: 33,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: `text-base font-semibold text-white whitespace-nowrap transition-all duration-300 ${scrolled ? "text-sm" : "text-lg"}`,
-                                children: "Unison"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/ui/Navbar.tsx",
-                                lineNumber: 40,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            src: "/unison.png" // Your Unison logo image
+                            ,
+                            alt: "Unison Logo" // More descriptive alt text
+                            ,
+                            width: scrolled ? 38 : 46,
+                            height: scrolled ? 38 : 46,
+                            className: "object-contain transition-all duration-300"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/Navbar.tsx",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/components/ui/Navbar.tsx",
-                        lineNumber: 27,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -80,44 +77,44 @@ function Navbar() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
-                                className: "hover:text-green-200 transition-colors duration-200",
+                                className: "hover:text-indigo-400 transition-colors duration-200",
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                                lineNumber: 50,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/#services",
-                                className: "hover:text-green-200 transition-colors duration-200",
+                                className: "hover:text-indigo-400 transition-colors duration-200",
                                 children: "Services"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                                lineNumber: 51,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/header-pages/about-us",
-                                className: "hover:text-green-200 transition-colors duration-200",
-                                children: "About"
+                                className: "hover:text-indigo-400 transition-colors duration-200",
+                                children: "About Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                                lineNumber: 52,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/contact-pages",
-                                className: "hover:text-green-200 transition-colors duration-200",
+                                className: "hover:text-indigo-400 transition-colors duration-200",
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                                lineNumber: 53,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ui/Navbar.tsx",
-                        lineNumber: 49,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -128,82 +125,86 @@ function Navbar() {
                             size: 24
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 61,
+                            lineNumber: 67,
                             columnNumber: 23
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                             size: 24
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 61,
+                            lineNumber: 67,
                             columnNumber: 41
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/Navbar.tsx",
-                        lineNumber: 56,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                lineNumber: 26,
+                lineNumber: 29,
                 columnNumber: 7
             }, this),
             menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "md:hidden bg-gradient-to-r from-green-600 to-yellow-400 border-t border-gray-200 px-6 pb-4",
+                className: "md:hidden bg-zinc-950/95 border-t border-zinc-700 px-6 pb-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                     className: "flex flex-col gap-4 text-white font-medium",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
+                            className: "py-2 hover:bg-zinc-800 rounded-md",
                             onClick: ()=>setMenuOpen(false),
                             children: "Home"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 68,
+                            lineNumber: 74,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/#services",
+                            className: "py-2 hover:bg-zinc-800 rounded-md",
                             onClick: ()=>setMenuOpen(false),
                             children: "Services"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 69,
+                            lineNumber: 75,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/header-pages/about-us",
+                            className: "py-2 hover:bg-zinc-800 rounded-md",
                             onClick: ()=>setMenuOpen(false),
-                            children: "About"
+                            children: "About Us"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 70,
+                            lineNumber: 76,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/contact-pages",
+                            className: "py-2 hover:bg-zinc-800 rounded-md",
                             onClick: ()=>setMenuOpen(false),
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 71,
+                            lineNumber: 77,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ui/Navbar.tsx",
-                    lineNumber: 67,
+                    lineNumber: 73,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                lineNumber: 66,
+                lineNumber: 72,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ui/Navbar.tsx",
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
@@ -269,26 +270,33 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Footer = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "bg-gray-50 text-gray-700 border-t border-gray-200 pt-10 pb-6",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+            className: "bg-zinc-950 text-zinc-300 border-t border-zinc-800 pt-10 pb-6",
+            children: [
+                " ",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
-                                    children: "Unison"
-                                }, void 0, false, {
+                                    className: "text-2xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
+                                    children: [
+                                        " ",
+                                        "Unison"
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
                                     lineNumber: 12,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-gray-600 leading-relaxed",
-                                    children: "Your trusted partner for cutting-edge technology solutions. Specializing in AI, Data Engineering, SAP Solutions, and Cybersecurity."
-                                }, void 0, false, {
+                                    className: "text-sm text-zinc-400 leading-relaxed",
+                                    children: [
+                                        " ",
+                                        "Your trusted partner for cutting-edge technology solutions. Specializing in AI, Data Engineering, SAP Solutions, and Cybersecurity."
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
                                     lineNumber: 15,
                                     columnNumber: 13
@@ -302,9 +310,12 @@ const Footer = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
-                                    children: "Our Services"
-                                }, void 0, false, {
+                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
+                                    children: [
+                                        " ",
+                                        "Our Services"
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
                                     lineNumber: 23,
                                     columnNumber: 13
@@ -314,10 +325,13 @@ const Footer = ()=>{
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/services/ai-machine-learning",
-                                                className: "hover:text-green-600 transition",
-                                                children: "AI & Machine Learning Training"
-                                            }, void 0, false, {
+                                                href: "/components/AIML",
+                                                className: "text-zinc-300 hover:text-indigo-400 transition",
+                                                children: [
+                                                    " ",
+                                                    "AI & Machine Learning Training"
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
                                                 lineNumber: 28,
                                                 columnNumber: 17
@@ -330,9 +344,12 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/data-engineering",
-                                                className: "hover:text-green-600 transition",
-                                                children: "Data Engineering & Science"
-                                            }, void 0, false, {
+                                                className: "text-zinc-300 hover:text-indigo-400 transition",
+                                                children: [
+                                                    " ",
+                                                    "Data Engineering & Science"
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
                                                 lineNumber: 33,
                                                 columnNumber: 17
@@ -345,9 +362,12 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/sap-solutions",
-                                                className: "hover:text-green-600 transition",
-                                                children: "SAP Solutions"
-                                            }, void 0, false, {
+                                                className: "text-zinc-300 hover:text-indigo-400 transition",
+                                                children: [
+                                                    " ",
+                                                    "SAP Solutions"
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
                                                 lineNumber: 38,
                                                 columnNumber: 17
@@ -360,9 +380,12 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/cybersecurity",
-                                                className: "hover:text-green-600 transition",
-                                                children: "Anti-Virus & Security Packages"
-                                            }, void 0, false, {
+                                                className: "text-zinc-300 hover:text-indigo-400 transition",
+                                                children: [
+                                                    " ",
+                                                    "Anti-Virus & Security Packages"
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
                                                 lineNumber: 43,
                                                 columnNumber: 17
@@ -387,22 +410,27 @@ const Footer = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600",
-                                    children: "Contact Us"
-                                }, void 0, false, {
+                                    className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
+                                    children: [
+                                        " ",
+                                        "Contact Us"
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
                                     lineNumber: 52,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm space-y-2 text-gray-600",
+                                    className: "text-sm space-y-2 text-zinc-300",
                                     children: [
+                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "https://www.google.com/maps?q=8+Fred+Verseput+Road,+Halfway+Gardens+1686,+Midrand",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "hover:text-green-600 transition block",
+                                                className: "hover:text-indigo-400 transition block" // Accent hover
+                                                ,
                                                 children: "📍 8 Fred Verseput Rd, Halfway Gardens, Midrand"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
@@ -417,7 +445,8 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "https://wa.me/27816515179?text=Hello, I'm contacting you regarding AAT Solutions",
-                                                className: "hover:text-green-600 transition block",
+                                                className: "hover:text-indigo-400 transition block" // Accent hover
+                                                ,
                                                 children: "📱 +27 81 651 5179"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
@@ -431,9 +460,10 @@ const Footer = ()=>{
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "mailto:admin@aatsolutions.co.za",
-                                                className: "hover:text-green-600 transition block",
-                                                children: "📧 admin@aatsolutions.co.za"
+                                                href: "mailto:admin@unidata.co.za",
+                                                className: "hover:text-indigo-400 transition block" // Accent hover
+                                                ,
+                                                children: "📧 admin@unidata.co.za"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
                                                 lineNumber: 75,
@@ -461,26 +491,27 @@ const Footer = ()=>{
                     fileName: "[project]/src/components/ui/Footer.tsx",
                     lineNumber: 9,
                     columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-center text-sm text-zinc-500 py-4 mt-8 border-t border-zinc-800 mx-auto max-w-7xl",
+                    children: [
+                        " ",
+                        "© ",
+                        new Date().getFullYear(),
+                        " Unison. All rights reserved."
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/ui/Footer.tsx",
+                    lineNumber: 86,
+                    columnNumber: 9
                 }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/ui/Footer.tsx",
-                lineNumber: 8,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "bg-gray-50 border-t border-gray-200 text-center text-sm text-gray-500 py-4 mt-2",
-                children: [
-                    "© ",
-                    new Date().getFullYear(),
-                    " Unison. All rights reserved."
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/ui/Footer.tsx",
-                lineNumber: 88,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true);
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/ui/Footer.tsx",
+            lineNumber: 8,
+            columnNumber: 7
+        }, this)
+    }, void 0, false);
 };
 _c = Footer;
 var _c;
@@ -553,7 +584,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Button({ children, className = '', ...props }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-        className: "bg-white text-green-700 hover:bg-green-100 px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300 w-full mt-auto",
+        className: `
+        bg-indigo-600 text-white                      // beautiful deep blue button
+        hover:bg-indigo-500 hover:shadow-lg           // smooth hover effect with shadow
+        px-5 py-2.5 text-sm md:text-base              // comfy padding & font scales on screens
+        rounded-full                                  // perfectly pill-shaped
+        shadow-md transition duration-300 ease-in-out // smooth animations
+        w-full whitespace-nowrap                      // fills container, no wrapping
+        ${className}                                  // allows custom styling when used
+      `,
         ...props,
         children: children
     }, void 0, false, {
@@ -590,7 +629,7 @@ function ScheduleButton() {
             rel: "noopener noreferrer",
             className: "inline-block w-full md:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                className: "w-full md:w-auto px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300",
+                className: "   bg-indigo-600 text-white   hover:bg-indigo-500 hover:shadow-lg   px-5 py-2.5 text-sm md:text-base   rounded-full shadow-md   transition duration-300 ease-in-out   w-full md:w-auto whitespace-nowrap   ",
                 children: "📅 Schedule a Consultation"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/schedule.tsx",
@@ -632,14 +671,13 @@ function LearnButton() {
         className: "mt-4 flex justify-center w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
             href: "#offerings",
-            className: "inline-block w-full sm:w-auto",
+            className: "inline-block w-full md:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                variant: "outline",
-                className: "w-full sm:w-auto px-4 py-2 text-sm sm:text-base rounded-md shadow-md hover:shadow-lg transition duration-300",
+                className: "   bg-indigo-600 text-white   hover:bg-indigo-500 hover:shadow-lg   px-5 py-2.5 text-sm md:text-base   rounded-full shadow-md   transition duration-300 ease-in-out   w-full md:w-auto whitespace-nowrap   ",
                 children: "📘 Learn More"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/learn.tsx",
-                lineNumber: 11,
+                lineNumber: 8,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
@@ -678,10 +716,9 @@ function DownloadBrochureButton() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
             href: "/dummy.pdf",
             download: true,
-            className: "inline-block w-full sm:w-auto",
+            className: "inline-block w-full md:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                variant: "outline",
-                className: "w-full sm:w-auto px-4 py-2 text-sm md:text-base rounded-md shadow-md hover:shadow-lg transition duration-300",
+                className: "   bg-indigo-600 text-white   hover:bg-indigo-500 hover:shadow-lg   px-5 py-2.5 text-sm md:text-base   rounded-full shadow-md   transition duration-300 ease-in-out   w-full md:w-auto whitespace-nowrap   ",
                 children: "📄 Download our Brochure"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/DownloadBrochureButton.tsx",
@@ -933,22 +970,23 @@ const partners = [
 ];
 function PartnersMarquee() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-ecd0463ceeb26b3a" + " " + "bg-gray-50 py-6 sm:py-8 overflow-hidden relative",
+        className: "jsx-d6ccb44ff0f424d6" + " " + "bg-zinc-900 py-8 sm:py-10 overflow-hidden relative border-t border-b border-zinc-800",
         children: [
+            " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ecd0463ceeb26b3a" + " " + "flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2",
+                className: "jsx-d6ccb44ff0f424d6" + " " + "flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2",
                 children: [
                     ...partners,
                     ...partners
                 ].map((partner, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: partner.src,
                         alt: partner.alt,
-                        width: 120,
-                        height: 60,
+                        width: 140,
+                        height: 70,
                         style: {
-                            maxHeight: "60px"
+                            maxHeight: "70px"
                         },
-                        className: "jsx-ecd0463ceeb26b3a" + " " + "object-contain mx-6 transition duration-300"
+                        className: "jsx-d6ccb44ff0f424d6" + " " + "object-contain mx-8 transition duration-300 opacity-80 hover:opacity-100" // More spacing, subtle opacity, hover effect
                     }, index, false, {
                         fileName: "[project]/src/components/ui/PartnersMarquee.tsx",
                         lineNumber: 18,
@@ -960,8 +998,8 @@ function PartnersMarquee() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "ecd0463ceeb26b3a",
-                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-ecd0463ceeb26b3a{animation:25s linear infinite marquee}"
+                id: "d6ccb44ff0f424d6",
+                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-d6ccb44ff0f424d6{animation:25s linear infinite marquee}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
