@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="text-sm space-y-2">
               <li>
-                <Link href="/components/AIML" className="text-zinc-300 hover:text-indigo-400 transition"> {/* Lighter grey text, accent hover */}
+                <Link href="/services/ai-machine-learning" className="text-zinc-300 hover:text-indigo-400 transition"> {/* Lighter grey text, accent hover */}
                   AI & Machine Learning Training
                 </Link>
               </li>
