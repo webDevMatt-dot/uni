@@ -8,71 +8,7 @@ import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
 import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 import { ContactInfo } from "src/components/ui/ContactInfo";
-
-// Unified card style for all cards
-const cardBaseStyle = "bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300";
-
-// SAP services data
-const sapServices = [
-  {
-    emoji: "🛠️",
-    title: "SAP Implementation",
-    description: "Seamless deployment of SAP modules tailored to your business needs.",
-  },
-  
-  {
-    emoji: "⚡",
-    title: "System Integration",
-    description: "Connect SAP with your existing systems for smooth data flow and operations.",
-  },
-
-  {
-    emoji: "📊",
-    title: "Analytics & Reporting",
-    description: "Generate actionable insights and reports with SAP’s powerful analytics tools.",
-  },
-
-  {
-    emoji: "🔒",
-    title: "Security & Compliance",
-    description: "Ensure your SAP environment is secure and meets regulatory standards.",
-  },
-
-  {
-    emoji: "🎓",
-    title: "Training & Support",
-    description: "Equip your team with the skills to effectively use and maintain SAP systems.",
-  },
-
-  {
-    emoji: "🎓",
-    title: "Training & Support",
-    description: "Equip your team with the skills to effectively use and maintain SAP systems.",
-  },
-];
-
-// SAP services list component
-export function SAPServicesList() {
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-      {sapServices.map((item, i) => (
-        <Card key={i} className={cardBaseStyle}>
-          <CardContent className="p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-3xl">{item.emoji}</span>
-              <h3 className="font-bold text-gray-900 dark:text-white text-lg md:text-xl">
-                {item.title}
-              </h3>
-            </div>
-            <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-              {item.description}
-            </p>
-          </CardContent>
-        </Card>
-      ))}
-    </div>
-  );
-}
+import { SAPServicesList } from "src/components/sections/serviceSections/SAPServicesList";
 
 export default function SAPSolutionsPage() {
   return (
@@ -81,6 +17,7 @@ export default function SAPSolutionsPage() {
         <title>SAP Solutions | Unison</title>
       </Head>
 
+      {/* Navbar */}
       <Navbar />
 
       <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans pt-6 px-4 md:px-6">
@@ -97,6 +34,7 @@ export default function SAPSolutionsPage() {
               <strong className="font-semibold text-black dark:text-white">SAP solutions</strong>, tailored to drive your digital transformation journey.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
+              
               <div>
                 <ScheduleButton />
               </div>
@@ -109,7 +47,6 @@ export default function SAPSolutionsPage() {
           </div>
         </section>
 
-        {/* Main Content */}
         <div className="max-w-6xl mx-auto pb-16 flex flex-col md:flex-row justify-between items-start gap-12">
           {/* Left Column */}
           <div className="md:w-2/3 w-full">
@@ -145,7 +82,7 @@ export default function SAPSolutionsPage() {
           </div>
 
           {/* Right Column: Sticky CTA */}
-          <Card className={`${cardBaseStyle} w-full md:w-[320px] sticky md:top-28 relative`}>
+          <Card className="w-full md:w-[320px] border border-gray-200 dark:border-gray-700 shadow-xl rounded-lg self-start bg-white dark:bg-gray-800 sticky md:top-28 md:sticky relative">
             <CardContent className="p-6 flex flex-col h-full">
               <div>
                 <h3 className="font-bold text-xl mb-3 text-center text-black dark:text-white">
