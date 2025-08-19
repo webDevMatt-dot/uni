@@ -40,7 +40,9 @@ export function DataEngineeringServicesList() {
       {dataServices.map((item, index) => (
         <Card
           key={index}
-          className="bg-white/80 dark:bg-zinc-900/80 border border-gray-200 dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 backdrop-blur-md cursor-pointer"
+          className="bg-white/80 dark:bg-gray-800 border border-gray-200 dark:border-zinc-700 
+                      rounded-xl shadow-md hover:shadow-xl transition-all duration-300 
+                      backdrop-blur-md cursor-pointer"
         >
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">

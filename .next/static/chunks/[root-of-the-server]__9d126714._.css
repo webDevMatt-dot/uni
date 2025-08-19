@@ -2082,6 +2082,12 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    .dark\:bg-gray-700 {
+      background-color: var(--color-gray-700);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
     .dark\:bg-gray-800 {
       background-color: var(--color-gray-800);
     }
@@ -2149,6 +2155,14 @@
     @supports (color: color-mix(in lab, red, red)) {
       .dark\:bg-zinc-950\/95 {
         background-color: color-mix(in oklab, var(--color-zinc-950) 95%, transparent);
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
+      .dark\:dark\:bg-gray-800 {
+        background-color: var(--color-gray-800);
       }
     }
   }
@@ -2262,6 +2276,12 @@
   @media (prefers-color-scheme: dark) {
     .dark\:text-zinc-600 {
       color: var(--color-zinc-600);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:text-zinc-800 {
+      color: var(--color-zinc-800);
     }
   }
 

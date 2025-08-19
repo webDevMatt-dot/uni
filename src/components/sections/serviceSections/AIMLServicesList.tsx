@@ -48,16 +48,16 @@ export function AIMLServicesList()
   
   return ( 
   
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10"> 
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 "> 
       {aiServices.map((item, i) => 
       ( <Card key={i} 
         
-        className="bg-white/80 dark:bg-zinc-900/80 border border-gray-200 
+        className="bg-white/80 dark:bg-gray-800 border border-gray-200 
                     dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl 
                     transition-all duration-300 backdrop-blur-md" > 
                                 
           <CardContent className="p-6"> 
-            <div className="flex items-center gap-3 mb-4"> 
+            <div className="flex items-center gap-3 mb-4 "> 
               <span className="text-3xl">
                 {item.emoji}
               </span>

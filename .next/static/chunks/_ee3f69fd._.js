@@ -786,54 +786,54 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/sections/serviceSections/SAPServicesList.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/components/sections/serviceSections/SecurityServicesList.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "SAPServicesList": (()=>SAPServicesList)
+    "SecurityServicesList": (()=>SecurityServicesList)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/card.jsx [app-client] (ecmascript)");
 ;
 ;
-const sapServices = [
+const services = [
     {
-        emoji: "🚀",
-        title: "SAP Implementation",
-        description: "End-to-end SAP implementation services tailored to your business needs, ensuring a smooth transition and optimal system setup for maximum efficiency."
+        emoji: "🔍",
+        title: "Vulnerability Assessment",
+        description: "Identify and categorize security weaknesses in your systems and applications before they can be exploited by malicious actors."
     },
     {
-        emoji: "🔄",
-        title: "Migration & Upgrades",
-        description: "Seamless migration of your existing SAP systems to newer versions or cloud platforms, minimizing downtime and ensuring data integrity throughout the process."
+        emoji: "🛡️",
+        title: "Penetration Testing",
+        description: "Simulate real-world attacks to uncover exploitable vulnerabilities in your network, applications, and physical security posture."
     },
     {
-        emoji: "🔧",
-        title: "Customization & Development",
-        description: "Tailored SAP customizations, including ABAP development, Fiori apps, and integration with third-party systems to meet your specific business requirements."
+        emoji: "🚨",
+        title: "Managed Security Services (MSS)",
+        description: "Outsource your security operations to our experts for 24/7 monitoring, threat detection, incident response, and improvement."
     },
     {
-        emoji: "🤝",
-        title: "Support & Maintenance",
-        description: "Reliable ongoing support, proactive monitoring, and expert maintenance services to ensure your SAP systems run smoothly and efficiently 24/7."
+        emoji: "🧠",
+        title: "Security Consulting & Strategy",
+        description: "Develop a cybersecurity roadmap aligned with your goals — covering compliance, risk, and architecture."
     },
     {
-        emoji: "💡",
-        title: "S/4HANA Transformation",
-        description: "Guide your transition to SAP S/4HANA, leveraging its in-memory computing capabilities for real-time analytics and simplified processes."
+        emoji: "🩹",
+        title: "Incident Response & Recovery",
+        description: "Minimize the impact of breaches with rapid detection, containment, and recovery strategies."
     },
     {
-        emoji: "☁️",
-        title: "Cloud SAP Solutions",
-        description: "Implement and manage SAP solutions on leading cloud platforms, offering flexibility, scalability, and reduced infrastructure costs."
+        emoji: "🧑‍🏫",
+        title: "Security Awareness Training",
+        description: "Train employees on phishing, password hygiene, and how to defend against threats effectively."
     }
 ];
-function SAPServicesList() {
+function SecurityServicesList() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "grid grid-cols-1 md:grid-cols-2 gap-6 mb-10",
-        children: sapServices.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+        children: services.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
                 className: "bg-white/80 dark:bg-gray-800 border border-gray-200 dark:border-zinc-700    rounded-xl shadow-md hover:shadow-xl transition-all duration-300    backdrop-blur-md cursor-pointer",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
                     className: "p-6",
@@ -845,7 +845,7 @@ function SAPServicesList() {
                                     className: "text-3xl",
                                     children: item.emoji
                                 }, void 0, false, {
-                                    fileName: "[project]/src/components/sections/serviceSections/SAPServicesList.tsx",
+                                    fileName: "[project]/src/components/sections/serviceSections/SecurityServicesList.tsx",
                                     lineNumber: 49,
                                     columnNumber: 15
                                 }, this),
@@ -853,13 +853,13 @@ function SAPServicesList() {
                                     className: "font-bold text-gray-900 dark:text-white text-lg md:text-xl",
                                     children: item.title
                                 }, void 0, false, {
-                                    fileName: "[project]/src/components/sections/serviceSections/SAPServicesList.tsx",
+                                    fileName: "[project]/src/components/sections/serviceSections/SecurityServicesList.tsx",
                                     lineNumber: 50,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/src/components/sections/serviceSections/SAPServicesList.tsx",
+                            fileName: "[project]/src/components/sections/serviceSections/SecurityServicesList.tsx",
                             lineNumber: 48,
                             columnNumber: 13
                         }, this),
@@ -867,41 +867,41 @@ function SAPServicesList() {
                             className: "text-gray-700 dark:text-zinc-300 text-sm leading-relaxed",
                             children: item.description
                         }, void 0, false, {
-                            fileName: "[project]/src/components/sections/serviceSections/SAPServicesList.tsx",
+                            fileName: "[project]/src/components/sections/serviceSections/SecurityServicesList.tsx",
                             lineNumber: 54,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/src/components/sections/serviceSections/SAPServicesList.tsx",
+                    fileName: "[project]/src/components/sections/serviceSections/SecurityServicesList.tsx",
                     lineNumber: 47,
                     columnNumber: 11
                 }, this)
-            }, index, false, {
-                fileName: "[project]/src/components/sections/serviceSections/SAPServicesList.tsx",
+            }, i, false, {
+                fileName: "[project]/src/components/sections/serviceSections/SecurityServicesList.tsx",
                 lineNumber: 41,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
-        fileName: "[project]/src/components/sections/serviceSections/SAPServicesList.tsx",
+        fileName: "[project]/src/components/sections/serviceSections/SecurityServicesList.tsx",
         lineNumber: 39,
         columnNumber: 5
     }, this);
 }
-_c = SAPServicesList;
+_c = SecurityServicesList;
 var _c;
-__turbopack_context__.k.register(_c, "SAPServicesList");
+__turbopack_context__.k.register(_c, "SecurityServicesList");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/app/services/sap-solutions/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/app/services/cybersecurity/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>SAPSolutionsPage)
+    "default": (()=>CyberSecurityPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/noop-head.js [app-client] (ecmascript)");
@@ -912,7 +912,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$s
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/learn.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/DownloadBrochureButton.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ContactInfo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/ContactInfo.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2f$serviceSections$2f$SAPServicesList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/sections/serviceSections/SAPServicesList.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2f$serviceSections$2f$SecurityServicesList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/sections/serviceSections/SecurityServicesList.tsx [app-client] (ecmascript)");
 "use client";
 ;
 ;
@@ -924,25 +924,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section
 ;
 ;
 ;
-function SAPSolutionsPage() {
+function CyberSecurityPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Layout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                    children: "SAP Solutions | Unison"
+                    children: "Antivirus Solutions | Unison"
                 }, void 0, false, {
-                    fileName: "[project]/app/services/sap-solutions/page.tsx",
+                    fileName: "[project]/app/services/cybersecurity/page.tsx",
                     lineNumber: 17,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                fileName: "[project]/app/services/cybersecurity/page.tsx",
                 lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
-                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                lineNumber: 21,
+                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -957,35 +957,37 @@ function SAPSolutionsPage() {
                                     className: "text-3xl md:text-5xl font-extrabold text-black dark:text-white mb-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-400 dark:to-teal-400",
-                                        children: "SAP Solutions & Digital Transformation"
+                                        children: "Antivirus Services"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 28,
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                        lineNumber: 27,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 27,
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-base md:text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8",
                                     children: [
-                                        "Streamline your business operations and maximize efficiency with our comprehensive",
+                                        "Safeguard your digital assets with",
+                                        " ",
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                            className: "font-semibold text-black dark:text-white",
-                                            children: "SAP solutions"
+                                            className: "font-semibold text-white",
+                                            children: " top-tier security solutions "
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 34,
-                                            columnNumber: 15
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 32,
+                                            columnNumber: 55
                                         }, this),
-                                        ", tailored to drive your digital transformation journey."
+                                        " ",
+                                        " tailored to defend against today’s cyber threats."
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 32,
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -993,41 +995,41 @@ function SAPSolutionsPage() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 39,
+                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                lineNumber: 37,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 38,
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 36,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$learn$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LearnButton"], {}, void 0, false, {
-                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 43,
+                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                lineNumber: 41,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 42,
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 36,
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                            lineNumber: 26,
+                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                        lineNumber: 25,
+                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1038,23 +1040,23 @@ function SAPSolutionsPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         id: "offerings",
-                                        className: "text-2xl md:text-3xl font-bold mb-8 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400",
-                                        children: "Our Comprehensive SAP Offerings"
+                                        className: "text-2xl md:text-3xl font-bold mb-8 border-b-2 pb-2 border-indigo-600 text-indigo-400",
+                                        children: "Our Antivirus Offerings"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 53,
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                        lineNumber: 52,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2f$serviceSections$2f$SAPServicesList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SAPServicesList"], {}, void 0, false, {
-                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                        lineNumber: 57,
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2f$serviceSections$2f$SecurityServicesList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SecurityServicesList"], {}, void 0, false, {
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-2xl md:text-3xl font-bold mb-6 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400 mt-12",
-                                        children: "Why Partner with AAT for SAP Solutions?"
+                                        children: "Why Choose Unison Security?"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                         lineNumber: 59,
                                         columnNumber: 13
                                     }, this),
@@ -1062,9 +1064,9 @@ function SAPSolutionsPage() {
                                         className: "space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: "Unison stands out as your trusted SAP partner. Our certified consultants combine deep technical expertise with a profound understanding of industry best practices to deliver SAP solutions that truly transform your business, ensuring efficiency and measurable growth."
+                                                children: "We protect your infrastructure, data, and reputation with a multi-layered approach tailored to your risk profile."
                                             }, void 0, false, {
-                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                 lineNumber: 64,
                                                 columnNumber: 15
                                             }, this),
@@ -1074,87 +1076,91 @@ function SAPSolutionsPage() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                className: "text-black dark:text-white",
-                                                                children: "Certified Experts:"
+                                                                className: "text-indigo-400",
+                                                                children: "Proactive Defense:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                lineNumber: 69,
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                                lineNumber: 70,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " Our team consists of highly skilled and certified SAP consultants."
+                                                            " ",
+                                                            "We don’t just react — we prevent."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 68,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 69,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                className: "text-black dark:text-white",
-                                                                children: "Proven Methodologies:"
+                                                                className: "text-indigo-400",
+                                                                children: "24/7 Monitoring:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                lineNumber: 72,
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                                lineNumber: 74,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " We follow industry-leading best practices for successful project delivery."
+                                                            " ",
+                                                            "Around-the-clock security for peace of mind."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 71,
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 73,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                className: "text-black dark:text-white",
-                                                                children: "Holistic Approach:"
+                                                                className: "text-indigo-400",
+                                                                children: "Compliance Ready:"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                                lineNumber: 75,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            " From strategy to implementation and ongoing support, we cover all aspects of your SAP journey."
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                        lineNumber: 74,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                className: "text-black dark:text-white",
-                                                                children: "Business-Centric Focus:"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                                 lineNumber: 78,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " Our solutions are designed to align with and accelerate your specific business objectives."
+                                                            " ",
+                                                            "We help you meet local and global standards with ease."
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                                         lineNumber: 77,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-indigo-400",
+                                                                children: "Scalable & Future-Proof:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                                lineNumber: 82,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            " ",
+                                                            "Grow your business without growing your risks."
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                        lineNumber: 81,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                lineNumber: 67,
+                                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                lineNumber: 68,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/app/services/sap-solutions/page.tsx",
+                                        fileName: "[project]/app/services/cybersecurity/page.tsx",
                                         lineNumber: 63,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                lineNumber: 52,
+                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1166,83 +1172,83 @@ function SAPSolutionsPage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "font-bold text-xl mb-3 text-center text-black dark:text-white",
-                                                    children: "Ready to Optimize with SAP?"
+                                                    children: "Let’s Secure Your Business"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 88,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 93,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-gray-600 dark:text-gray-300 mb-5 text-center leading-relaxed",
-                                                    children: "Streamline your operations and enhance efficiency. Contact us for a specialized SAP consultation."
+                                                    children: "Get a customized antivirus strategy and take control of your organization’s digital safety."
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 91,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 96,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 87,
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 92,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-col gap-3 mt-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
-                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 96,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 102,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$DownloadBrochureButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DownloadBrochureButton"], {}, void 0, false, {
-                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 97,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 103,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ContactInfo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ContactInfo"], {}, void 0, false, {
-                                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                                    lineNumber: 98,
+                                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                                    lineNumber: 104,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                            lineNumber: 95,
+                                            fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                            lineNumber: 101,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                    lineNumber: 86,
+                                    fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                                lineNumber: 85,
+                                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/services/sap-solutions/page.tsx",
-                        lineNumber: 50,
+                        fileName: "[project]/app/services/cybersecurity/page.tsx",
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/app/services/sap-solutions/page.tsx",
-                lineNumber: 23,
+                fileName: "[project]/app/services/cybersecurity/page.tsx",
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/app/services/sap-solutions/page.tsx",
+        fileName: "[project]/app/services/cybersecurity/page.tsx",
         lineNumber: 15,
         columnNumber: 5
     }, this);
 }
-_c = SAPSolutionsPage;
+_c = CyberSecurityPage;
 var _c;
-__turbopack_context__.k.register(_c, "SAPSolutionsPage");
+__turbopack_context__.k.register(_c, "CyberSecurityPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
@@ -2666,4 +2672,4 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 }}),
 }]);
 
-//# sourceMappingURL=_2b9f1a00._.js.map
+//# sourceMappingURL=_ee3f69fd._.js.map
