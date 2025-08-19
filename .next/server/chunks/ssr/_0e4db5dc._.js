@@ -1001,11 +1001,10 @@ const partners = [
 ];
 function PartnersMarquee() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-d6ccb44ff0f424d6" + " " + "bg-zinc-900 py-8 sm:py-10 overflow-hidden relative border-t border-b border-zinc-800",
+        className: "jsx-ecd0463ceeb26b3a" + " " + "bg-white dark:bg-zinc-900 py-8 sm:py-10 overflow-hidden relative border-t border-b border-gray-200 dark:border-zinc-800",
         children: [
-            " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-d6ccb44ff0f424d6" + " " + "flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2",
+                className: "jsx-ecd0463ceeb26b3a" + " " + "flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2",
                 children: [
                     ...partners,
                     ...partners
@@ -1017,7 +1016,7 @@ function PartnersMarquee() {
                         style: {
                             maxHeight: "70px"
                         },
-                        className: "jsx-d6ccb44ff0f424d6" + " " + "object-contain mx-8 transition duration-300 opacity-80 hover:opacity-100" // More spacing, subtle opacity, hover effect
+                        className: "jsx-ecd0463ceeb26b3a" + " " + "object-contain mx-8 transition duration-300 opacity-80 hover:opacity-100"
                     }, index, false, {
                         fileName: "[project]/src/components/ui/PartnersMarquee.tsx",
                         lineNumber: 18,
@@ -1029,8 +1028,8 @@ function PartnersMarquee() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "d6ccb44ff0f424d6",
-                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-d6ccb44ff0f424d6{animation:25s linear infinite marquee}"
+                id: "ecd0463ceeb26b3a",
+                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-ecd0463ceeb26b3a{animation:25s linear infinite marquee}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
