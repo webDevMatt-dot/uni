@@ -40,7 +40,7 @@ export function AIMLServicesList() {
       {aiServices.map((item, i) => (
         <Card
           key={i}
-          className="bg-white/80 dark:bg-zinc-900/80 border border-gray-200 dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 backdrop-blur-md"
+          className="bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
         >
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">
