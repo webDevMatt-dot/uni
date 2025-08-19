@@ -4,8 +4,8 @@ import Link from "next/link";
 {/*import Image from "next/image";*/}
 import { Menu, X } from "lucide-react";
 
-const partners = [
-  { src: "/avast.png", alt: "Avast" }
+const logo = [
+  { src: "/logo.png", alt: "Avast" }
 ];
 
 export function Navbar() {
@@ -38,16 +38,15 @@ export function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
 
-                <div className="flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2">
-        {[...partners, ...partners].map((partner, index) => (
+      <div className="flex absolute left-0 top-1/2 -translate-y-1/2">
+        {[...logo].map((partner, index) => (
           <img
             key={index}
             src={partner.src}
             alt={partner.alt}
             width={140} // Slightly larger logos
             height={70} // Adjusted height to maintain aspect ratio
-            // Removed 'grayscale hover:grayscale-0' to keep images in color
-            className="object-contain mx-8 transition duration-300 opacity-80 hover:opacity-100" // More spacing, subtle opacity, hover effect
+            className="object-contain mx-8 opacity-80 hover:opacity-100" // More spacing, subtle opacity, hover effect
             style={{ maxHeight: "70px" }} // Ensure max height
           />
         ))}
