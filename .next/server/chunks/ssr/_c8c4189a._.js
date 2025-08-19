@@ -759,7 +759,7 @@ function AIMLServicesList() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "grid grid-cols-1 md:grid-cols-2 gap-6 mb-10",
         children: aiServices.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                className: "bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300",
+                className: "bg-white/80 dark:bg-zinc-900/80 border border-gray-200    dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl    transition-all duration-300 backdrop-blur-md",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                     className: "p-6",
                     children: [
@@ -771,7 +771,7 @@ function AIMLServicesList() {
                                     children: item.emoji
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/serviceSections/AIMLServicesList.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 61,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -779,13 +779,13 @@ function AIMLServicesList() {
                                     children: item.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/serviceSections/AIMLServicesList.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 15
+                                    lineNumber: 65,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/serviceSections/AIMLServicesList.tsx",
-                            lineNumber: 46,
+                            lineNumber: 60,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -793,24 +793,24 @@ function AIMLServicesList() {
                             children: item.description
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/serviceSections/AIMLServicesList.tsx",
-                            lineNumber: 52,
-                            columnNumber: 13
+                            lineNumber: 70,
+                            columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/serviceSections/AIMLServicesList.tsx",
-                    lineNumber: 45,
+                    lineNumber: 59,
                     columnNumber: 11
                 }, this)
             }, i, false, {
                 fileName: "[project]/src/components/sections/serviceSections/AIMLServicesList.tsx",
-                lineNumber: 41,
+                lineNumber: 53,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/components/sections/serviceSections/AIMLServicesList.tsx",
-        lineNumber: 39,
-        columnNumber: 5
+        lineNumber: 51,
+        columnNumber: 3
     }, this);
 }
 }}),

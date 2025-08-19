@@ -8,7 +8,64 @@ import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
 import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 import { ContactInfo } from "src/components/ui/ContactInfo";
-import { DataEngineeringServicesList } from "src/components/sections/serviceSections/DataEngineeringServicesList";
+
+// Unified card style for all cards
+const cardBaseStyle = "bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300";
+
+const dataEngineeringServices = [
+  {
+    emoji: "💾",
+    title: "Data Pipeline Development",
+    description: "Build robust ETL/ELT pipelines to efficiently move and transform data across systems.",
+  },
+  {
+    emoji: "📊",
+    title: "Data Warehousing",
+    description: "Design scalable data warehouses to centralize information and enable powerful analytics.",
+  },
+  {
+    emoji: "🤖",
+    title: "Machine Learning Integration",
+    description: "Integrate ML models into your workflow for predictive analytics and automation.",
+  },
+  {
+    emoji: "🔍",
+    title: "Data Quality & Governance",
+    description: "Ensure clean, accurate, and compliant data across your organization.",
+  },
+  {
+    emoji: "📈",
+    title: "Advanced Analytics & BI",
+    description: "Transform raw data into actionable insights with dashboards and reporting tools.",
+  },
+  {
+    emoji: "🎓",
+    title: "Training & Support",
+    description: "Empower your team with data engineering and data science best practices.",
+  },
+];
+
+export function DataEngineeringServicesList() {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+      {dataEngineeringServices.map((item, i) => (
+        <Card key={i} className={cardBaseStyle}>
+          <CardContent className="p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-3xl">{item.emoji}</span>
+              <h3 className="font-bold text-gray-900 dark:text-white text-lg md:text-xl">
+                {item.title}
+              </h3>
+            </div>
+            <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+              {item.description}
+            </p>
+          </CardContent>
+        </Card>
+      ))}
+    </div>
+  );
+}
 
 export default function DataEngineeringSciencePage() {
   return (
@@ -17,7 +74,6 @@ export default function DataEngineeringSciencePage() {
         <title>Data Engineering & Science | Unison</title>
       </Head>
 
-      {/* Navbar */}
       <Navbar />
 
       <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans pt-6 px-4 md:px-6">
@@ -30,10 +86,10 @@ export default function DataEngineeringSciencePage() {
               </span>
             </h1>
             <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8">
-              Unlock the true potential of your data with robust <strong className="font-semibold text-white">data engineering and advanced data science</strong> services, driving insights and informed decision-making.
+              Unlock the true potential of your data with robust{" "}
+              <strong className="font-semibold text-white">data engineering and advanced data science</strong> services, driving insights and informed decision-making.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              
               <div>
                 <ScheduleButton />
               </div>
@@ -41,11 +97,12 @@ export default function DataEngineeringSciencePage() {
               <div>
                 <LearnButton />
               </div>
-
+              
             </div>
           </div>
         </section>
 
+        {/* Main Content */}
         <div className="max-w-6xl mx-auto pb-16 flex flex-col md:flex-row justify-between items-start gap-12">
           {/* Left Column */}
           <div className="md:w-2/3 w-full">
@@ -81,7 +138,7 @@ export default function DataEngineeringSciencePage() {
           </div>
 
           {/* Right Column: Sticky CTA */}
-          <Card className="w-full md:w-[320px] border border-gray-200 dark:border-gray-700 shadow-xl rounded-lg self-start bg-white dark:bg-gray-800 sticky md:top-28 md:sticky relative">
+          <Card className={`${cardBaseStyle} w-full md:w-[320px] sticky md:top-28 relative`}>
             <CardContent className="p-6 flex flex-col h-full">
               <div>
                 <h3 className="font-bold text-xl mb-3 text-center text-black dark:text-white">
@@ -92,9 +149,9 @@ export default function DataEngineeringSciencePage() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-4">
-                  <ScheduleButton />
-                  <DownloadBrochureButton />
-                  <ContactInfo />
+                <ScheduleButton />
+                <DownloadBrochureButton />
+                <ContactInfo />
               </div>
             </CardContent>
           </Card>
