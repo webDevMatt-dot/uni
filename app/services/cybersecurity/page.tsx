@@ -8,64 +8,7 @@ import { ScheduleButton } from "src/components/ui/schedule";
 import { LearnButton } from "src/components/ui/learn";
 import { DownloadBrochureButton } from "src/components/ui/DownloadBrochureButton";
 import { ContactInfo } from "src/components/ui/ContactInfo";
-
-// Unified card style for all cards
-const cardBaseStyle = "bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300";
-
-const securityServices = [
-  {
-    emoji: "🛡️",
-    title: "Antivirus Deployment",
-    description: "Install and configure advanced antivirus solutions to protect your endpoints and servers.",
-  },
-  {
-    emoji: "⚡",
-    title: "Real-Time Threat Detection",
-    description: "Monitor and respond to emerging threats instantly to keep your data safe.",
-  },
-  {
-    emoji: "🔐",
-    title: "Data Encryption & Protection",
-    description: "Ensure your sensitive data is encrypted and secure against unauthorized access.",
-  },
-  {
-    emoji: "📈",
-    title: "Security Audits & Reporting",
-    description: "Comprehensive audits to identify vulnerabilities and provide actionable insights.",
-  },
-  {
-    emoji: "🌐",
-    title: "Network Security Management",
-    description: "Manage firewalls, VPNs, and other network defenses for complete protection.",
-  },
-  {
-    emoji: "🎓",
-    title: "Security Awareness Training",
-    description: "Educate your team on best practices to prevent human error and cyber incidents.",
-  },
-];
-
-export function SecurityServicesList() {
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-      {securityServices.map((item, i) => (
-        <Card key={i} className={cardBaseStyle}>
-          <CardContent className="p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-3xl">{item.emoji}</span>
-              <h3 className="font-bold text-gray-900 dark:text-white text-lg md:text-xl">
-                {item.title}
-              </h3>
-            </div>
-            <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-              {item.description}
-            </p>
-          </CardContent>
-        </Card>
-      ))}
-    </div>
-  );
-}
+import { SecurityServicesList } from "src/components/sections/serviceSections/SecurityServicesList"; // import only
 
 export default function CyberSecurityPage() {
   return (
@@ -91,21 +34,14 @@ export default function CyberSecurityPage() {
               tailored to defend against today’s cyber threats.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <div>
-                <ScheduleButton />
-              </div>
-
-              <div>
-                <LearnButton />
-              </div>
-              
+              <ScheduleButton />
+              <LearnButton />
             </div>
           </div>
         </section>
 
         {/* Main Content */}
         <div className="max-w-6xl mx-auto pb-16 flex flex-col md:flex-row justify-between items-start gap-12">
-          {/* Left: Offerings */}
           <div className="md:w-2/3 w-full">
             <h2 id="offerings" className="text-2xl md:text-3xl font-bold mb-8 border-b-2 pb-2 border-indigo-600 text-indigo-400">
               Our Antivirus Offerings
@@ -113,34 +49,22 @@ export default function CyberSecurityPage() {
 
             <SecurityServicesList />
 
-            {/* Why Us */}
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black dark:text-white border-b-2 pb-2 border-indigo-200 dark:border-indigo-400 mt-12">
               Why Choose Unison Security?
             </h2>
 
             <div className="space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base">
-              <p>
-                We protect your infrastructure, data, and reputation with a multi-layered approach tailored to your risk profile.
-              </p>
+              <p>We protect your infrastructure, data, and reputation with a multi-layered approach tailored to your risk profile.</p>
               <ul className="list-disc list-inside space-y-2 text-base ml-4">
-                <li>
-                  <strong className="text-indigo-400">Proactive Defense:</strong> We don’t just react — we prevent.
-                </li>
-                <li>
-                  <strong className="text-indigo-400">24/7 Monitoring:</strong> Around-the-clock security for peace of mind.
-                </li>
-                <li>
-                  <strong className="text-indigo-400">Compliance Ready:</strong> We help you meet local and global standards with ease.
-                </li>
-                <li>
-                  <strong className="text-indigo-400">Scalable & Future-Proof:</strong> Grow your business without growing your risks.
-                </li>
+                <li><strong className="text-indigo-400">Proactive Defense:</strong> We don’t just react — we prevent.</li>
+                <li><strong className="text-indigo-400">24/7 Monitoring:</strong> Around-the-clock security for peace of mind.</li>
+                <li><strong className="text-indigo-400">Compliance Ready:</strong> We help you meet local and global standards with ease.</li>
+                <li><strong className="text-indigo-400">Scalable & Future-Proof:</strong> Grow your business without growing your risks.</li>
               </ul>
             </div>
           </div>
 
-          {/* Right: Sticky CTA */}
-          <Card className={`${cardBaseStyle} w-full md:w-[320px] sticky md:top-28 relative`}>
+          <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-md w-full md:w-[320px] sticky md:top-28 relative">
             <CardContent className="p-6 flex flex-col h-full">
               <div>
                 <h3 className="font-bold text-xl mb-3 text-center text-black dark:text-white">
