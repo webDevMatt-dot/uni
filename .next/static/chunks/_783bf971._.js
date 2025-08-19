@@ -18,7 +18,7 @@ var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
-;
+{};
 const partners = [
     {
         src: "/avast.png",
