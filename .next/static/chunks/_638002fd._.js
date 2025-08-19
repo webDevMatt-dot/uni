@@ -64,6 +64,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+const SCROLL_THRESHOLD = 50;
 const logo = {
     src: "/logo.png",
     alt: "Unison logo"
@@ -90,20 +91,52 @@ function Navbar() {
     _s();
     const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const handleScroll = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
+        "Navbar.useCallback[handleScroll]": ()=>{
+            setScrolled(window.scrollY > SCROLL_THRESHOLD);
+        }
+    }["Navbar.useCallback[handleScroll]"], []);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
-            const handleScroll = {
-                "Navbar.useEffect.handleScroll": ()=>setScrolled(window.scrollY > 50)
-            }["Navbar.useEffect.handleScroll"];
-            window.addEventListener("scroll", handleScroll);
+            window.addEventListener("scroll", handleScroll, {
+                passive: true
+            });
             return ({
                 "Navbar.useEffect": ()=>window.removeEventListener("scroll", handleScroll)
+            })["Navbar.useEffect"];
+        }
+    }["Navbar.useEffect"], [
+        handleScroll
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Navbar.useEffect": ()=>{
+            document.body.style.overflow = menuOpen ? "hidden" : "auto";
+            return ({
+                "Navbar.useEffect": ()=>{
+                    document.body.style.overflow = "auto";
+                }
+            })["Navbar.useEffect"];
+        }
+    }["Navbar.useEffect"], [
+        menuOpen
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Navbar.useEffect": ()=>{
+            const handleResize = {
+                "Navbar.useEffect.handleResize": ()=>{
+                    if (window.innerWidth >= 768) setMenuOpen(false);
+                }
+            }["Navbar.useEffect.handleResize"];
+            window.addEventListener("resize", handleResize);
+            return ({
+                "Navbar.useEffect": ()=>window.removeEventListener("resize", handleResize)
             })["Navbar.useEffect"];
         }
     }["Navbar.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: `fixed top-0 left-0 right-0 z-50
-        bg-zinc-950/80 backdrop-blur-sm border-b border-zinc-700
+        bg-white/80 dark:bg-zinc-950/80 backdrop-blur-sm
+        border-b border-gray-200 dark:border-zinc-700
         transition-all duration-300 ease-in-out
         ${scrolled ? "py-2 shadow-md" : "py-4 shadow-sm"}
       `,
@@ -124,90 +157,99 @@ function Navbar() {
             `
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 41,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/Navbar.tsx",
-                        lineNumber: 35,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                        className: "hidden md:flex space-x-8 text-white font-medium",
+                        className: "hidden md:flex space-x-8 font-medium text-gray-900 dark:text-white",
                         children: navLinks.map(({ href, label })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: href,
-                                className: "hover:text-indigo-400 transition-colors duration-200",
+                                className: "hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200",
                                 children: label
                             }, href, false, {
                                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                                lineNumber: 53,
+                                lineNumber: 71,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/Navbar.tsx",
-                        lineNumber: 51,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "md:hidden text-white",
+                        className: "md:hidden text-gray-900 dark:text-white",
                         onClick: ()=>setMenuOpen(!menuOpen),
                         "aria-label": "Toggle menu",
+                        "aria-expanded": menuOpen,
                         children: menuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                             size: 24
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 69,
+                            lineNumber: 88,
                             columnNumber: 23
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                             size: 24
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 69,
+                            lineNumber: 88,
                             columnNumber: 41
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/Navbar.tsx",
-                        lineNumber: 64,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                lineNumber: 33,
+                lineNumber: 51,
                 columnNumber: 7
             }, this),
-            menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "md:hidden bg-zinc-950/95 border-t border-zinc-700 px-6 pb-4",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                    className: "flex flex-col gap-3 text-white font-medium",
-                    children: navLinks.map(({ href, label })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: href,
-                            onClick: ()=>setMenuOpen(false),
-                            className: "py-2 hover:bg-zinc-800 rounded-md",
-                            children: label
-                        }, href, false, {
-                            fileName: "[project]/src/components/ui/Navbar.tsx",
-                            lineNumber: 78,
-                            columnNumber: 15
-                        }, this))
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `transition-all duration-300 ease-in-out md:hidden
+          ${menuOpen ? "opacity-100 visible" : "opacity-0 invisible h-0"}`,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "bg-white/95 dark:bg-zinc-950/95 border-t border-gray-200 dark:border-zinc-700 px-6 pb-4",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                        className: "flex flex-col gap-3 font-medium text-gray-900 dark:text-white",
+                        children: navLinks.map(({ href, label })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: href,
+                                onClick: ()=>setMenuOpen(false),
+                                className: "py-2 hover:bg-gray-100 dark:hover:bg-zinc-800 rounded-md transition-colors",
+                                children: label
+                            }, href, false, {
+                                fileName: "[project]/src/components/ui/Navbar.tsx",
+                                lineNumber: 99,
+                                columnNumber: 15
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/ui/Navbar.tsx",
+                        lineNumber: 97,
+                        columnNumber: 11
+                    }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/Navbar.tsx",
-                    lineNumber: 76,
-                    columnNumber: 11
+                    lineNumber: 96,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/Navbar.tsx",
-                lineNumber: 75,
-                columnNumber: 9
+                lineNumber: 93,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ui/Navbar.tsx",
-        lineNumber: 26,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }
-_s(Navbar, "lEsP7ek+nW+T9wmTLEwifgS1GUY=");
+_s(Navbar, "1VAobEf8agTxHYAqO3cnB3qOXRk=");
 _c = Navbar;
 var _c;
 __turbopack_context__.k.register(_c, "Navbar");
