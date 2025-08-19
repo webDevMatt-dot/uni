@@ -1,15 +1,15 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
+import { Loader } from "src/components/ui/Loader";
 import { Navbar } from "src/components/ui/Navbar";
-import { Footer } from "src/components/ui/Footer";
 import { HeroSection } from "src/components/sections/HeroSection";
 import { ServicesSection } from "src/components/sections/ServicesSection";
 import { WhyChooseUs } from "src/components/sections/WhyChooseUs";
 import { CaseStudies } from "src/components/sections/CaseStudies";
 import { CallToAction } from "src/components/sections/CallToAction";
 import { PartnersMarquee } from "src/components/ui/PartnersMarquee";
-import { Loader } from "src/components/ui/Loader";
+import { Footer } from "src/components/ui/Footer";
 
 export default function Unison() {
   const [loading, setLoading] = useState(true);
