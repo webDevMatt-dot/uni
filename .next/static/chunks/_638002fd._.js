@@ -1150,9 +1150,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const Footer = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-            className: "bg-zinc-950 text-zinc-300 border-t border-zinc-800 pt-10 pb-6",
+            className: "bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-300 border-t border-gray-200 dark:border-zinc-800 pt-10 pb-6",
             children: [
-                " ",
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8",
                     children: [
@@ -1160,43 +1159,34 @@ const Footer = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-2xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
-                                    children: [
-                                        " ",
-                                        "Unison"
-                                    ]
-                                }, void 0, true, {
+                                    children: "Unison"
+                                }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 12,
+                                    lineNumber: 11,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-zinc-400 leading-relaxed",
-                                    children: [
-                                        " ",
-                                        "Your trusted partner for cutting-edge technology solutions. Specializing in AI, Data Engineering, SAP Solutions, and Cybersecurity."
-                                    ]
-                                }, void 0, true, {
+                                    className: "text-sm text-gray-700 dark:text-zinc-400 leading-relaxed",
+                                    children: "Your trusted partner for cutting-edge technology solutions. Specializing in AI, Data Engineering, SAP Solutions, and Cybersecurity."
+                                }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 15,
+                                    lineNumber: 14,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ui/Footer.tsx",
-                            lineNumber: 11,
+                            lineNumber: 10,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
-                                    children: [
-                                        " ",
-                                        "Our Services"
-                                    ]
-                                }, void 0, true, {
+                                    children: "Our Services"
+                                }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 22,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1205,176 +1195,156 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/ai-machine-learning",
-                                                className: "text-zinc-300 hover:text-indigo-400 transition",
-                                                children: [
-                                                    " ",
-                                                    "AI & Machine Learning Training"
-                                                ]
-                                            }, void 0, true, {
+                                                className: "text-gray-700 dark:text-zinc-300 hover:text-indigo-400 transition",
+                                                children: "AI & Machine Learning Training"
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 28,
+                                                lineNumber: 27,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 27,
+                                            lineNumber: 26,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/data-engineering",
-                                                className: "text-zinc-300 hover:text-indigo-400 transition",
-                                                children: [
-                                                    " ",
-                                                    "Data Engineering & Science"
-                                                ]
-                                            }, void 0, true, {
+                                                className: "text-gray-700 dark:text-zinc-300 hover:text-indigo-400 transition",
+                                                children: "Data Engineering & Science"
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 33,
+                                                lineNumber: 32,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 32,
+                                            lineNumber: 31,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/sap-solutions",
-                                                className: "text-zinc-300 hover:text-indigo-400 transition",
-                                                children: [
-                                                    " ",
-                                                    "SAP Solutions"
-                                                ]
-                                            }, void 0, true, {
+                                                className: "text-gray-700 dark:text-zinc-300 hover:text-indigo-400 transition",
+                                                children: "SAP Solutions"
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 38,
+                                                lineNumber: 37,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 36,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/services/cybersecurity",
-                                                className: "text-zinc-300 hover:text-indigo-400 transition",
-                                                children: [
-                                                    " ",
-                                                    "Anti-Virus & Security Packages"
-                                                ]
-                                            }, void 0, true, {
+                                                className: "text-gray-700 dark:text-zinc-300 hover:text-indigo-400 transition",
+                                                children: "Anti-Virus & Security Packages"
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 43,
+                                                lineNumber: 42,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 42,
+                                            lineNumber: 41,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ui/Footer.tsx",
-                            lineNumber: 22,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-xl font-semibold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
-                                    children: [
-                                        " ",
-                                        "Contact Us"
-                                    ]
-                                }, void 0, true, {
+                                    children: "Contact Us"
+                                }, void 0, false, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "text-sm space-y-2 text-zinc-300",
+                                    className: "text-sm space-y-2 text-gray-700 dark:text-zinc-300",
                                     children: [
-                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "https://www.google.com/maps?q=8+Fred+Verseput+Road,+Halfway+Gardens+1686,+Midrand",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "hover:text-indigo-400 transition block" // Accent hover
-                                                ,
+                                                className: "hover:text-indigo-400 transition block",
                                                 children: "📍 8 Fred Verseput Rd, Halfway Gardens, Midrand"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 57,
+                                                lineNumber: 56,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 56,
+                                            lineNumber: 55,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "https://wa.me/27816515179?text=Hello, I'm contacting you regarding AAT Solutions",
-                                                className: "hover:text-indigo-400 transition block" // Accent hover
-                                                ,
+                                                className: "hover:text-indigo-400 transition block",
                                                 children: "📱 +27 81 651 5179"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 66,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 65,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "mailto:admin@unidata.co.za",
-                                                className: "hover:text-indigo-400 transition block" // Accent hover
-                                                ,
+                                                className: "hover:text-indigo-400 transition block",
                                                 children: "📧 admin@unidata.co.za"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ui/Footer.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 74,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ui/Footer.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ui/Footer.tsx",
-                                    lineNumber: 55,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ui/Footer.tsx",
-                            lineNumber: 51,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ui/Footer.tsx",
-                    lineNumber: 9,
+                    lineNumber: 8,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-center text-sm text-zinc-500 py-4 mt-8 border-t border-zinc-800 mx-auto max-w-7xl",
+                    className: "text-center text-sm text-gray-500 dark:text-zinc-600 py-4 mt-8 border-t border-gray-200 dark:border-zinc-800 mx-auto max-w-7xl",
                     children: [
-                        " ",
                         "© ",
                         new Date().getFullYear(),
                         " Unison. All rights reserved."
@@ -1387,7 +1357,7 @@ const Footer = ()=>{
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ui/Footer.tsx",
-            lineNumber: 8,
+            lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false);
