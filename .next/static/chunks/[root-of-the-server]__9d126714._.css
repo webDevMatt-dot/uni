@@ -957,6 +957,16 @@
     background-color: var(--color-gray-50);
   }
 
+  .bg-gray-100\/70 {
+    background-color: #f3f4f6b3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-gray-100\/70 {
+      background-color: color-mix(in oklab, var(--color-gray-100) 70%, transparent);
+    }
+  }
+
   .bg-indigo-600 {
     background-color: var(--color-indigo-600);
   }
@@ -2005,6 +2015,24 @@
   @media (prefers-color-scheme: dark) {
     .dark\:bg-gray-900 {
       background-color: var(--color-gray-900);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:bg-zinc-800\/70 {
+      background-color: #27272ab3;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .dark\:bg-zinc-800\/70 {
+        background-color: color-mix(in oklab, var(--color-zinc-800) 70%, transparent);
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:bg-zinc-950 {
+      background-color: var(--color-zinc-950);
     }
   }
 
