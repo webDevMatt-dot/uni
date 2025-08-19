@@ -803,186 +803,90 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function WhyChooseUs() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-16 sm:py-20 bg-zinc-900 text-white px-4",
-        children: [
-            " ",
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-5xl mx-auto text-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-3xl sm:text-4xl font-bold mb-4 text-white",
-                        children: "Why Choose Unison?"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                        lineNumber: 5,
-                        columnNumber: 9
-                    }, this),
-                    " ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-zinc-400 mb-10 max-w-3xl mx-auto",
-                        children: [
-                            " ",
-                            "We don't just deliver technology — we deliver measurable impact. Our team ensures each solution is tailor-made and ROI-driven."
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                        lineNumber: 6,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 sm:grid-cols-2 gap-6 text-left",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-zinc-800/70 p-6 rounded-lg border border-zinc-700 shadow-md flex items-center gap-3",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-indigo-400 text-2xl",
-                                        children: "✔️"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 11,
-                                        columnNumber: 13
-                                    }, this),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        className: "text-white text-lg",
-                                        children: "Industry Expertise:"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 12,
-                                        columnNumber: 13
-                                    }, this),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-zinc-300",
-                                        children: "We bring deep domain knowledge."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 12,
-                                        columnNumber: 81
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                lineNumber: 10,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-zinc-800/70 p-6 rounded-lg border border-zinc-700 shadow-md flex items-center gap-3",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-indigo-400 text-2xl",
-                                        children: "✔️"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 15,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        className: "text-white text-lg",
-                                        children: "Agile & Scalable:"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 13
-                                    }, this),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-zinc-300",
-                                        children: "Our solutions grow with you."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 79
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                lineNumber: 14,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-zinc-800/70 p-6 rounded-lg border border-zinc-700 shadow-md flex items-center gap-3",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-indigo-400 text-2xl",
-                                        children: "✔️"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        className: "text-white text-lg",
-                                        children: "End-to-End Delivery:"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 13
-                                    }, this),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-zinc-300",
-                                        children: "From ideation to rollout and beyond."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 82
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-zinc-800/70 p-6 rounded-lg border border-zinc-700 shadow-md flex items-center gap-3",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-indigo-400 text-2xl",
-                                        children: "✔️"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        className: "text-white text-lg",
-                                        children: "Proven Results:"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 13
-                                    }, this),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-zinc-300",
-                                        children: "We build systems that drive business growth."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 77
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                                lineNumber: 22,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
-                lineNumber: 4,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+        className: "py-16 sm:py-20 bg-white dark:bg-zinc-900 text-gray-900 dark:text-white px-4",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-5xl mx-auto text-center",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                    className: "text-3xl sm:text-4xl font-bold mb-4 text-gray-900 dark:text-white",
+                    children: "Why Choose Unison?"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+                    lineNumber: 5,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-gray-700 dark:text-zinc-400 mb-10 max-w-3xl mx-auto",
+                    children: "We don't just deliver technology — we deliver measurable impact. Our team ensures each solution is tailor-made and ROI-driven."
+                }, void 0, false, {
+                    fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-1 sm:grid-cols-2 gap-6 text-left",
+                    children: [
+                        {
+                            title: "Industry Expertise:",
+                            desc: "We bring deep domain knowledge."
+                        },
+                        {
+                            title: "Agile & Scalable:",
+                            desc: "Our solutions grow with you."
+                        },
+                        {
+                            title: "End-to-End Delivery:",
+                            desc: "From ideation to rollout and beyond."
+                        },
+                        {
+                            title: "Proven Results:",
+                            desc: "We build systems that drive business growth."
+                        }
+                    ].map(({ title, desc }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "   bg-gray-100/70 dark:bg-zinc-800/70    p-6 rounded-lg    border border-gray-200 dark:border-zinc-700    shadow-md flex items-center gap-3   ",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-indigo-400 text-2xl",
+                                    children: "✔️"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+                                    lineNumber: 27,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    className: "text-gray-900 dark:text-white text-lg",
+                                    children: title
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+                                    lineNumber: 28,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-gray-700 dark:text-zinc-300",
+                                    children: desc
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+                                    lineNumber: 29,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, i, true, {
+                            fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+                            lineNumber: 18,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
+            lineNumber: 4,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/components/sections/WhyChooseUs.tsx",
         lineNumber: 3,
         columnNumber: 5
