@@ -399,44 +399,44 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$s
 ;
 function HeroSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative text-center   min-h-screen flex flex-col items-center justify-center   px-6 md:px-10 lg:px-12 // Horizontal padding for content   py-12 md:py-20 lg:py-28 // Vertical padding for content   pt-[5rem] md:pt-[6rem] lg:pt-[7rem] // Dynamic padding-top to clear fixed Navbar   bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950 // Subtle dark gradient background   max-w-7xl mx-auto // Constrain content width and center it   ",
+        className: "   relative text-center   min-h-screen flex flex-col items-center justify-center   px-6 md:px-10 lg:px-12   py-12 md:py-20 lg:py-28   pt-[5rem] md:pt-[6rem] lg:pt-[7rem]   bg-gradient-to-br    from-white/95 via-gray-100/95 to-white/95    dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950   max-w-7xl mx-auto   ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-3 leading-tight",
+                className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 leading-tight",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
                         children: "Unison"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 21,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "block text-lg sm:text-xl md:text-2xl font-semibold text-zinc-300 mt-2",
+                        className: "block text-lg sm:text-xl md:text-2xl font-semibold mt-2 text-gray-800 dark:text-zinc-300",
                         children: "Empowering Digital Excellence Through Innovation, Data, and Skills"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 22,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                lineNumber: 17,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-sm sm:text-base md:text-lg text-zinc-400 max-w-3xl mx-auto mb-6 leading-relaxed",
+                className: "text-sm sm:text-base md:text-lg max-w-3xl mx-auto mb-6 leading-relaxed text-gray-700 dark:text-zinc-400",
                 children: "Leading provider of AI & Machine Learning solutions, Data Engineering, SAP implementations, and comprehensive Cybersecurity Services."
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -445,33 +445,33 @@ function HeroSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$explore$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ExploreButton"], {}, void 0, false, {
                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                            lineNumber: 30,
+                            lineNumber: 32,
                             columnNumber: 14
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 30,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$schedule$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScheduleButton"], {}, void 0, false, {
                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                            lineNumber: 31,
+                            lineNumber: 33,
                             columnNumber: 14
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 31,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                lineNumber: 29,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 text-center mt-6 text-zinc-200 font-medium",
+                className: "grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 text-center mt-6 font-medium text-gray-800 dark:text-zinc-200",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -480,44 +480,10 @@ function HeroSection() {
                                 children: "7+"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                lineNumber: 34,
-                                columnNumber: 14
-                            }, this),
-                            " Years Experience"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                className: "block text-xl sm:text-2xl font-bold text-indigo-400",
-                                children: "100+"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                lineNumber: 35,
-                                columnNumber: 14
-                            }, this),
-                            " Projects Completed"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                className: "block text-xl sm:text-2xl font-bold text-indigo-400",
-                                children: "100+"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/sections/HeroSection.tsx",
                                 lineNumber: 36,
                                 columnNumber: 14
                             }, this),
-                            " Happy Clients"
+                            " Years Experience"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -528,23 +494,57 @@ function HeroSection() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 className: "block text-xl sm:text-2xl font-bold text-indigo-400",
-                                children: "24/7"
+                                children: "100+"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/HeroSection.tsx",
                                 lineNumber: 37,
+                                columnNumber: 14
+                            }, this),
+                            " Projects Completed"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/sections/HeroSection.tsx",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                className: "block text-xl sm:text-2xl font-bold text-indigo-400",
+                                children: "100+"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/sections/HeroSection.tsx",
+                                lineNumber: 38,
+                                columnNumber: 14
+                            }, this),
+                            " Happy Clients"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/sections/HeroSection.tsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                className: "block text-xl sm:text-2xl font-bold text-indigo-400",
+                                children: "24/7"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/sections/HeroSection.tsx",
+                                lineNumber: 39,
                                 columnNumber: 14
                             }, this),
                             " Support"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 37,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                lineNumber: 33,
+                lineNumber: 35,
                 columnNumber: 7
             }, this)
         ]
