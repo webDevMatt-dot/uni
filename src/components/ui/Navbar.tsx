@@ -4,6 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
+const partners = [
+  { src: "/avast.png", alt: "Avast" }
+];
+
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -33,13 +37,32 @@ export function Navbar() {
           className="flex items-center gap-2"
           onClick={() => setMenuOpen(false)}
         >
+
+                <div className="flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2">
+        {[...partners, ...partners].map((partner, index) => (
+          <img
+            key={index}
+            src={partner.src}
+            alt={partner.alt}
+            width={140} // Slightly larger logos
+            height={70} // Adjusted height to maintain aspect ratio
+            // Removed 'grayscale hover:grayscale-0' to keep images in color
+            className="object-contain mx-8 transition duration-300 opacity-80 hover:opacity-100" // More spacing, subtle opacity, hover effect
+            style={{ maxHeight: "70px" }} // Ensure max height
+          />
+        ))}
+      </div>
+
+          {/*
           <Image
             src="/avast.png" // Your Unison logo image
             alt="Unison Logo" // More descriptive alt text
             width={scrolled ? 38 : 46} // Image size controlled by scroll
             height={scrolled ? 38 : 46} // Image size controlled by scroll
             className="object-contain transition-all duration-300"
-          />
+          /> 
+          */}
+
           {/* Removed the 'Unison' text next to the logo image if you intend for the image to be the sole logo */}
           {/* If you want text, add:
           <span
