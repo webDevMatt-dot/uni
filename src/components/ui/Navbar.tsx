@@ -3,8 +3,13 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
-const logo = [
-  { src: "/logo.png", alt: "Unison logo" }
+const logo = { src: "/logo.png", alt: "Unison logo" };
+
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/#services", label: "Services" },
+  { href: "/header-pages/about-us", label: "About Us" },
+  { href: "/contact-pages", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -12,11 +17,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      // Adjusted scroll threshold for the shrinking effect
-      setScrolled(window.scrollY > 50); // Consistent with your App.css scroll threshold
-    };
-
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -25,61 +26,41 @@ export function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50
         bg-zinc-950/80 backdrop-blur-sm border-b border-zinc-700
-        transition-all duration-300 ease-in-out shadow-sm
-        ${scrolled ? "py-2 shadow-md" : "py-4"}` // Adjusted padding for a slightly larger default/smaller scrolled state
-      }
+        transition-all duration-300 ease-in-out
+        ${scrolled ? "py-2 shadow-md" : "py-4 shadow-sm"}
+      `}
     >
-      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between transition-all duration-300">
+      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
+        {/* Logo */}
         <Link
           href="/"
           aria-label="Home"
-          className="flex items-center gap-2"
+          className="flex items-center"
           onClick={() => setMenuOpen(false)}
         >
-
-      <div className="flex absolute left-4 top-1/2 -translate-y-1/2">
-        {[...logo].map((logo, index) => (
           <img
-            key={index}
             src={logo.src}
             alt={logo.alt}
-            width={120} 
-            height={60}
-            className="object-contain opacity-90 hover:opacity-100 transition-opacity"
-            style={{ maxHeight: "60px" }}
+            className={`object-contain opacity-90 hover:opacity-100 transition-all duration-300
+              ${scrolled ? "h-8" : "h-12"}
+            `}
           />
-        ))}
-      </div>
-
-          {/*
-          <Image
-            src="/avast.png" // Your Unison logo image
-            alt="Unison Logo" // More descriptive alt text
-            width={scrolled ? 38 : 46} // Image size controlled by scroll
-            height={scrolled ? 38 : 46} // Image size controlled by scroll
-            className="object-contain transition-all duration-300"
-          /> 
-          */}
-
-          {/* Removed the 'Unison' text next to the logo image if you intend for the image to be the sole logo */}
-          {/* If you want text, add:
-          <span
-            className={`text-white font-semibold whitespace-nowrap transition-all duration-300 ${
-              scrolled ? "text-base" : "text-lg"
-            }`}
-          >
-            Unison
-          </span>
-          */}
         </Link>
 
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8 text-white font-medium">
-          <Link href="/" className="hover:text-indigo-400 transition-colors duration-200">Home</Link>
-          <Link href="/#services" className="hover:text-indigo-400 transition-colors duration-200">Services</Link>
-          <Link href="/header-pages/about-us" className="hover:text-indigo-400 transition-colors duration-200">About Us</Link>
-          <Link href="/contact-pages" className="hover:text-indigo-400 transition-colors duration-200">Contact</Link>
+          {navLinks.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="hover:text-indigo-400 transition-colors duration-200"
+            >
+              {label}
+            </Link>
+          ))}
         </nav>
 
+        {/* Mobile Menu Toggle */}
         <button
           className="md:hidden text-white"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -89,13 +70,20 @@ export function Navbar() {
         </button>
       </div>
 
+      {/* Mobile Navigation */}
       {menuOpen && (
         <div className="md:hidden bg-zinc-950/95 border-t border-zinc-700 px-6 pb-4">
-          <nav className="flex flex-col gap-4 text-white font-medium">
-            <Link href="/" className="py-2 hover:bg-zinc-800 rounded-md" onClick={() => setMenuOpen(false)}>Home</Link>
-            <Link href="/#services" className="py-2 hover:bg-zinc-800 rounded-md" onClick={() => setMenuOpen(false)}>Services</Link>
-            <Link href="/header-pages/about-us" className="py-2 hover:bg-zinc-800 rounded-md" onClick={() => setMenuOpen(false)}>About Us</Link>
-            <Link href="/contact-pages" className="py-2 hover:bg-zinc-800 rounded-md" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <nav className="flex flex-col gap-3 text-white font-medium">
+            {navLinks.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setMenuOpen(false)}
+                className="py-2 hover:bg-zinc-800 rounded-md"
+              >
+                {label}
+              </Link>
+            ))}
           </nav>
         </div>
       )}
