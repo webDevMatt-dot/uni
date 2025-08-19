@@ -1,11 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-{/*import Image from "next/image";*/}
 import { Menu, X } from "lucide-react";
 
 const logo = [
-  { src: "/logo.png", alt: "Avast" }
+  { src: "/logo.png", alt: "Unison logo" }
 ];
 
 export function Navbar() {
@@ -38,16 +37,16 @@ export function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
 
-      <div className="flex absolute left-0 top-1/2 -translate-y-1/2">
-        {[...logo].map((partner, index) => (
+      <div className="flex absolute left-4 top-1/2 -translate-y-1/2">
+        {[...logo].map((logo, index) => (
           <img
             key={index}
-            src={partner.src}
-            alt={partner.alt}
-            width={140} // Slightly larger logos
-            height={70} // Adjusted height to maintain aspect ratio
-            className="object-contain mx-8 opacity-80 hover:opacity-100" // More spacing, subtle opacity, hover effect
-            style={{ maxHeight: "70px" }} // Ensure max height
+            src={logo.src}
+            alt={logo.alt}
+            width={120} 
+            height={60}
+            className="object-contain opacity-90 hover:opacity-100 transition-opacity"
+            style={{ maxHeight: "60px" }}
           />
         ))}
       </div>
