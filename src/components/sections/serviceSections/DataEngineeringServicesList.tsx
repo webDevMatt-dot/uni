@@ -40,16 +40,16 @@ export function DataEngineeringServicesList() {
       {dataServices.map((item, index) => (
         <Card
           key={index}
-          className="bg-zinc-900/80 border border-zinc-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 backdrop-blur-md cursor-pointer"
+          className="bg-white/80 dark:bg-zinc-900/80 border border-gray-200 dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 backdrop-blur-md cursor-pointer"
         >
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">
               <span className="text-3xl">{item.emoji}</span>
-              <h3 className="font-bold text-white text-lg md:text-xl">
+              <h3 className="font-bold text-gray-900 dark:text-white text-lg md:text-xl">
                 {item.title}
               </h3>
             </div>
-            <p className="text-zinc-300 text-sm leading-relaxed">
+            <p className="text-gray-700 dark:text-zinc-300 text-sm leading-relaxed">
               {item.description}
             </p>
           </CardContent>
