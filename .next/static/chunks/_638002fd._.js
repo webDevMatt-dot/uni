@@ -312,7 +312,7 @@ function ExploreButton() {
             href: "#services",
             className: "inline-block w-full md:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                className: "   bg-indigo-600 text-white   hover:bg-indigo-500 hover:shadow-lg   px-5 py-2.5 text-sm md:text-base   rounded-full shadow-md   transition duration-300 ease-in-out   w-full md:w-auto whitespace-nowrap   ",
+                className: " bg-indigo-600 text-white hover:bg-indigo-500 hover:shadow-lg px-5 py-2.5 text-sm md:text-base rounded-full shadow-md transition duration-300 ease-in-out w-full md:w-auto whitespace-nowrap ",
                 children: "🔍 Explore Our Services"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/explore.tsx",
@@ -358,7 +358,7 @@ function ScheduleButton() {
             rel: "noopener noreferrer",
             className: "inline-block w-full md:w-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                className: "   bg-indigo-600 text-white   hover:bg-indigo-500 hover:shadow-lg   px-5 py-2.5 text-sm md:text-base   rounded-full shadow-md   transition duration-300 ease-in-out   w-full md:w-auto whitespace-nowrap   ",
+                className: " bg-indigo-600 text-white hover:bg-indigo-500 hover:shadow-lg px-5 py-2.5 text-sm md:text-base rounded-full shadow-md transition duration-300 ease-in-out w-full md:w-auto whitespace-nowrap ",
                 children: "📅 Schedule a Consultation"
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/schedule.tsx",
@@ -399,14 +399,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$s
 ;
 function HeroSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "   relative text-center   min-h-screen flex flex-col items-center justify-center   px-6 md:px-10 lg:px-12   py-12 md:py-20 lg:py-28   pt-[5rem] md:pt-[6rem] lg:pt-[7rem]   bg-gradient-to-br    from-white/95 via-gray-100/95 to-white/95    dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950   max-w-7xl mx-auto   ",
+        className: " relative text-center min-h-screen flex flex-col items-center justify-center px-6 md:px-10 lg:px-12 py-12 md:py-20 lg:py-28 pt-[5rem] md:pt-[6rem] lg:pt-[7rem] bg-gradient-to-br  from-white/95 via-gray-100/95 to-white/95  dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 max-w-7xl mx-auto ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 leading-tight",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400",
-                        children: "Unison"
+                        children: "Unisons"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
                         lineNumber: 20,
@@ -676,7 +676,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$services$2e$t
 function ServicesSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "services",
-        className: "   py-16 sm:py-20    bg-white dark:bg-zinc-950    text-gray-900 dark:text-white   ",
+        className: " py-16 sm:py-20  bg-white dark:bg-zinc-950  text-gray-900 dark:text-white ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 className: "text-center text-3xl sm:text-4xl font-bold mb-4",
@@ -697,7 +697,7 @@ function ServicesSection() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4 md:px-6 max-w-7xl mx-auto",
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$services$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["services"].map(({ title, items, link, emoji }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                        className: "   bg-gray-100/70 dark:bg-zinc-800/70    border border-gray-200 dark:border-zinc-700    rounded-xl   hover:border-indigo-500    transition-all duration-300   transform hover:scale-105 hover:shadow-xl cursor-pointer   overflow-hidden   ",
+                        className: " bg-gray-100/70 dark:bg-zinc-800/70  border border-gray-200 dark:border-zinc-700  rounded-xl hover:border-indigo-500  transition-all duration-300 transform hover:scale-105 hover:shadow-xl cursor-pointer overflow-hidden ",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
                             className: "p-6 flex flex-col h-full justify-between text-gray-900 dark:text-white",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -843,7 +843,7 @@ function WhyChooseUs() {
                             desc: "We build systems that drive business growth."
                         }
                     ].map(({ title, desc }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "   bg-gray-100/70 dark:bg-zinc-800/70    p-6 rounded-lg    border border-gray-200 dark:border-zinc-700    shadow-md flex items-center gap-3   ",
+                            className: " bg-gray-100/70 dark:bg-zinc-800/70  p-6 rounded-lg  border border-gray-200 dark:border-zinc-700  shadow-md flex items-center gap-3 ",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-indigo-400 text-2xl",
@@ -943,7 +943,7 @@ function CaseStudies() {
                             desc: "Migrated and integrated SAP for a large logistics firm, improving reporting time by 40%."
                         }
                     ].map(({ title, desc }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "   bg-gray-100/70 dark:bg-zinc-800/70    p-6 rounded-lg border border-gray-200 dark:border-zinc-700    shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg   ",
+                            className: " bg-gray-100/70 dark:bg-zinc-800/70  p-6 rounded-lg border border-gray-200 dark:border-zinc-700  shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg ",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "font-semibold text-xl mb-2 text-indigo-400",
@@ -1091,10 +1091,10 @@ const partners = [
 ];
 function PartnersMarquee() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-ecd0463ceeb26b3a" + " " + "bg-white dark:bg-zinc-900 py-8 sm:py-10 overflow-hidden relative border-t border-b border-gray-200 dark:border-zinc-800",
+        className: "jsx-e5ba85c66850d026" + " " + "bg-white dark:bg-zinc-900 py-8 sm:py-10 overflow-hidden relative border-t border-b border-gray-200 dark:border-zinc-800",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ecd0463ceeb26b3a" + " " + "flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2",
+                className: "jsx-e5ba85c66850d026" + " " + "flex w-fit animate-marquee absolute left-0 top-1/2 -translate-y-1/2",
                 children: [
                     ...partners,
                     ...partners
@@ -1106,7 +1106,7 @@ function PartnersMarquee() {
                         style: {
                             maxHeight: "70px"
                         },
-                        className: "jsx-ecd0463ceeb26b3a" + " " + "object-contain mx-8 transition duration-300 opacity-80 hover:opacity-100"
+                        className: "jsx-e5ba85c66850d026" + " " + "object-contain mx-8 transition duration-300 opacity-80 hover:opacity-100"
                     }, index, false, {
                         fileName: "[project]/src/components/ui/PartnersMarquee.tsx",
                         lineNumber: 18,
@@ -1118,8 +1118,8 @@ function PartnersMarquee() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "ecd0463ceeb26b3a",
-                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-ecd0463ceeb26b3a{animation:25s linear infinite marquee}"
+                id: "e5ba85c66850d026",
+                children: "@keyframes marquee{0%{transform:translate(0%)}to{transform:translate(-50%)}}.animate-marquee.jsx-e5ba85c66850d026{animation:25s linear infinite marquee}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {

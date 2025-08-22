@@ -22,7 +22,7 @@ export function HeroSection() {
         </span>
         <br />
         <span className="block text-lg sm:text-xl md:text-2xl font-semibold mt-2 text-gray-800 dark:text-zinc-300">
-          Empowering Digital Excellence Through Innovation, Data, and Skills
+          Empowering Digital Excellence Throughs Innovation, Data, and Skills
         </span>
       </h1>
       <p className="text-sm sm:text-base md:text-lg max-w-3xl mx-auto mb-6 leading-relaxed text-gray-700 dark:text-zinc-400">
